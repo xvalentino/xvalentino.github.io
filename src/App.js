@@ -1,13 +1,30 @@
 import React from 'react';
 import TopBar from './components/TopBar';
-import { MuiThemeProvider } from 'material-ui/styles';
+import { CssBaseline, MuiThemeProvider } from 'material-ui';
+import { createMuiTheme } from '@material-ui/core/styles';
+import ErrorBoundary from './components/ErrorBoundry';
 
-export default class extends React.Component {
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#c5cae9',
+    },
+    secondary: {
+      main: '#f1f8e9',
+    },
+  },
+});
+
+class App extends React.Component {
   render() {
     return (
-      <MuiThemeProvider>
-        <TopBar />
-      </MuiThemeProvider>
+      <ErrorBoundary>
+        <MuiThemeProvider theme={createMuiTheme(theme)}>
+          <TopBar />
+        </MuiThemeProvider>
+      </ErrorBoundary>
     );
   }
 }
+
+export default App;
