@@ -28511,7 +28511,7 @@ function polyfill(Component) {
 }
 
 exports.polyfill = polyfill;
-},{}],"node_modules/@material-ui/core/node_modules/react-transition-group/utils/ChildMapping.js":[function(require,module,exports) {
+},{}],"node_modules/react-transition-group/utils/ChildMapping.js":[function(require,module,exports) {
 'use strict';
 
 exports.__esModule = true;
@@ -28663,7 +28663,7 @@ function getNextChildMapping(nextProps, prevChildMapping, onExited) {
 
   return children;
 }
-},{"react":"node_modules/react/index.js"}],"node_modules/@material-ui/core/node_modules/react-transition-group/TransitionGroup.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"node_modules/react-transition-group/TransitionGroup.js":[function(require,module,exports) {
 'use strict';
 
 exports.__esModule = true;
@@ -28886,7 +28886,7 @@ TransitionGroup.defaultProps = defaultProps;
 
 exports.default = (0, _reactLifecyclesCompat.polyfill)(TransitionGroup);
 module.exports = exports['default'];
-},{"prop-types":"node_modules/prop-types/index.js","react":"node_modules/react/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","./utils/ChildMapping":"node_modules/@material-ui/core/node_modules/react-transition-group/utils/ChildMapping.js"}],"node_modules/@material-ui/core/node_modules/react-transition-group/utils/PropTypes.js":[function(require,module,exports) {
+},{"prop-types":"node_modules/prop-types/index.js","react":"node_modules/react/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","./utils/ChildMapping":"node_modules/react-transition-group/utils/ChildMapping.js"}],"node_modules/react-transition-group/utils/PropTypes.js":[function(require,module,exports) {
 'use strict';
 
 exports.__esModule = true;
@@ -28937,7 +28937,7 @@ var classNamesShape = exports.classNamesShape = _propTypes2.default.oneOfType([_
   exitDone: _propTypes2.default.string,
   exitActive: _propTypes2.default.string
 })]);
-},{"prop-types":"node_modules/prop-types/index.js"}],"node_modules/@material-ui/core/node_modules/react-transition-group/Transition.js":[function(require,module,exports) {
+},{"prop-types":"node_modules/prop-types/index.js"}],"node_modules/react-transition-group/Transition.js":[function(require,module,exports) {
 'use strict';
 
 exports.__esModule = true;
@@ -29561,7 +29561,7 @@ Transition.ENTERED = 3;
 Transition.EXITING = 4;
 
 exports.default = (0, _reactLifecyclesCompat.polyfill)(Transition);
-},{"prop-types":"node_modules/prop-types/index.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","./utils/PropTypes":"node_modules/@material-ui/core/node_modules/react-transition-group/utils/PropTypes.js"}],"node_modules/@material-ui/core/ButtonBase/Ripple.js":[function(require,module,exports) {
+},{"prop-types":"node_modules/prop-types/index.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","./utils/PropTypes":"node_modules/react-transition-group/utils/PropTypes.js"}],"node_modules/@material-ui/core/ButtonBase/Ripple.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
@@ -29701,7 +29701,7 @@ Ripple.defaultProps = {
 };
 var _default = Ripple;
 exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","react-transition-group/Transition":"node_modules/@material-ui/core/node_modules/react-transition-group/Transition.js"}],"node_modules/@material-ui/core/ButtonBase/TouchRipple.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","react-transition-group/Transition":"node_modules/react-transition-group/Transition.js"}],"node_modules/@material-ui/core/ButtonBase/TouchRipple.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
@@ -30051,7 +30051,7 @@ var _default = (0, _withStyles.default)(styles, {
 })(TouchRipple);
 
 exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/toConsumableArray":"node_modules/@babel/runtime/helpers/builtin/toConsumableArray.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","@babel/runtime/helpers/builtin/assertThisInitialized":"node_modules/@babel/runtime/helpers/builtin/assertThisInitialized.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","react-dom":"node_modules/react-dom/index.js","react-transition-group/TransitionGroup":"node_modules/@material-ui/core/node_modules/react-transition-group/TransitionGroup.js","classnames":"node_modules/classnames/index.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","./Ripple":"node_modules/@material-ui/core/ButtonBase/Ripple.js"}],"node_modules/@material-ui/core/ButtonBase/createRippleHandler.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/toConsumableArray":"node_modules/@babel/runtime/helpers/builtin/toConsumableArray.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","@babel/runtime/helpers/builtin/assertThisInitialized":"node_modules/@babel/runtime/helpers/builtin/assertThisInitialized.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","react-dom":"node_modules/react-dom/index.js","react-transition-group/TransitionGroup":"node_modules/react-transition-group/TransitionGroup.js","classnames":"node_modules/classnames/index.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","./Ripple":"node_modules/@material-ui/core/ButtonBase/Ripple.js"}],"node_modules/@material-ui/core/ButtonBase/createRippleHandler.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -31588,95 +31588,3523 @@ var _default = (0, _createSvgIcon.default)(_react.default.createElement(_react.d
 })), 'Menu');
 
 exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","react":"node_modules/react/index.js","./utils/createSvgIcon":"node_modules/@material-ui/icons/utils/createSvgIcon.js"}],"src/components/TopBar/index.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","react":"node_modules/react/index.js","./utils/createSvgIcon":"node_modules/@material-ui/icons/utils/createSvgIcon.js"}],"node_modules/@material-ui/core/RootRef/RootRef.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _exactProp = _interopRequireDefault(require("../utils/exactProp"));
+
+function setRef(ref, value) {
+  if (typeof ref === 'function') {
+    ref(value);
+  } else if (ref) {
+    ref.current = value;
+  }
+}
+/**
+ * Helper component to allow attaching a ref to a
+ * wrapped element to access the underlying DOM element.
+ *
+ * It's highly inspired by https://github.com/facebook/react/issues/11401#issuecomment-340543801.
+ * For example:
+ * ```jsx
+ * import React from 'react';
+ * import RootRef from '@material-ui/core/RootRef';
+ *
+ * class MyComponent extends React.Component {
+ *   constructor() {
+ *     super();
+ *     this.domRef = React.createRef();
+ *   }
+ *
+ *   componentDidMount() {
+ *     console.log(this.domRef.current); // DOM node
+ *   }
+ *
+ *   render() {
+ *     return (
+ *       <RootRef rootRef={this.domRef}>
+ *         <SomeChildComponent />
+ *       </RootRef>
+ *     );
+ *   }
+ * }
+ * ```
+ */
+
+var RootRef =
+/*#__PURE__*/
+function (_React$Component) {
+  (0, _inherits2.default)(RootRef, _React$Component);
+
+  function RootRef() {
+    (0, _classCallCheck2.default)(this, RootRef);
+    return (0, _possibleConstructorReturn2.default)(this, (RootRef.__proto__ || Object.getPrototypeOf(RootRef)).apply(this, arguments));
+  }
+
+  (0, _createClass2.default)(RootRef, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      setRef(this.props.rootRef, _reactDom.default.findDOMNode(this));
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      if (prevProps.rootRef !== this.props.rootRef) {
+        setRef(prevProps.rootRef, null);
+        setRef(this.props.rootRef, _reactDom.default.findDOMNode(this));
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      setRef(this.props.rootRef, null);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return this.props.children;
+    }
+  }]);
+  return RootRef;
+}(_react.default.Component);
+
+RootRef.propTypes = "development" !== "production" ? {
+  /**
+   * The wrapped element.
+   */
+  children: _propTypes.default.element.isRequired,
+
+  /**
+   * Provide a way to access the DOM node of the wrapped element.
+   * You can provide a callback ref or a `React.createRef()` ref.
+   */
+  rootRef: _propTypes.default.oneOfType([_propTypes.default.func, _propTypes.default.object]).isRequired
+} : {};
+RootRef.propTypes = "development" !== "production" ? (0, _exactProp.default)(RootRef.propTypes) : {};
+var _default = RootRef;
+exports.default = _default;
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","prop-types":"node_modules/prop-types/index.js","../utils/exactProp":"node_modules/@material-ui/core/utils/exactProp.js"}],"node_modules/@material-ui/core/RootRef/index.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _RootRef.default;
+  }
+});
+
+var _RootRef = _interopRequireDefault(require("./RootRef"));
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./RootRef":"node_modules/@material-ui/core/RootRef/RootRef.js"}],"node_modules/@material-ui/core/Portal/Portal.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _ownerDocument = _interopRequireDefault(require("../utils/ownerDocument"));
+
+var _exactProp = _interopRequireDefault(require("../utils/exactProp"));
+
+function getContainer(container, defaultContainer) {
+  container = typeof container === 'function' ? container() : container;
+  return _reactDom.default.findDOMNode(container) || defaultContainer;
+}
+
+function getOwnerDocument(element) {
+  return (0, _ownerDocument.default)(_reactDom.default.findDOMNode(element));
+}
+/**
+ * Portals provide a first-class way to render children into a DOM node
+ * that exists outside the DOM hierarchy of the parent component.
+ */
+
+var Portal =
+/*#__PURE__*/
+function (_React$Component) {
+  (0, _inherits2.default)(Portal, _React$Component);
+
+  function Portal() {
+    var _ref;
+
+    var _temp, _this;
+
+    (0, _classCallCheck2.default)(this, Portal);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Portal.__proto__ || Object.getPrototypeOf(Portal)).call.apply(_ref, [this].concat(args))), _this.getMountNode = function () {
+      return _this.mountNode;
+    }, _temp));
+  }
+
+  (0, _createClass2.default)(Portal, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.setMountNode(this.props.container); // Only rerender if needed
+
+      if (!this.props.disablePortal) {
+        this.forceUpdate(this.props.onRendered);
+      }
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      if (prevProps.container !== this.props.container || prevProps.disablePortal !== this.props.disablePortal) {
+        this.setMountNode(this.props.container); // Only rerender if needed
+
+        if (!this.props.disablePortal) {
+          this.forceUpdate(this.props.onRendered);
+        }
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      this.mountNode = null;
+    }
+  }, {
+    key: "setMountNode",
+    value: function setMountNode(container) {
+      if (this.props.disablePortal) {
+        this.mountNode = _reactDom.default.findDOMNode(this).parentElement;
+        return;
+      }
+
+      this.mountNode = getContainer(container, getOwnerDocument(this).body);
+    }
+    /**
+     * @public
+     */
+
+  }, {
+    key: "render",
+    value: function render() {
+      var _props = this.props,
+          children = _props.children,
+          disablePortal = _props.disablePortal;
+
+      if (disablePortal) {
+        return children;
+      }
+
+      return this.mountNode ? _reactDom.default.createPortal(children, this.mountNode) : null;
+    }
+  }]);
+  return Portal;
+}(_react.default.Component);
+
+Portal.propTypes = "development" !== "production" ? {
+  /**
+   * The children to render into the `container`.
+   */
+  children: _propTypes.default.node.isRequired,
+
+  /**
+   * A node, component instance, or function that returns either.
+   * The `container` will have the portal children appended to it.
+   * By default, it uses the body of the top-level document object,
+   * so it's simply `document.body` most of the time.
+   */
+  container: _propTypes.default.oneOfType([_propTypes.default.object, _propTypes.default.func]),
+
+  /**
+   * Disable the portal behavior.
+   * The children stay within it's parent DOM hierarchy.
+   */
+  disablePortal: _propTypes.default.bool,
+
+  /**
+   * Callback fired once the children has been mounted into the `container`.
+   */
+  onRendered: _propTypes.default.func
+} : {};
+Portal.defaultProps = {
+  disablePortal: false
+};
+Portal.propTypes = "development" !== "production" ? (0, _exactProp.default)(Portal.propTypes) : {};
+var _default = Portal;
+exports.default = _default;
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","prop-types":"node_modules/prop-types/index.js","../utils/ownerDocument":"node_modules/@material-ui/core/utils/ownerDocument.js","../utils/exactProp":"node_modules/@material-ui/core/utils/exactProp.js"}],"node_modules/@material-ui/core/Portal/index.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _Portal.default;
+  }
+});
+
+var _Portal = _interopRequireDefault(require("./Portal"));
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Portal":"node_modules/@material-ui/core/Portal/Portal.js"}],"node_modules/dom-helpers/util/camelize.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = camelize;
+var rHyphen = /-(.)/g;
+
+function camelize(string) {
+  return string.replace(rHyphen, function (_, chr) {
+    return chr.toUpperCase();
+  });
+}
+module.exports = exports["default"];
+},{}],"node_modules/dom-helpers/util/camelizeStyle.js":[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = camelizeStyleName;
+
+var _camelize = require('./camelize');
+
+var _camelize2 = _interopRequireDefault(_camelize);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var msPattern = /^-ms-/; /**
+                          * Copyright 2014-2015, Facebook, Inc.
+                          * All rights reserved.
+                          * https://github.com/facebook/react/blob/2aeb8a2a6beb00617a4217f7f8284924fa2ad819/src/vendor/core/camelizeStyleName.js
+                          */
+function camelizeStyleName(string) {
+  return (0, _camelize2.default)(string.replace(msPattern, 'ms-'));
+}
+module.exports = exports['default'];
+},{"./camelize":"node_modules/dom-helpers/util/camelize.js"}],"node_modules/dom-helpers/util/hyphenate.js":[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = hyphenate;
+
+var rUpper = /([A-Z])/g;
+
+function hyphenate(string) {
+  return string.replace(rUpper, '-$1').toLowerCase();
+}
+module.exports = exports['default'];
+},{}],"node_modules/dom-helpers/util/hyphenateStyle.js":[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = hyphenateStyleName;
+
+var _hyphenate = require('./hyphenate');
+
+var _hyphenate2 = _interopRequireDefault(_hyphenate);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var msPattern = /^ms-/; /**
+                         * Copyright 2013-2014, Facebook, Inc.
+                         * All rights reserved.
+                         * https://github.com/facebook/react/blob/2aeb8a2a6beb00617a4217f7f8284924fa2ad819/src/vendor/core/hyphenateStyleName.js
+                         */
+
+function hyphenateStyleName(string) {
+  return (0, _hyphenate2.default)(string).replace(msPattern, '-ms-');
+}
+module.exports = exports['default'];
+},{"./hyphenate":"node_modules/dom-helpers/util/hyphenate.js"}],"node_modules/dom-helpers/style/getComputedStyle.js":[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = _getComputedStyle;
+
+var _camelizeStyle = require('../util/camelizeStyle');
+
+var _camelizeStyle2 = _interopRequireDefault(_camelizeStyle);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var rposition = /^(top|right|bottom|left)$/;
+var rnumnonpx = /^([+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|))(?!px)[a-z%]+$/i;
+
+function _getComputedStyle(node) {
+  if (!node) throw new TypeError('No Element passed to `getComputedStyle()`');
+  var doc = node.ownerDocument;
+
+  return 'defaultView' in doc ? doc.defaultView.opener ? node.ownerDocument.defaultView.getComputedStyle(node, null) : window.getComputedStyle(node, null) : {
+    //ie 8 "magic" from: https://github.com/jquery/jquery/blob/1.11-stable/src/css/curCSS.js#L72
+    getPropertyValue: function getPropertyValue(prop) {
+      var style = node.style;
+
+      prop = (0, _camelizeStyle2.default)(prop);
+
+      if (prop == 'float') prop = 'styleFloat';
+
+      var current = node.currentStyle[prop] || null;
+
+      if (current == null && style && style[prop]) current = style[prop];
+
+      if (rnumnonpx.test(current) && !rposition.test(prop)) {
+        // Remember the original values
+        var left = style.left;
+        var runStyle = node.runtimeStyle;
+        var rsLeft = runStyle && runStyle.left;
+
+        // Put in the new values to get a computed value out
+        if (rsLeft) runStyle.left = node.currentStyle.left;
+
+        style.left = prop === 'fontSize' ? '1em' : current;
+        current = style.pixelLeft + 'px';
+
+        // Revert the changed values
+        style.left = left;
+        if (rsLeft) runStyle.left = rsLeft;
+      }
+
+      return current;
+    }
+  };
+}
+module.exports = exports['default'];
+},{"../util/camelizeStyle":"node_modules/dom-helpers/util/camelizeStyle.js"}],"node_modules/dom-helpers/style/removeStyle.js":[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = removeStyle;
+function removeStyle(node, key) {
+  return 'removeProperty' in node.style ? node.style.removeProperty(key) : node.style.removeAttribute(key);
+}
+module.exports = exports['default'];
+},{}],"node_modules/dom-helpers/util/inDOM.js":[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
+module.exports = exports['default'];
+},{}],"node_modules/dom-helpers/transition/properties.js":[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.animationEnd = exports.animationDelay = exports.animationTiming = exports.animationDuration = exports.animationName = exports.transitionEnd = exports.transitionDuration = exports.transitionDelay = exports.transitionTiming = exports.transitionProperty = exports.transform = undefined;
+
+var _inDOM = require('../util/inDOM');
+
+var _inDOM2 = _interopRequireDefault(_inDOM);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var transform = 'transform';
+var prefix = void 0,
+    transitionEnd = void 0,
+    animationEnd = void 0;
+var transitionProperty = void 0,
+    transitionDuration = void 0,
+    transitionTiming = void 0,
+    transitionDelay = void 0;
+var animationName = void 0,
+    animationDuration = void 0,
+    animationTiming = void 0,
+    animationDelay = void 0;
+
+if (_inDOM2.default) {
+  var _getTransitionPropert = getTransitionProperties();
+
+  prefix = _getTransitionPropert.prefix;
+  exports.transitionEnd = transitionEnd = _getTransitionPropert.transitionEnd;
+  exports.animationEnd = animationEnd = _getTransitionPropert.animationEnd;
+
+
+  exports.transform = transform = prefix + '-' + transform;
+  exports.transitionProperty = transitionProperty = prefix + '-transition-property';
+  exports.transitionDuration = transitionDuration = prefix + '-transition-duration';
+  exports.transitionDelay = transitionDelay = prefix + '-transition-delay';
+  exports.transitionTiming = transitionTiming = prefix + '-transition-timing-function';
+
+  exports.animationName = animationName = prefix + '-animation-name';
+  exports.animationDuration = animationDuration = prefix + '-animation-duration';
+  exports.animationTiming = animationTiming = prefix + '-animation-delay';
+  exports.animationDelay = animationDelay = prefix + '-animation-timing-function';
+}
+
+exports.transform = transform;
+exports.transitionProperty = transitionProperty;
+exports.transitionTiming = transitionTiming;
+exports.transitionDelay = transitionDelay;
+exports.transitionDuration = transitionDuration;
+exports.transitionEnd = transitionEnd;
+exports.animationName = animationName;
+exports.animationDuration = animationDuration;
+exports.animationTiming = animationTiming;
+exports.animationDelay = animationDelay;
+exports.animationEnd = animationEnd;
+exports.default = {
+  transform: transform,
+  end: transitionEnd,
+  property: transitionProperty,
+  timing: transitionTiming,
+  delay: transitionDelay,
+  duration: transitionDuration
+};
+
+
+function getTransitionProperties() {
+  var style = document.createElement('div').style;
+
+  var vendorMap = {
+    O: function O(e) {
+      return 'o' + e.toLowerCase();
+    },
+    Moz: function Moz(e) {
+      return e.toLowerCase();
+    },
+    Webkit: function Webkit(e) {
+      return 'webkit' + e;
+    },
+    ms: function ms(e) {
+      return 'MS' + e;
+    }
+  };
+
+  var vendors = Object.keys(vendorMap);
+
+  var transitionEnd = void 0,
+      animationEnd = void 0;
+  var prefix = '';
+
+  for (var i = 0; i < vendors.length; i++) {
+    var vendor = vendors[i];
+
+    if (vendor + 'TransitionProperty' in style) {
+      prefix = '-' + vendor.toLowerCase();
+      transitionEnd = vendorMap[vendor]('TransitionEnd');
+      animationEnd = vendorMap[vendor]('AnimationEnd');
+      break;
+    }
+  }
+
+  if (!transitionEnd && 'transitionProperty' in style) transitionEnd = 'transitionend';
+
+  if (!animationEnd && 'animationName' in style) animationEnd = 'animationend';
+
+  style = null;
+
+  return { animationEnd: animationEnd, transitionEnd: transitionEnd, prefix: prefix };
+}
+},{"../util/inDOM":"node_modules/dom-helpers/util/inDOM.js"}],"node_modules/dom-helpers/transition/isTransform.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isTransform;
+var supportedTransforms = /^((translate|rotate|scale)(X|Y|Z|3d)?|matrix(3d)?|perspective|skew(X|Y)?)$/i;
+
+function isTransform(property) {
+  return !!(property && supportedTransforms.test(property));
+}
+module.exports = exports["default"];
+},{}],"node_modules/dom-helpers/style/index.js":[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = style;
+
+var _camelizeStyle = require('../util/camelizeStyle');
+
+var _camelizeStyle2 = _interopRequireDefault(_camelizeStyle);
+
+var _hyphenateStyle = require('../util/hyphenateStyle');
+
+var _hyphenateStyle2 = _interopRequireDefault(_hyphenateStyle);
+
+var _getComputedStyle2 = require('./getComputedStyle');
+
+var _getComputedStyle3 = _interopRequireDefault(_getComputedStyle2);
+
+var _removeStyle = require('./removeStyle');
+
+var _removeStyle2 = _interopRequireDefault(_removeStyle);
+
+var _properties = require('../transition/properties');
+
+var _isTransform = require('../transition/isTransform');
+
+var _isTransform2 = _interopRequireDefault(_isTransform);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function style(node, property, value) {
+  var css = '';
+  var transforms = '';
+  var props = property;
+
+  if (typeof property === 'string') {
+    if (value === undefined) {
+      return node.style[(0, _camelizeStyle2.default)(property)] || (0, _getComputedStyle3.default)(node).getPropertyValue((0, _hyphenateStyle2.default)(property));
+    } else {
+      (props = {})[property] = value;
+    }
+  }
+
+  Object.keys(props).forEach(function (key) {
+    var value = props[key];
+    if (!value && value !== 0) {
+      (0, _removeStyle2.default)(node, (0, _hyphenateStyle2.default)(key));
+    } else if ((0, _isTransform2.default)(key)) {
+      transforms += key + '(' + value + ') ';
+    } else {
+      css += (0, _hyphenateStyle2.default)(key) + ': ' + value + ';';
+    }
+  });
+
+  if (transforms) {
+    css += _properties.transform + ': ' + transforms + ';';
+  }
+
+  node.style.cssText += ';' + css;
+}
+module.exports = exports['default'];
+},{"../util/camelizeStyle":"node_modules/dom-helpers/util/camelizeStyle.js","../util/hyphenateStyle":"node_modules/dom-helpers/util/hyphenateStyle.js","./getComputedStyle":"node_modules/dom-helpers/style/getComputedStyle.js","./removeStyle":"node_modules/dom-helpers/style/removeStyle.js","../transition/properties":"node_modules/dom-helpers/transition/properties.js","../transition/isTransform":"node_modules/dom-helpers/transition/isTransform.js"}],"node_modules/dom-helpers/util/scrollbarSize.js":[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = require('react');
+exports.default = function (recalc) {
+  if (!size && size !== 0 || recalc) {
+    if (_inDOM2.default) {
+      var scrollDiv = document.createElement('div');
 
-var _react2 = _interopRequireDefault(_react);
+      scrollDiv.style.position = 'absolute';
+      scrollDiv.style.top = '-9999px';
+      scrollDiv.style.width = '50px';
+      scrollDiv.style.height = '50px';
+      scrollDiv.style.overflow = 'scroll';
 
-var _ErrorBoundry = require('../ErrorBoundry');
+      document.body.appendChild(scrollDiv);
+      size = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+      document.body.removeChild(scrollDiv);
+    }
+  }
 
-var _ErrorBoundry2 = _interopRequireDefault(_ErrorBoundry);
+  return size;
+};
 
-var _styles = require('@material-ui/core/styles');
+var _inDOM = require('./inDOM');
 
-var _AppBar = require('@material-ui/core/AppBar');
-
-var _AppBar2 = _interopRequireDefault(_AppBar);
-
-var _Toolbar = require('@material-ui/core/Toolbar');
-
-var _Toolbar2 = _interopRequireDefault(_Toolbar);
-
-var _Typography = require('@material-ui/core/Typography');
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _Button = require('@material-ui/core/Button');
-
-var _Button2 = _interopRequireDefault(_Button);
-
-var _IconButton = require('@material-ui/core/IconButton');
-
-var _IconButton2 = _interopRequireDefault(_IconButton);
-
-var _Menu = require('@material-ui/icons/Menu');
-
-var _Menu2 = _interopRequireDefault(_Menu);
+var _inDOM2 = _interopRequireDefault(_inDOM);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var size = void 0;
+
+module.exports = exports['default'];
+},{"./inDOM":"node_modules/dom-helpers/util/inDOM.js"}],"node_modules/dom-helpers/query/isWindow.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = getWindow;
+function getWindow(node) {
+  return node === node.window ? node : node.nodeType === 9 ? node.defaultView || node.parentWindow : false;
+}
+module.exports = exports["default"];
+},{}],"node_modules/@material-ui/core/Modal/isOverflowing.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isBody = isBody;
+exports.default = isOverflowing;
+
+var _isWindow = _interopRequireDefault(require("dom-helpers/query/isWindow"));
+
+var _ownerDocument = _interopRequireDefault(require("../utils/ownerDocument"));
+
+var _ownerWindow = _interopRequireDefault(require("../utils/ownerWindow"));
+
+function isBody(node) {
+  return node && node.tagName.toLowerCase() === 'body';
+} // Do we have a scroll bar?
+
+
+function isOverflowing(container) {
+  var doc = (0, _ownerDocument.default)(container);
+  var win = (0, _ownerWindow.default)(doc);
+  /* istanbul ignore next */
+
+  if (!(0, _isWindow.default)(doc) && !isBody(container)) {
+    return container.scrollHeight > container.clientHeight;
+  } // Takes in account potential non zero margin on the body.
+
+
+  var style = win.getComputedStyle(doc.body);
+  var marginLeft = parseInt(style.getPropertyValue('margin-left'), 10);
+  var marginRight = parseInt(style.getPropertyValue('margin-right'), 10);
+  return marginLeft + doc.body.clientWidth + marginRight < win.innerWidth;
+}
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","dom-helpers/query/isWindow":"node_modules/dom-helpers/query/isWindow.js","../utils/ownerDocument":"node_modules/@material-ui/core/utils/ownerDocument.js","../utils/ownerWindow":"node_modules/@material-ui/core/utils/ownerWindow.js"}],"node_modules/@material-ui/core/Modal/manageAriaHidden.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ariaHidden = ariaHidden;
+exports.hideSiblings = hideSiblings;
+exports.showSiblings = showSiblings;
+var BLACKLIST = ['template', 'script', 'style'];
+
+function isHidable(node) {
+  return node.nodeType === 1 && BLACKLIST.indexOf(node.tagName.toLowerCase()) === -1;
+}
+
+function siblings(container, mount, callback) {
+  mount = [].concat(mount); // eslint-disable-line no-param-reassign
+
+  [].forEach.call(container.children, function (node) {
+    if (mount.indexOf(node) === -1 && isHidable(node)) {
+      callback(node);
+    }
+  });
+}
+
+function ariaHidden(show, node) {
+  if (!node) {
+    return;
+  }
+
+  if (show) {
+    node.setAttribute('aria-hidden', 'true');
+  } else {
+    node.removeAttribute('aria-hidden');
+  }
+}
+
+function hideSiblings(container, mountNode) {
+  siblings(container, mountNode, function (node) {
+    return ariaHidden(true, node);
+  });
+}
+
+function showSiblings(container, mountNode) {
+  siblings(container, mountNode, function (node) {
+    return ariaHidden(false, node);
+  });
+}
+},{}],"node_modules/@material-ui/core/Modal/ModalManager.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
+
+var _style = _interopRequireDefault(require("dom-helpers/style"));
+
+var _scrollbarSize = _interopRequireDefault(require("dom-helpers/util/scrollbarSize"));
+
+var _ownerDocument = _interopRequireDefault(require("../utils/ownerDocument"));
+
+var _isOverflowing = _interopRequireDefault(require("./isOverflowing"));
+
+var _manageAriaHidden = require("./manageAriaHidden");
+
+function findIndexOf(data, callback) {
+  var idx = -1;
+  data.some(function (item, index) {
+    if (callback(item)) {
+      idx = index;
+      return true;
+    }
+
+    return false;
+  });
+  return idx;
+}
+
+function getPaddingRight(node) {
+  return parseInt((0, _style.default)(node, 'paddingRight') || 0, 10);
+}
+
+function setContainerStyle(data, container) {
+  var style = {
+    overflow: 'hidden'
+  }; // We are only interested in the actual `style` here because we will override it.
+
+  data.style = {
+    overflow: container.style.overflow,
+    paddingRight: container.style.paddingRight
+  };
+
+  if (data.overflowing) {
+    var scrollbarSize = (0, _scrollbarSize.default)(); // Use computed style, here to get the real padding to add our scrollbar width.
+
+    style.paddingRight = "".concat(getPaddingRight(container) + scrollbarSize, "px"); // .mui-fixed is a global helper.
+
+    var fixedNodes = (0, _ownerDocument.default)(container).querySelectorAll('.mui-fixed');
+
+    for (var i = 0; i < fixedNodes.length; i += 1) {
+      var paddingRight = getPaddingRight(fixedNodes[i]);
+      data.prevPaddings.push(paddingRight);
+      fixedNodes[i].style.paddingRight = "".concat(paddingRight + scrollbarSize, "px");
+    }
+  }
+
+  Object.keys(style).forEach(function (key) {
+    container.style[key] = style[key];
+  });
+}
+
+function removeContainerStyle(data, container) {
+  Object.keys(data.style).forEach(function (key) {
+    container.style[key] = data.style[key];
+  });
+  var fixedNodes = (0, _ownerDocument.default)(container).querySelectorAll('.mui-fixed');
+
+  for (var i = 0; i < fixedNodes.length; i += 1) {
+    fixedNodes[i].style.paddingRight = "".concat(data.prevPaddings[i], "px");
+  }
+}
+/**
+ * @ignore - do not document.
+ *
+ * Proper state managment for containers and the modals in those containers.
+ * Simplified, but inspired by react-overlay's ModalManager class.
+ * Used by the Modal to ensure proper styling of containers.
+ */
+
+var ModalManager =
+/*#__PURE__*/
+function () {
+  function ModalManager() {
+    var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    (0, _classCallCheck2.default)(this, ModalManager);
+    var _options$hideSiblingN = options.hideSiblingNodes,
+        hideSiblingNodes = _options$hideSiblingN === void 0 ? true : _options$hideSiblingN,
+        _options$handleContai = options.handleContainerOverflow,
+        handleContainerOverflow = _options$handleContai === void 0 ? true : _options$handleContai;
+    this.hideSiblingNodes = hideSiblingNodes;
+    this.handleContainerOverflow = handleContainerOverflow; // this.modals[modalIdx] = modal
+
+    this.modals = []; // this.containers[containerIdx] = container
+
+    this.containers = []; // this.data[containerIdx] = {
+    //   modals: [],
+    // }
+
+    this.data = [];
+  }
+
+  (0, _createClass2.default)(ModalManager, [{
+    key: "add",
+    value: function add(modal, container) {
+      var modalIdx = this.modals.indexOf(modal);
+
+      if (modalIdx !== -1) {
+        return modalIdx;
+      }
+
+      modalIdx = this.modals.length;
+      this.modals.push(modal);
+
+      if (this.hideSiblingNodes) {
+        (0, _manageAriaHidden.hideSiblings)(container, modal.mountNode);
+      }
+
+      var containerIdx = this.containers.indexOf(container);
+
+      if (containerIdx !== -1) {
+        this.data[containerIdx].modals.push(modal);
+        return modalIdx;
+      }
+
+      var data = {
+        modals: [modal],
+        overflowing: (0, _isOverflowing.default)(container),
+        prevPaddings: []
+      };
+
+      if (this.handleContainerOverflow) {
+        setContainerStyle(data, container);
+      }
+
+      this.containers.push(container);
+      this.data.push(data);
+      return modalIdx;
+    }
+  }, {
+    key: "remove",
+    value: function remove(modal) {
+      var modalIdx = this.modals.indexOf(modal);
+
+      if (modalIdx === -1) {
+        return modalIdx;
+      }
+
+      var containerIdx = findIndexOf(this.data, function (item) {
+        return item.modals.indexOf(modal) !== -1;
+      });
+      var data = this.data[containerIdx];
+      var container = this.containers[containerIdx];
+      data.modals.splice(data.modals.indexOf(modal), 1);
+      this.modals.splice(modalIdx, 1); // If that was the last modal in a container, clean up the container.
+
+      if (data.modals.length === 0) {
+        if (this.handleContainerOverflow) {
+          removeContainerStyle(data, container);
+        }
+
+        if (this.hideSiblingNodes) {
+          (0, _manageAriaHidden.showSiblings)(container, modal.mountNode);
+        }
+
+        this.containers.splice(containerIdx, 1);
+        this.data.splice(containerIdx, 1);
+      } else if (this.hideSiblingNodes) {
+        // Otherwise make sure the next top modal is visible to a screan reader.
+        (0, _manageAriaHidden.ariaHidden)(false, data.modals[data.modals.length - 1].mountNode);
+      }
+
+      return modalIdx;
+    }
+  }, {
+    key: "isTopModal",
+    value: function isTopModal(modal) {
+      return !!this.modals.length && this.modals[this.modals.length - 1] === modal;
+    }
+  }]);
+  return ModalManager;
+}();
+
+var _default = ModalManager;
+exports.default = _default;
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","dom-helpers/style":"node_modules/dom-helpers/style/index.js","dom-helpers/util/scrollbarSize":"node_modules/dom-helpers/util/scrollbarSize.js","../utils/ownerDocument":"node_modules/@material-ui/core/utils/ownerDocument.js","./isOverflowing":"node_modules/@material-ui/core/Modal/isOverflowing.js","./manageAriaHidden":"node_modules/@material-ui/core/Modal/manageAriaHidden.js"}],"node_modules/@material-ui/core/transitions/utils.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getTransitionProps = getTransitionProps;
+exports.reflow = void 0;
+
+var reflow = function reflow(node) {
+  return node.scrollTop;
+};
+
+exports.reflow = reflow;
+
+function getTransitionProps(props, options) {
+  var timeout = props.timeout,
+      _props$style = props.style,
+      style = _props$style === void 0 ? {} : _props$style;
+  return {
+    duration: style.transitionDuration || typeof timeout === 'number' ? timeout : timeout[options.mode],
+    delay: style.transitionDelay
+  };
+}
+},{}],"node_modules/@material-ui/core/Fade/Fade.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
+
+var _objectSpread2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectSpread"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _Transition = _interopRequireDefault(require("react-transition-group/Transition"));
+
+var _transitions = require("../styles/transitions");
+
+var _withTheme = _interopRequireDefault(require("../styles/withTheme"));
+
+var _utils = require("../transitions/utils");
+
+// @inheritedComponent Transition
 var styles = {
-  root: {
-    flexGrow: 1
+  entering: {
+    opacity: 1
   },
-  flex: {
-    flexGrow: 1
-  },
-  menuButton: {
-    marginLeft: -12,
-    marginRight: 20
+  entered: {
+    opacity: 1
+  }
+};
+/**
+ * The Fade transition is used by the [Modal](/utils/modal) component.
+ * It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.
+ */
+
+var Fade =
+/*#__PURE__*/
+function (_React$Component) {
+  (0, _inherits2.default)(Fade, _React$Component);
+
+  function Fade() {
+    var _ref;
+
+    var _temp, _this;
+
+    (0, _classCallCheck2.default)(this, Fade);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Fade.__proto__ || Object.getPrototypeOf(Fade)).call.apply(_ref, [this].concat(args))), _this.handleEnter = function (node) {
+      var theme = _this.props.theme;
+      (0, _utils.reflow)(node); // So the animation always start from the start.
+
+      var transitionProps = (0, _utils.getTransitionProps)(_this.props, {
+        mode: 'enter'
+      });
+      node.style.webkitTransition = theme.transitions.create('opacity', transitionProps);
+      node.style.transition = theme.transitions.create('opacity', transitionProps);
+
+      if (_this.props.onEnter) {
+        _this.props.onEnter(node);
+      }
+    }, _this.handleExit = function (node) {
+      var theme = _this.props.theme;
+      var transitionProps = (0, _utils.getTransitionProps)(_this.props, {
+        mode: 'exit'
+      });
+      node.style.webkitTransition = theme.transitions.create('opacity', transitionProps);
+      node.style.transition = theme.transitions.create('opacity', transitionProps);
+
+      if (_this.props.onExit) {
+        _this.props.onExit(node);
+      }
+    }, _temp));
+  }
+
+  (0, _createClass2.default)(Fade, [{
+    key: "render",
+    value: function render() {
+      var _props = this.props,
+          children = _props.children,
+          onEnter = _props.onEnter,
+          onExit = _props.onExit,
+          styleProp = _props.style,
+          theme = _props.theme,
+          other = (0, _objectWithoutProperties2.default)(_props, ["children", "onEnter", "onExit", "style", "theme"]);
+      var style = (0, _objectSpread2.default)({}, styleProp, _react.default.isValidElement(children) ? children.props.style : {});
+      return _react.default.createElement(_Transition.default, (0, _extends2.default)({
+        appear: true,
+        onEnter: this.handleEnter,
+        onExit: this.handleExit
+      }, other), function (state, childProps) {
+        return _react.default.cloneElement(children, (0, _objectSpread2.default)({
+          style: (0, _objectSpread2.default)({
+            opacity: 0,
+            willChange: 'opacity'
+          }, styles[state], style)
+        }, childProps));
+      });
+    }
+  }]);
+  return Fade;
+}(_react.default.Component);
+
+Fade.propTypes = "development" !== "production" ? {
+  /**
+   * A single child content element.
+   */
+  children: _propTypes.default.oneOfType([_propTypes.default.element, _propTypes.default.func]),
+
+  /**
+   * If `true`, the component will transition in.
+   */
+  in: _propTypes.default.bool,
+
+  /**
+   * @ignore
+   */
+  onEnter: _propTypes.default.func,
+
+  /**
+   * @ignore
+   */
+  onExit: _propTypes.default.func,
+
+  /**
+   * @ignore
+   */
+  style: _propTypes.default.object,
+
+  /**
+   * @ignore
+   */
+  theme: _propTypes.default.object.isRequired,
+
+  /**
+   * The duration for the transition, in milliseconds.
+   * You may specify a single timeout for all transitions, or individually with an object.
+   */
+  timeout: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
+    enter: _propTypes.default.number,
+    exit: _propTypes.default.number
+  })])
+} : {};
+Fade.defaultProps = {
+  timeout: {
+    enter: _transitions.duration.enteringScreen,
+    exit: _transitions.duration.leavingScreen
   }
 };
 
-function ButtonAppBar(props) {
-  var classes = props.classes;
+var _default = (0, _withTheme.default)()(Fade);
 
-  return _react2.default.createElement(
-    'div',
-    { className: classes.root },
-    _react2.default.createElement(
-      _AppBar2.default,
-      { position: 'static' },
-      _react2.default.createElement(
-        _Toolbar2.default,
-        null,
-        _react2.default.createElement(
-          _IconButton2.default,
-          {
-            className: classes.menuButton,
-            color: 'inherit',
-            'aria-label': 'Menu'
-          },
-          _react2.default.createElement(_Menu2.default, null)
-        ),
-        _react2.default.createElement(
-          _Typography2.default,
-          { variant: 'title', color: 'inherit', className: classes.flex },
-          'Eat The Rich'
-        )
-      )
-    )
-  );
+exports.default = _default;
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","react-transition-group/Transition":"node_modules/react-transition-group/Transition.js","../styles/transitions":"node_modules/@material-ui/core/styles/transitions.js","../styles/withTheme":"node_modules/@material-ui/core/styles/withTheme.js","../transitions/utils":"node_modules/@material-ui/core/transitions/utils.js"}],"node_modules/@material-ui/core/Fade/index.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _Fade.default;
+  }
+});
+
+var _Fade = _interopRequireDefault(require("./Fade"));
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Fade":"node_modules/@material-ui/core/Fade/Fade.js"}],"node_modules/@material-ui/core/Backdrop/Backdrop.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.styles = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
+
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/defineProperty"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _classnames = _interopRequireDefault(require("classnames"));
+
+var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
+
+var _Fade = _interopRequireDefault(require("../Fade"));
+
+var styles = {
+  /* Styles applied to the root element. */
+  root: {
+    zIndex: -1,
+    position: 'fixed',
+    right: 0,
+    bottom: 0,
+    top: 0,
+    left: 0,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    // Remove grey highlight
+    WebkitTapHighlightColor: 'transparent',
+    // Disable scroll capabilities.
+    touchAction: 'none'
+  },
+
+  /* Styles applied to the root element if `invisible={true}`. */
+  invisible: {
+    backgroundColor: 'transparent'
+  }
+};
+exports.styles = styles;
+
+function Backdrop(props) {
+  var classes = props.classes,
+      className = props.className,
+      invisible = props.invisible,
+      open = props.open,
+      transitionDuration = props.transitionDuration,
+      other = (0, _objectWithoutProperties2.default)(props, ["classes", "className", "invisible", "open", "transitionDuration"]);
+  return _react.default.createElement(_Fade.default, (0, _extends2.default)({
+    appear: true,
+    "in": open,
+    timeout: transitionDuration
+  }, other), _react.default.createElement("div", {
+    className: (0, _classnames.default)(classes.root, (0, _defineProperty2.default)({}, classes.invisible, invisible), className),
+    "aria-hidden": "true"
+  }));
 }
 
-exports.default = (0, _styles.withStyles)(styles)(ButtonAppBar);
-},{"react":"node_modules/react/index.js","../ErrorBoundry":"src/components/ErrorBoundry/index.js","@material-ui/core/styles":"node_modules/@material-ui/core/styles/index.js","@material-ui/core/AppBar":"node_modules/@material-ui/core/AppBar/index.js","@material-ui/core/Toolbar":"node_modules/@material-ui/core/Toolbar/index.js","@material-ui/core/Typography":"node_modules/@material-ui/core/Typography/index.js","@material-ui/core/Button":"node_modules/@material-ui/core/Button/index.js","@material-ui/core/IconButton":"node_modules/@material-ui/core/IconButton/index.js","@material-ui/icons/Menu":"node_modules/@material-ui/icons/Menu.js"}],"node_modules/@material-ui/core/colors/purple.js":[function(require,module,exports) {
+Backdrop.propTypes = "development" !== "production" ? {
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css-api) below for more details.
+   */
+  classes: _propTypes.default.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: _propTypes.default.string,
+
+  /**
+   * If `true`, the backdrop is invisible.
+   * It can be used when rendering a popover or a custom select component.
+   */
+  invisible: _propTypes.default.bool,
+
+  /**
+   * If `true`, the backdrop is open.
+   */
+  open: _propTypes.default.bool.isRequired,
+
+  /**
+   * The duration for the transition, in milliseconds.
+   * You may specify a single timeout for all transitions, or individually with an object.
+   */
+  transitionDuration: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
+    enter: _propTypes.default.number,
+    exit: _propTypes.default.number
+  })])
+} : {};
+Backdrop.defaultProps = {
+  invisible: false
+};
+
+var _default = (0, _withStyles.default)(styles, {
+  name: 'MuiBackdrop'
+})(Backdrop);
+
+exports.default = _default;
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","../Fade":"node_modules/@material-ui/core/Fade/index.js"}],"node_modules/@material-ui/core/Backdrop/index.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _Backdrop.default;
+  }
+});
+
+var _Backdrop = _interopRequireDefault(require("./Backdrop"));
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Backdrop":"node_modules/@material-ui/core/Backdrop/Backdrop.js"}],"node_modules/@material-ui/core/Modal/Modal.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.styles = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
+
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/defineProperty"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
+
+var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/assertThisInitialized"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _classnames = _interopRequireDefault(require("classnames"));
+
+var _warning = _interopRequireDefault(require("warning"));
+
+var _keycode = _interopRequireDefault(require("keycode"));
+
+var _ownerDocument = _interopRequireDefault(require("../utils/ownerDocument"));
+
+var _RootRef = _interopRequireDefault(require("../RootRef"));
+
+var _Portal = _interopRequireDefault(require("../Portal"));
+
+var _helpers = require("../utils/helpers");
+
+var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
+
+var _ModalManager = _interopRequireDefault(require("./ModalManager"));
+
+var _Backdrop = _interopRequireDefault(require("../Backdrop"));
+
+function getContainer(container, defaultContainer) {
+  container = typeof container === 'function' ? container() : container;
+  return _reactDom.default.findDOMNode(container) || defaultContainer;
+}
+
+function getHasTransition(props) {
+  return props.children ? props.children.props.hasOwnProperty('in') : false;
+}
+
+var styles = function styles(theme) {
+  return {
+    /* Styles applied to the root element. */
+    root: {
+      position: 'fixed',
+      zIndex: theme.zIndex.modal,
+      right: 0,
+      bottom: 0,
+      top: 0,
+      left: 0
+    },
+
+    /* Styles applied to the root element if the `Modal` has exited. */
+    hidden: {
+      visibility: 'hidden'
+    }
+  };
+};
+/* istanbul ignore if */
+
+exports.styles = styles;
+
+if ("development" !== 'production' && !_react.default.createContext) {
+  throw new Error('Material-UI: react@16.3.0 or greater is required.');
+}
+/**
+ * This component shares many concepts with [react-overlays](https://react-bootstrap.github.io/react-overlays/#modals).
+ */
+
+var Modal =
+/*#__PURE__*/
+function (_React$Component) {
+  (0, _inherits2.default)(Modal, _React$Component);
+
+  function Modal(props) {
+    var _this;
+
+    (0, _classCallCheck2.default)(this, Modal);
+    _this = (0, _possibleConstructorReturn2.default)(this, (Modal.__proto__ || Object.getPrototypeOf(Modal)).call(this));
+    _this.mountNode = null;
+    _this.modalRef = null;
+    _this.dialogRef = null;
+    _this.mounted = false;
+
+    _this.handleRendered = function () {
+      _this.autoFocus(); // Fix a bug on Chrome where the scroll isn't initially 0.
+
+
+      _this.modalRef.scrollTop = 0;
+
+      if (_this.props.onRendered) {
+        _this.props.onRendered();
+      }
+    };
+
+    _this.handleOpen = function () {
+      var doc = (0, _ownerDocument.default)(_this.mountNode);
+      var container = getContainer(_this.props.container, doc.body);
+
+      _this.props.manager.add((0, _assertThisInitialized2.default)(_this), container);
+
+      doc.addEventListener('keydown', _this.handleDocumentKeyDown);
+      doc.addEventListener('focus', _this.enforceFocus, true);
+    };
+
+    _this.handleClose = function () {
+      _this.props.manager.remove((0, _assertThisInitialized2.default)(_this));
+
+      var doc = (0, _ownerDocument.default)(_this.mountNode);
+      doc.removeEventListener('keydown', _this.handleDocumentKeyDown);
+      doc.removeEventListener('focus', _this.enforceFocus, true);
+
+      _this.restoreLastFocus();
+    };
+
+    _this.handleExited = function () {
+      _this.setState({
+        exited: true
+      });
+
+      _this.handleClose();
+    };
+
+    _this.handleBackdropClick = function (event) {
+      if (event.target !== event.currentTarget) {
+        return;
+      }
+
+      if (_this.props.onBackdropClick) {
+        _this.props.onBackdropClick(event);
+      }
+
+      if (!_this.props.disableBackdropClick && _this.props.onClose) {
+        _this.props.onClose(event, 'backdropClick');
+      }
+    };
+
+    _this.handleDocumentKeyDown = function (event) {
+      if (!_this.isTopModal() || (0, _keycode.default)(event) !== 'esc') {
+        return;
+      } // Ignore events that have been `event.preventDefault()` marked.
+
+
+      if (event.defaultPrevented) {
+        return;
+      }
+
+      if (_this.props.onEscapeKeyDown) {
+        _this.props.onEscapeKeyDown(event);
+      }
+
+      if (!_this.props.disableEscapeKeyDown && _this.props.onClose) {
+        _this.props.onClose(event, 'escapeKeyDown');
+      }
+    };
+
+    _this.checkForFocus = function () {
+      _this.lastFocus = (0, _ownerDocument.default)(_this.mountNode).activeElement;
+    };
+
+    _this.enforceFocus = function () {
+      if (_this.props.disableEnforceFocus || !_this.mounted || !_this.isTopModal()) {
+        return;
+      }
+
+      var currentActiveElement = (0, _ownerDocument.default)(_this.mountNode).activeElement;
+
+      if (_this.dialogRef && !_this.dialogRef.contains(currentActiveElement)) {
+        _this.dialogRef.focus();
+      }
+    };
+
+    _this.state = {
+      exited: !props.open
+    };
+    return _this;
+  }
+
+  (0, _createClass2.default)(Modal, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.mounted = true;
+
+      if (this.props.open) {
+        this.handleOpen();
+      }
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      if (!prevProps.open && this.props.open) {
+        this.checkForFocus();
+      }
+
+      if (prevProps.open && !this.props.open && !getHasTransition(this.props)) {
+        // Otherwise handleExited will call this.
+        this.handleClose();
+      } else if (!prevProps.open && this.props.open) {
+        this.handleOpen();
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      this.mounted = false;
+
+      if (this.props.open || getHasTransition(this.props) && !this.state.exited) {
+        this.handleClose();
+      }
+    }
+  }, {
+    key: "autoFocus",
+    value: function autoFocus() {
+      if (this.props.disableAutoFocus) {
+        return;
+      }
+
+      var currentActiveElement = (0, _ownerDocument.default)(this.mountNode).activeElement;
+
+      if (this.dialogRef && !this.dialogRef.contains(currentActiveElement)) {
+        this.lastFocus = currentActiveElement;
+
+        if (!this.dialogRef.hasAttribute('tabIndex')) {
+          "development" !== "production" ? (0, _warning.default)(false, ['Material-UI: the modal content node does not accept focus.', 'For the benefit of assistive technologies, ' + 'the tabIndex of the node is being set to "-1".'].join('\n')) : void 0;
+          this.dialogRef.setAttribute('tabIndex', -1);
+        }
+
+        this.dialogRef.focus();
+      }
+    }
+  }, {
+    key: "restoreLastFocus",
+    value: function restoreLastFocus() {
+      if (this.props.disableRestoreFocus) {
+        return;
+      }
+
+      if (this.lastFocus) {
+        // Not all elements in IE11 have a focus method.
+        // Because IE11 market share is low, we accept the restore focus being broken
+        // and we silent the issue.
+        if (this.lastFocus.focus) {
+          this.lastFocus.focus();
+        }
+
+        this.lastFocus = null;
+      }
+    }
+  }, {
+    key: "isTopModal",
+    value: function isTopModal() {
+      return this.props.manager.isTopModal(this);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var _props = this.props,
+          BackdropComponent = _props.BackdropComponent,
+          BackdropProps = _props.BackdropProps,
+          children = _props.children,
+          classes = _props.classes,
+          className = _props.className,
+          container = _props.container,
+          disableAutoFocus = _props.disableAutoFocus,
+          disableBackdropClick = _props.disableBackdropClick,
+          disableEnforceFocus = _props.disableEnforceFocus,
+          disableEscapeKeyDown = _props.disableEscapeKeyDown,
+          disablePortal = _props.disablePortal,
+          disableRestoreFocus = _props.disableRestoreFocus,
+          hideBackdrop = _props.hideBackdrop,
+          keepMounted = _props.keepMounted,
+          manager = _props.manager,
+          onBackdropClick = _props.onBackdropClick,
+          onClose = _props.onClose,
+          onEscapeKeyDown = _props.onEscapeKeyDown,
+          onRendered = _props.onRendered,
+          open = _props.open,
+          other = (0, _objectWithoutProperties2.default)(_props, ["BackdropComponent", "BackdropProps", "children", "classes", "className", "container", "disableAutoFocus", "disableBackdropClick", "disableEnforceFocus", "disableEscapeKeyDown", "disablePortal", "disableRestoreFocus", "hideBackdrop", "keepMounted", "manager", "onBackdropClick", "onClose", "onEscapeKeyDown", "onRendered", "open"]);
+      var exited = this.state.exited;
+      var hasTransition = getHasTransition(this.props);
+      var childProps = {};
+
+      if (!keepMounted && !open && (!hasTransition || exited)) {
+        return null;
+      } // It's a Transition like component
+
+
+      if (hasTransition) {
+        childProps.onExited = (0, _helpers.createChainedFunction)(this.handleExited, children.props.onExited);
+      }
+
+      if (children.props.role === undefined) {
+        childProps.role = children.props.role || 'document';
+      }
+
+      if (children.props.tabIndex === undefined) {
+        childProps.tabIndex = children.props.tabIndex || '-1';
+      }
+
+      return _react.default.createElement(_Portal.default, {
+        ref: function ref(_ref2) {
+          _this2.mountNode = _ref2 ? _ref2.getMountNode() : _ref2;
+        },
+        container: container,
+        disablePortal: disablePortal,
+        onRendered: this.handleRendered
+      }, _react.default.createElement("div", (0, _extends2.default)({
+        ref: function ref(_ref) {
+          _this2.modalRef = _ref;
+        },
+        className: (0, _classnames.default)(classes.root, className, (0, _defineProperty2.default)({}, classes.hidden, exited))
+      }, other), hideBackdrop ? null : _react.default.createElement(BackdropComponent, (0, _extends2.default)({
+        open: open,
+        onClick: this.handleBackdropClick
+      }, BackdropProps)), _react.default.createElement(_RootRef.default, {
+        rootRef: function rootRef(ref) {
+          _this2.dialogRef = ref;
+        }
+      }, _react.default.cloneElement(children, childProps))));
+    }
+  }], [{
+    key: "getDerivedStateFromProps",
+    value: function getDerivedStateFromProps(nextProps) {
+      if (nextProps.open) {
+        return {
+          exited: false
+        };
+      }
+
+      if (!getHasTransition(nextProps)) {
+        // Otherwise let handleExited take care of marking exited.
+        return {
+          exited: true
+        };
+      }
+
+      return null;
+    }
+  }]);
+  return Modal;
+}(_react.default.Component);
+
+Modal.propTypes = "development" !== "production" ? {
+  /**
+   * A backdrop component. This property enables custom backdrop rendering.
+   */
+  BackdropComponent: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.func, _propTypes.default.object]),
+
+  /**
+   * Properties applied to the [`Backdrop`](/api/backdrop) element.
+   */
+  BackdropProps: _propTypes.default.object,
+
+  /**
+   * A single child content element.
+   */
+  children: _propTypes.default.element,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css-api) below for more details.
+   */
+  classes: _propTypes.default.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: _propTypes.default.string,
+
+  /**
+   * A node, component instance, or function that returns either.
+   * The `container` will have the portal children appended to it.
+   */
+  container: _propTypes.default.oneOfType([_propTypes.default.object, _propTypes.default.func]),
+
+  /**
+   * If `true`, the modal will not automatically shift focus to itself when it opens, and
+   * replace it to the last focused element when it closes.
+   * This also works correctly with any modal children that have the `disableAutoFocus` prop.
+   *
+   * Generally this should never be set to `true` as it makes the modal less
+   * accessible to assistive technologies, like screen readers.
+   */
+  disableAutoFocus: _propTypes.default.bool,
+
+  /**
+   * If `true`, clicking the backdrop will not fire any callback.
+   */
+  disableBackdropClick: _propTypes.default.bool,
+
+  /**
+   * If `true`, the modal will not prevent focus from leaving the modal while open.
+   *
+   * Generally this should never be set to `true` as it makes the modal less
+   * accessible to assistive technologies, like screen readers.
+   */
+  disableEnforceFocus: _propTypes.default.bool,
+
+  /**
+   * If `true`, hitting escape will not fire any callback.
+   */
+  disableEscapeKeyDown: _propTypes.default.bool,
+
+  /**
+   * Disable the portal behavior.
+   * The children stay within it's parent DOM hierarchy.
+   */
+  disablePortal: _propTypes.default.bool,
+
+  /**
+   * If `true`, the modal will not restore focus to previously focused element once
+   * modal is hidden.
+   */
+  disableRestoreFocus: _propTypes.default.bool,
+
+  /**
+   * If `true`, the backdrop is not rendered.
+   */
+  hideBackdrop: _propTypes.default.bool,
+
+  /**
+   * Always keep the children in the DOM.
+   * This property can be useful in SEO situation or
+   * when you want to maximize the responsiveness of the Modal.
+   */
+  keepMounted: _propTypes.default.bool,
+
+  /**
+   * A modal manager used to track and manage the state of open
+   * Modals. This enables customizing how modals interact within a container.
+   */
+  manager: _propTypes.default.object,
+
+  /**
+   * Callback fired when the backdrop is clicked.
+   */
+  onBackdropClick: _propTypes.default.func,
+
+  /**
+   * Callback fired when the component requests to be closed.
+   * The `reason` parameter can optionally be used to control the response to `onClose`.
+   *
+   * @param {object} event The event source of the callback
+   * @param {string} reason Can be:`"escapeKeyDown"`, `"backdropClick"`
+   */
+  onClose: _propTypes.default.func,
+
+  /**
+   * Callback fired when the escape key is pressed,
+   * `disableEscapeKeyDown` is false and the modal is in focus.
+   */
+  onEscapeKeyDown: _propTypes.default.func,
+
+  /**
+   * Callback fired once the children has been mounted into the `container`.
+   * It signals that the `open={true}` property took effect.
+   */
+  onRendered: _propTypes.default.func,
+
+  /**
+   * If `true`, the modal is open.
+   */
+  open: _propTypes.default.bool.isRequired
+} : {};
+Modal.defaultProps = {
+  disableAutoFocus: false,
+  disableBackdropClick: false,
+  disableEnforceFocus: false,
+  disableEscapeKeyDown: false,
+  disablePortal: false,
+  disableRestoreFocus: false,
+  hideBackdrop: false,
+  keepMounted: false,
+  // Modals don't open on the server so this won't conflict with concurrent requests.
+  manager: new _ModalManager.default(),
+  BackdropComponent: _Backdrop.default
+};
+
+var _default = (0, _withStyles.default)(styles, {
+  flip: false,
+  name: 'MuiModal'
+})(Modal);
+
+exports.default = _default;
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","@babel/runtime/helpers/builtin/assertThisInitialized":"node_modules/@babel/runtime/helpers/builtin/assertThisInitialized.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","warning":"node_modules/@material-ui/core/node_modules/warning/warning.js","keycode":"node_modules/keycode/index.js","../utils/ownerDocument":"node_modules/@material-ui/core/utils/ownerDocument.js","../RootRef":"node_modules/@material-ui/core/RootRef/index.js","../Portal":"node_modules/@material-ui/core/Portal/index.js","../utils/helpers":"node_modules/@material-ui/core/utils/helpers.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","./ModalManager":"node_modules/@material-ui/core/Modal/ModalManager.js","../Backdrop":"node_modules/@material-ui/core/Backdrop/index.js"}],"node_modules/@material-ui/core/Modal/index.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _Modal.default;
+  }
+});
+Object.defineProperty(exports, "ModalManager", {
+  enumerable: true,
+  get: function get() {
+    return _ModalManager.default;
+  }
+});
+
+var _Modal = _interopRequireDefault(require("./Modal"));
+
+var _ModalManager = _interopRequireDefault(require("./ModalManager"));
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Modal":"node_modules/@material-ui/core/Modal/Modal.js","./ModalManager":"node_modules/@material-ui/core/Modal/ModalManager.js"}],"node_modules/react-event-listener/node_modules/warning/warning.js":[function(require,module,exports) {
+/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @providesModule warning
+ */
+
+'use strict';
+
+/**
+ * Similar to invariant but only logs a warning if the condition is not met.
+ * This can be used to log issues in development environments in critical
+ * paths. Removing the logging code for production environments will keep the
+ * same logic and follow the same code paths.
+ */
+
+var __DEV__ = 'development' !== 'production';
+
+var warning = function () {};
+
+if (__DEV__) {
+  var printWarning = function printWarning(format, args) {
+    var len = arguments.length;
+    args = new Array(len > 2 ? len - 2 : 0);
+    for (var key = 2; key < len; key++) {
+      args[key - 2] = arguments[key];
+    }
+    var argIndex = 0;
+    var message = 'Warning: ' + format.replace(/%s/g, function () {
+      return args[argIndex++];
+    });
+    if (typeof console !== 'undefined') {
+      console.error(message);
+    }
+    try {
+      // --- Welcome to debugging React ---
+      // This error was thrown as a convenience so that you can use this stack
+      // to find the callsite that caused this warning to fire.
+      throw new Error(message);
+    } catch (x) {}
+  };
+
+  warning = function (condition, format, args) {
+    var len = arguments.length;
+    args = new Array(len > 2 ? len - 2 : 0);
+    for (var key = 2; key < len; key++) {
+      args[key - 2] = arguments[key];
+    }
+    if (format === undefined) {
+      throw new Error('`warning(condition, format, ...args)` requires a warning ' + 'message argument');
+    }
+    if (!condition) {
+      printWarning.apply(null, [format].concat(args));
+    }
+  };
+}
+
+module.exports = warning;
+},{}],"node_modules/react-event-listener/dist/react-event-listener.cjs.js":[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+function _interopDefault(ex) {
+  return ex && typeof ex === 'object' && 'default' in ex ? ex['default'] : ex;
+}
+
+var _classCallCheck = _interopDefault(require('@babel/runtime/helpers/builtin/classCallCheck'));
+var _createClass = _interopDefault(require('@babel/runtime/helpers/builtin/createClass'));
+var _possibleConstructorReturn = _interopDefault(require('@babel/runtime/helpers/builtin/possibleConstructorReturn'));
+var _inherits = _interopDefault(require('@babel/runtime/helpers/builtin/inherits'));
+var _typeof = _interopDefault(require('@babel/runtime/helpers/builtin/typeof'));
+var _objectWithoutProperties = _interopDefault(require('@babel/runtime/helpers/builtin/objectWithoutProperties'));
+var _objectSpread = _interopDefault(require('@babel/runtime/helpers/builtin/objectSpread'));
+var React = _interopDefault(require('react'));
+var PropTypes = _interopDefault(require('prop-types'));
+var warning = _interopDefault(require('warning'));
+
+function defineProperty(object, property, attr) {
+  return Object.defineProperty(object, property, attr);
+} // Passive options
+// Inspired by https://github.com/Modernizr/Modernizr/blob/master/feature-detects/dom/passiveeventlisteners.js
+
+
+var passiveOption = function () {
+  var cache = null;
+  return function () {
+    if (cache !== null) {
+      return cache;
+    }
+
+    var supportsPassiveOption = false;
+
+    try {
+      window.addEventListener('test', null, defineProperty({}, 'passive', {
+        get: function get() {
+          supportsPassiveOption = true;
+        }
+      }));
+    } catch (err) {//
+    }
+
+    cache = supportsPassiveOption;
+    return supportsPassiveOption;
+  }();
+}();
+
+var defaultEventOptions = {
+  capture: false,
+  passive: false
+};
+
+function mergeDefaultEventOptions(options) {
+  return _objectSpread({}, defaultEventOptions, options);
+}
+
+function getEventListenerArgs(eventName, callback, options) {
+  var args = [eventName, callback];
+  args.push(passiveOption ? options : options.capture);
+  return args;
+}
+
+function on(target, eventName, callback, options) {
+  // eslint-disable-next-line prefer-spread
+  target.addEventListener.apply(target, getEventListenerArgs(eventName, callback, options));
+}
+
+function off(target, eventName, callback, options) {
+  // eslint-disable-next-line prefer-spread
+  target.removeEventListener.apply(target, getEventListenerArgs(eventName, callback, options));
+}
+
+function forEachListener(props, iteratee) {
+  var children = props.children,
+      target = props.target,
+      eventProps = _objectWithoutProperties(props, ["children", "target"]);
+
+  Object.keys(eventProps).forEach(function (name) {
+    if (name.substring(0, 2) !== 'on') {
+      return;
+    }
+
+    var prop = eventProps[name];
+
+    var type = _typeof(prop);
+
+    var isObject = type === 'object';
+    var isFunction = type === 'function';
+
+    if (!isObject && !isFunction) {
+      return;
+    }
+
+    var capture = name.substr(-7).toLowerCase() === 'capture';
+    var eventName = name.substring(2).toLowerCase();
+    eventName = capture ? eventName.substring(0, eventName.length - 7) : eventName;
+
+    if (isObject) {
+      iteratee(eventName, prop.handler, prop.options);
+    } else {
+      iteratee(eventName, prop, mergeDefaultEventOptions({
+        capture: capture
+      }));
+    }
+  });
+}
+
+function withOptions(handler, options) {
+  'development' !== "production" ? warning(options, 'react-event-listener: should be specified options in withOptions.') : void 0;
+  return {
+    handler: handler,
+    options: mergeDefaultEventOptions(options)
+  };
+}
+
+var EventListener =
+/*#__PURE__*/
+function (_React$PureComponent) {
+  _inherits(EventListener, _React$PureComponent);
+
+  function EventListener() {
+    _classCallCheck(this, EventListener);
+
+    return _possibleConstructorReturn(this, (EventListener.__proto__ || Object.getPrototypeOf(EventListener)).apply(this, arguments));
+  }
+
+  _createClass(EventListener, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.applyListeners(on);
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      this.applyListeners(off, prevProps);
+      this.applyListeners(on);
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      this.applyListeners(off);
+    }
+  }, {
+    key: "applyListeners",
+    value: function applyListeners(onOrOff) {
+      var props = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : this.props;
+      var target = props.target;
+
+      if (target) {
+        var element = target;
+
+        if (typeof target === 'string') {
+          element = window[target];
+        }
+
+        forEachListener(props, onOrOff.bind(null, element));
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return this.props.children || null;
+    }
+  }]);
+
+  return EventListener;
+}(React.PureComponent);
+
+EventListener.propTypes = 'development' !== "production" ? {
+  /**
+   * You can provide a single child too.
+   */
+  children: PropTypes.node,
+
+  /**
+   * The DOM target to listen to.
+   */
+  target: PropTypes.oneOfType([PropTypes.object, PropTypes.string]).isRequired
+} : {};
+
+exports.withOptions = withOptions;
+exports.default = EventListener;
+},{"@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","@babel/runtime/helpers/builtin/typeof":"node_modules/@babel/runtime/helpers/builtin/typeof.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","warning":"node_modules/react-event-listener/node_modules/warning/warning.js"}],"node_modules/debounce/index.js":[function(require,module,exports) {
+/**
+ * Returns a function, that, as long as it continues to be invoked, will not
+ * be triggered. The function will be called after it stops being called for
+ * N milliseconds. If `immediate` is passed, trigger the function on the
+ * leading edge, instead of the trailing. The function also has a property 'clear' 
+ * that is a function which will clear the timer to prevent previously scheduled executions. 
+ *
+ * @source underscore.js
+ * @see http://unscriptable.com/2009/03/20/debouncing-javascript-methods/
+ * @param {Function} function to wrap
+ * @param {Number} timeout in ms (`100`)
+ * @param {Boolean} whether to execute at the beginning (`false`)
+ * @api public
+ */
+
+module.exports = function debounce(func, wait, immediate){
+  var timeout, args, context, timestamp, result;
+  if (null == wait) wait = 100;
+
+  function later() {
+    var last = Date.now() - timestamp;
+
+    if (last < wait && last >= 0) {
+      timeout = setTimeout(later, wait - last);
+    } else {
+      timeout = null;
+      if (!immediate) {
+        result = func.apply(context, args);
+        context = args = null;
+      }
+    }
+  };
+
+  var debounced = function(){
+    context = this;
+    args = arguments;
+    timestamp = Date.now();
+    var callNow = immediate && !timeout;
+    if (!timeout) timeout = setTimeout(later, wait);
+    if (callNow) {
+      result = func.apply(context, args);
+      context = args = null;
+    }
+
+    return result;
+  };
+
+  debounced.clear = function() {
+    if (timeout) {
+      clearTimeout(timeout);
+      timeout = null;
+    }
+  };
+  
+  debounced.flush = function() {
+    if (timeout) {
+      result = func.apply(context, args);
+      context = args = null;
+      
+      clearTimeout(timeout);
+      timeout = null;
+    }
+  };
+
+  return debounced;
+};
+
+},{}],"node_modules/@material-ui/core/Slide/Slide.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.setTranslateValue = setTranslateValue;
+exports.default = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
+
+var _objectSpread2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectSpread"));
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+var _reactEventListener = _interopRequireDefault(require("react-event-listener"));
+
+var _debounce = _interopRequireDefault(require("debounce"));
+
+var _Transition = _interopRequireDefault(require("react-transition-group/Transition"));
+
+var _ownerWindow = _interopRequireDefault(require("../utils/ownerWindow"));
+
+var _withTheme = _interopRequireDefault(require("../styles/withTheme"));
+
+var _transitions = require("../styles/transitions");
+
+var _utils = require("../transitions/utils");
+
+// @inheritedComponent Transition
+// < 1kb payload overhead when lodash/debounce is > 3kb.
+var GUTTER = 24; // Translate the node so he can't be seen on the screen.
+// Later, we gonna translate back the node to his original location
+// with `translate3d(0, 0, 0)`.`
+
+function getTranslateValue(props, node) {
+  var direction = props.direction;
+  var rect = node.getBoundingClientRect();
+  var transform;
+
+  if (node.fakeTransform) {
+    transform = node.fakeTransform;
+  } else {
+    var computedStyle = (0, _ownerWindow.default)(node).getComputedStyle(node);
+    transform = computedStyle.getPropertyValue('-webkit-transform') || computedStyle.getPropertyValue('transform');
+  }
+
+  var offsetX = 0;
+  var offsetY = 0;
+
+  if (transform && transform !== 'none' && typeof transform === 'string') {
+    var transformValues = transform.split('(')[1].split(')')[0].split(',');
+    offsetX = parseInt(transformValues[4], 10);
+    offsetY = parseInt(transformValues[5], 10);
+  }
+
+  if (direction === 'left') {
+    return "translateX(100vw) translateX(-".concat(rect.left - offsetX, "px)");
+  }
+
+  if (direction === 'right') {
+    return "translateX(-".concat(rect.left + rect.width + GUTTER - offsetX, "px)");
+  }
+
+  if (direction === 'up') {
+    return "translateY(100vh) translateY(-".concat(rect.top - offsetY, "px)");
+  } // direction === 'down'
+
+
+  return "translateY(-".concat(rect.top + rect.height + GUTTER - offsetY, "px)");
+}
+
+function setTranslateValue(props, node) {
+  var transform = getTranslateValue(props, node);
+
+  if (transform) {
+    node.style.webkitTransform = transform;
+    node.style.transform = transform;
+  }
+}
+/**
+ * The Slide transition is used by the [Snackbar](/demos/snackbars) component.
+ * It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.
+ */
+
+var Slide =
+/*#__PURE__*/
+function (_React$Component) {
+  (0, _inherits2.default)(Slide, _React$Component);
+
+  function Slide() {
+    var _ref;
+
+    var _temp, _this;
+
+    (0, _classCallCheck2.default)(this, Slide);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Slide.__proto__ || Object.getPrototypeOf(Slide)).call.apply(_ref, [this].concat(args))), _this.mounted = false, _this.transition = null, _this.handleResize = (0, _debounce.default)(function () {
+      // Skip configuration where the position is screen size invariant.
+      if (_this.props.in || _this.props.direction === 'down' || _this.props.direction === 'right') {
+        return;
+      }
+
+      if (_this.transitionRef) {
+        setTranslateValue(_this.props, _this.transitionRef);
+      }
+    }, 166), _this.handleEnter = function (node) {
+      setTranslateValue(_this.props, node);
+      (0, _utils.reflow)(node);
+
+      if (_this.props.onEnter) {
+        _this.props.onEnter(node);
+      }
+    }, _this.handleEntering = function (node) {
+      var theme = _this.props.theme;
+      var transitionProps = (0, _utils.getTransitionProps)(_this.props, {
+        mode: 'enter'
+      });
+      node.style.webkitTransition = theme.transitions.create('-webkit-transform', (0, _objectSpread2.default)({}, transitionProps, {
+        easing: theme.transitions.easing.easeOut
+      }));
+      node.style.transition = theme.transitions.create('transform', (0, _objectSpread2.default)({}, transitionProps, {
+        easing: theme.transitions.easing.easeOut
+      }));
+      node.style.webkitTransform = 'translate(0, 0)';
+      node.style.transform = 'translate(0, 0)';
+
+      if (_this.props.onEntering) {
+        _this.props.onEntering(node);
+      }
+    }, _this.handleExit = function (node) {
+      var theme = _this.props.theme;
+      var transitionProps = (0, _utils.getTransitionProps)(_this.props, {
+        mode: 'exit'
+      });
+      node.style.webkitTransition = theme.transitions.create('-webkit-transform', (0, _objectSpread2.default)({}, transitionProps, {
+        easing: theme.transitions.easing.sharp
+      }));
+      node.style.transition = theme.transitions.create('transform', (0, _objectSpread2.default)({}, transitionProps, {
+        easing: theme.transitions.easing.sharp
+      }));
+      setTranslateValue(_this.props, node);
+
+      if (_this.props.onExit) {
+        _this.props.onExit(node);
+      }
+    }, _this.handleExited = function (node) {
+      // No need for transitions when the component is hidden
+      node.style.webkitTransition = '';
+      node.style.transition = '';
+
+      if (_this.props.onExited) {
+        _this.props.onExited(node);
+      }
+    }, _temp));
+  }
+
+  (0, _createClass2.default)(Slide, [{
+    key: "componentDidMount",
+    // Corresponds to 10 frames at 60 Hz.
+    value: function componentDidMount() {
+      // state.mounted handle SSR, once the component is mounted, we need
+      // to properly hide it.
+      if (!this.props.in) {
+        // We need to set initial translate values of transition element
+        // otherwise component will be shown when in=false.
+        this.updatePosition();
+      }
+
+      this.mounted = true;
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      if (prevProps.direction !== this.props.direction && !this.props.in) {
+        // We need to update the position of the drawer when the direction change and
+        // when it's hidden.
+        this.updatePosition();
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      this.handleResize.clear();
+    }
+  }, {
+    key: "updatePosition",
+    value: function updatePosition() {
+      if (this.transitionRef) {
+        this.transitionRef.style.visibility = 'inherit';
+        setTranslateValue(this.props, this.transitionRef);
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var _props = this.props,
+          children = _props.children,
+          onEnter = _props.onEnter,
+          onEntering = _props.onEntering,
+          onExit = _props.onExit,
+          onExited = _props.onExited,
+          styleProp = _props.style,
+          theme = _props.theme,
+          other = (0, _objectWithoutProperties2.default)(_props, ["children", "onEnter", "onEntering", "onExit", "onExited", "style", "theme"]);
+      var style = {}; // We use this state to handle the server-side rendering.
+      // We don't know the width of the children ahead of time.
+      // We need to render it.
+
+      if (!this.props.in && !this.mounted) {
+        style.visibility = 'hidden';
+      }
+
+      style = (0, _objectSpread2.default)({}, style, styleProp, _react.default.isValidElement(children) ? children.props.style : {});
+      return _react.default.createElement(_reactEventListener.default, {
+        target: "window",
+        onResize: this.handleResize
+      }, _react.default.createElement(_Transition.default, (0, _extends2.default)({
+        onEnter: this.handleEnter,
+        onEntering: this.handleEntering,
+        onExit: this.handleExit,
+        onExited: this.handleExited,
+        appear: true,
+        style: style,
+        ref: function ref(_ref2) {
+          _this2.transitionRef = _reactDom.default.findDOMNode(_ref2);
+        }
+      }, other), children));
+    }
+  }]);
+  return Slide;
+}(_react.default.Component);
+
+Slide.propTypes = "development" !== "production" ? {
+  /**
+   * A single child content element.
+   */
+  children: _propTypes.default.oneOfType([_propTypes.default.element, _propTypes.default.func]),
+
+  /**
+   * Direction the child node will enter from.
+   */
+  direction: _propTypes.default.oneOf(['left', 'right', 'up', 'down']),
+
+  /**
+   * If `true`, show the component; triggers the enter or exit animation.
+   */
+  in: _propTypes.default.bool,
+
+  /**
+   * @ignore
+   */
+  onEnter: _propTypes.default.func,
+
+  /**
+   * @ignore
+   */
+  onEntering: _propTypes.default.func,
+
+  /**
+   * @ignore
+   */
+  onExit: _propTypes.default.func,
+
+  /**
+   * @ignore
+   */
+  onExited: _propTypes.default.func,
+
+  /**
+   * @ignore
+   */
+  style: _propTypes.default.object,
+
+  /**
+   * @ignore
+   */
+  theme: _propTypes.default.object.isRequired,
+
+  /**
+   * The duration for the transition, in milliseconds.
+   * You may specify a single timeout for all transitions, or individually with an object.
+   */
+  timeout: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
+    enter: _propTypes.default.number,
+    exit: _propTypes.default.number
+  })])
+} : {};
+Slide.defaultProps = {
+  direction: 'down',
+  timeout: {
+    enter: _transitions.duration.enteringScreen,
+    exit: _transitions.duration.leavingScreen
+  }
+};
+
+var _default = (0, _withTheme.default)()(Slide);
+
+exports.default = _default;
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","react-dom":"node_modules/react-dom/index.js","react-event-listener":"node_modules/react-event-listener/dist/react-event-listener.cjs.js","debounce":"node_modules/debounce/index.js","react-transition-group/Transition":"node_modules/react-transition-group/Transition.js","../utils/ownerWindow":"node_modules/@material-ui/core/utils/ownerWindow.js","../styles/withTheme":"node_modules/@material-ui/core/styles/withTheme.js","../styles/transitions":"node_modules/@material-ui/core/styles/transitions.js","../transitions/utils":"node_modules/@material-ui/core/transitions/utils.js"}],"node_modules/@material-ui/core/Slide/index.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _Slide.default;
+  }
+});
+
+var _Slide = _interopRequireDefault(require("./Slide"));
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Slide":"node_modules/@material-ui/core/Slide/Slide.js"}],"node_modules/@material-ui/core/Drawer/Drawer.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isHorizontal = isHorizontal;
+exports.getAnchor = getAnchor;
+exports.default = exports.styles = void 0;
+
+var _objectSpread2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectSpread"));
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
+
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/defineProperty"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _classnames = _interopRequireDefault(require("classnames"));
+
+var _Modal = _interopRequireDefault(require("../Modal"));
+
+var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
+
+var _Slide = _interopRequireDefault(require("../Slide"));
+
+var _Paper = _interopRequireDefault(require("../Paper"));
+
+var _helpers = require("../utils/helpers");
+
+var _transitions = require("../styles/transitions");
+
+var oppositeDirection = {
+  left: 'right',
+  right: 'left',
+  top: 'down',
+  bottom: 'up'
+};
+
+function isHorizontal(props) {
+  return ['left', 'right'].indexOf(props.anchor) !== -1;
+}
+
+function getAnchor(props) {
+  return props.theme.direction === 'rtl' && isHorizontal(props) ? oppositeDirection[props.anchor] : props.anchor;
+}
+
+var styles = function styles(theme) {
+  return {
+    /* Styles applied to the root element if `variant="permanent or persistent"`. */
+    docked: {
+      flex: '0 0 auto'
+    },
+
+    /* Styles applied to the `Paper` component. */
+    paper: {
+      overflowY: 'auto',
+      display: 'flex',
+      flexDirection: 'column',
+      height: '100vh',
+      flex: '1 0 auto',
+      zIndex: theme.zIndex.drawer,
+      WebkitOverflowScrolling: 'touch',
+      // Add iOS momentum scrolling.
+      // temporary style
+      position: 'fixed',
+      top: 0,
+      // We disable the focus ring for mouse, touch and keyboard users.
+      // At some point, it would be better to keep it for keyboard users.
+      // :focus-ring CSS pseudo-class will help.
+      outline: 'none'
+    },
+
+    /* Styles applied to the `Paper` component if `anchor="left"`. */
+    paperAnchorLeft: {
+      left: 0,
+      right: 'auto'
+    },
+
+    /* Styles applied to the `Paper` component if `anchor="right"`. */
+    paperAnchorRight: {
+      left: 'auto',
+      right: 0
+    },
+
+    /* Styles applied to the `Paper` component if `anchor="top"`. */
+    paperAnchorTop: {
+      top: 0,
+      left: 0,
+      bottom: 'auto',
+      right: 0,
+      height: 'auto',
+      maxHeight: '100vh'
+    },
+
+    /* Styles applied to the `Paper` component if `anchor="bottom"`. */
+    paperAnchorBottom: {
+      top: 'auto',
+      left: 0,
+      bottom: 0,
+      right: 0,
+      height: 'auto',
+      maxHeight: '100vh'
+    },
+
+    /* Styles applied to the `Paper` component if `anchor="left"` & `variant` is not "temporary". */
+    paperAnchorDockedLeft: {
+      borderRight: "1px solid ".concat(theme.palette.divider)
+    },
+
+    /* Styles applied to the `Paper` component if `anchor="top"` & `variant` is not "temporary". */
+    paperAnchorDockedTop: {
+      borderBottom: "1px solid ".concat(theme.palette.divider)
+    },
+
+    /* Styles applied to the `Paper` component if `anchor="right"` & `variant` is not "temporary". */
+    paperAnchorDockedRight: {
+      borderLeft: "1px solid ".concat(theme.palette.divider)
+    },
+
+    /* Styles applied to the `Paper` component if `anchor="bottom"` & `variant` is not "temporary". */
+    paperAnchorDockedBottom: {
+      borderTop: "1px solid ".concat(theme.palette.divider)
+    },
+
+    /* Styles applied to the `Modal` component. */
+    modal: {}
+  };
+};
+/**
+ * The properties of the [Modal](/api/modal) component are available
+ * when `variant="temporary"` is set.
+ */
+
+exports.styles = styles;
+
+var Drawer =
+/*#__PURE__*/
+function (_React$Component) {
+  (0, _inherits2.default)(Drawer, _React$Component);
+
+  function Drawer() {
+    var _ref;
+
+    var _temp, _this;
+
+    (0, _classCallCheck2.default)(this, Drawer);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Drawer.__proto__ || Object.getPrototypeOf(Drawer)).call.apply(_ref, [this].concat(args))), _this.mounted = false, _temp));
+  }
+
+  (0, _createClass2.default)(Drawer, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.mounted = true;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _props = this.props,
+          anchorProp = _props.anchor,
+          children = _props.children,
+          classes = _props.classes,
+          className = _props.className,
+          elevation = _props.elevation,
+          _props$ModalProps = _props.ModalProps;
+      _props$ModalProps = _props$ModalProps === void 0 ? {} : _props$ModalProps;
+      var BackdropPropsProp = _props$ModalProps.BackdropProps,
+          ModalProps = (0, _objectWithoutProperties2.default)(_props$ModalProps, ["BackdropProps"]),
+          onClose = _props.onClose,
+          open = _props.open,
+          PaperProps = _props.PaperProps,
+          SlideProps = _props.SlideProps,
+          theme = _props.theme,
+          transitionDuration = _props.transitionDuration,
+          variant = _props.variant,
+          other = (0, _objectWithoutProperties2.default)(_props, ["anchor", "children", "classes", "className", "elevation", "ModalProps", "onClose", "open", "PaperProps", "SlideProps", "theme", "transitionDuration", "variant"]);
+      var anchor = getAnchor(this.props);
+
+      var drawer = _react.default.createElement(_Paper.default, (0, _extends2.default)({
+        elevation: variant === 'temporary' ? elevation : 0,
+        square: true,
+        className: (0, _classnames.default)(classes.paper, classes["paperAnchor".concat((0, _helpers.capitalize)(anchor))], (0, _defineProperty2.default)({}, classes["paperAnchorDocked".concat((0, _helpers.capitalize)(anchor))], variant !== 'temporary'))
+      }, PaperProps), children);
+
+      if (variant === 'permanent') {
+        return _react.default.createElement("div", (0, _extends2.default)({
+          className: (0, _classnames.default)(classes.docked, className)
+        }, other), drawer);
+      }
+
+      var slidingDrawer = _react.default.createElement(_Slide.default, (0, _extends2.default)({
+        "in": open,
+        direction: oppositeDirection[anchor],
+        timeout: transitionDuration,
+        appear: this.mounted
+      }, SlideProps), drawer);
+
+      if (variant === 'persistent') {
+        return _react.default.createElement("div", (0, _extends2.default)({
+          className: (0, _classnames.default)(classes.docked, className)
+        }, other), slidingDrawer);
+      } // variant === temporary
+
+
+      return _react.default.createElement(_Modal.default, (0, _extends2.default)({
+        BackdropProps: (0, _objectSpread2.default)({}, BackdropPropsProp, {
+          transitionDuration: transitionDuration
+        }),
+        className: (0, _classnames.default)(classes.modal, className),
+        open: open,
+        onClose: onClose
+      }, other, ModalProps), slidingDrawer);
+    }
+  }]);
+  return Drawer;
+}(_react.default.Component);
+
+Drawer.propTypes = "development" !== "production" ? {
+  /**
+   * Side from which the drawer will appear.
+   */
+  anchor: _propTypes.default.oneOf(['left', 'top', 'right', 'bottom']),
+
+  /**
+   * The contents of the drawer.
+   */
+  children: _propTypes.default.node,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css-api) below for more details.
+   */
+  classes: _propTypes.default.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: _propTypes.default.string,
+
+  /**
+   * The elevation of the drawer.
+   */
+  elevation: _propTypes.default.number,
+
+  /**
+   * Properties applied to the [`Modal`](/api/modal) element.
+   */
+  ModalProps: _propTypes.default.object,
+
+  /**
+   * Callback fired when the component requests to be closed.
+   *
+   * @param {object} event The event source of the callback
+   */
+  onClose: _propTypes.default.func,
+
+  /**
+   * If `true`, the drawer is open.
+   */
+  open: _propTypes.default.bool,
+
+  /**
+   * Properties applied to the [`Paper`](/api/paper) element.
+   */
+  PaperProps: _propTypes.default.object,
+
+  /**
+   * Properties applied to the [`Slide`](/api/slide) element.
+   */
+  SlideProps: _propTypes.default.object,
+
+  /**
+   * @ignore
+   */
+  theme: _propTypes.default.object.isRequired,
+
+  /**
+   * The duration for the transition, in milliseconds.
+   * You may specify a single timeout for all transitions, or individually with an object.
+   */
+  transitionDuration: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
+    enter: _propTypes.default.number,
+    exit: _propTypes.default.number
+  })]),
+
+  /**
+   * The variant to use.
+   */
+  variant: _propTypes.default.oneOf(['permanent', 'persistent', 'temporary'])
+} : {};
+Drawer.defaultProps = {
+  anchor: 'left',
+  elevation: 16,
+  open: false,
+  transitionDuration: {
+    enter: _transitions.duration.enteringScreen,
+    exit: _transitions.duration.leavingScreen
+  },
+  variant: 'temporary' // Mobile first.
+
+};
+
+var _default = (0, _withStyles.default)(styles, {
+  name: 'MuiDrawer',
+  flip: false,
+  withTheme: true
+})(Drawer);
+
+exports.default = _default;
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","../Modal":"node_modules/@material-ui/core/Modal/index.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","../Slide":"node_modules/@material-ui/core/Slide/index.js","../Paper":"node_modules/@material-ui/core/Paper/index.js","../utils/helpers":"node_modules/@material-ui/core/utils/helpers.js","../styles/transitions":"node_modules/@material-ui/core/styles/transitions.js"}],"node_modules/@material-ui/core/Drawer/index.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _Drawer.default;
+  }
+});
+
+var _Drawer = _interopRequireDefault(require("./Drawer"));
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Drawer":"node_modules/@material-ui/core/Drawer/Drawer.js"}],"node_modules/@material-ui/core/List/List.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.styles = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
+
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/defineProperty"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _classnames = _interopRequireDefault(require("classnames"));
+
+var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
+
+var styles = {
+  /* Styles applied to the root element. */
+  root: {
+    listStyle: 'none',
+    margin: 0,
+    padding: 0,
+    position: 'relative'
+  },
+
+  /* Styles applied to the root element if `disablePadding={false}`. */
+  padding: {
+    paddingTop: 8,
+    paddingBottom: 8
+  },
+
+  /* Styles applied to the root element if `dense={true}` & `disablePadding={false}`. */
+  dense: {
+    paddingTop: 4,
+    paddingBottom: 4
+  },
+
+  /* Styles applied to the root element if a `subheader` is provided. */
+  subheader: {
+    paddingTop: 0
+  }
+};
+exports.styles = styles;
+
+var List =
+/*#__PURE__*/
+function (_React$Component) {
+  (0, _inherits2.default)(List, _React$Component);
+
+  function List() {
+    (0, _classCallCheck2.default)(this, List);
+    return (0, _possibleConstructorReturn2.default)(this, (List.__proto__ || Object.getPrototypeOf(List)).apply(this, arguments));
+  }
+
+  (0, _createClass2.default)(List, [{
+    key: "getChildContext",
+    value: function getChildContext() {
+      return {
+        dense: this.props.dense
+      };
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _classNames;
+
+      var _props = this.props,
+          children = _props.children,
+          classes = _props.classes,
+          classNameProp = _props.className,
+          Component = _props.component,
+          dense = _props.dense,
+          disablePadding = _props.disablePadding,
+          subheader = _props.subheader,
+          other = (0, _objectWithoutProperties2.default)(_props, ["children", "classes", "className", "component", "dense", "disablePadding", "subheader"]);
+      var className = (0, _classnames.default)(classes.root, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.dense, dense && !disablePadding), (0, _defineProperty2.default)(_classNames, classes.padding, !disablePadding), (0, _defineProperty2.default)(_classNames, classes.subheader, subheader), _classNames), classNameProp);
+      return _react.default.createElement(Component, (0, _extends2.default)({
+        className: className
+      }, other), subheader, children);
+    }
+  }]);
+  return List;
+}(_react.default.Component);
+
+List.propTypes = "development" !== "production" ? {
+  /**
+   * The content of the component.
+   */
+  children: _propTypes.default.node,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css-api) below for more details.
+   */
+  classes: _propTypes.default.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: _propTypes.default.string,
+
+  /**
+   * The component used for the root node.
+   * Either a string to use a DOM element or a component.
+   */
+  component: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.func, _propTypes.default.object]),
+
+  /**
+   * If `true`, compact vertical padding designed for keyboard and mouse input will be used for
+   * the list and list items. The property is available to descendant components as the
+   * `dense` context.
+   */
+  dense: _propTypes.default.bool,
+
+  /**
+   * If `true`, vertical padding will be removed from the list.
+   */
+  disablePadding: _propTypes.default.bool,
+
+  /**
+   * The content of the subheader, normally `ListSubheader`.
+   */
+  subheader: _propTypes.default.node
+} : {};
+List.defaultProps = {
+  component: 'ul',
+  dense: false,
+  disablePadding: false
+};
+List.childContextTypes = {
+  dense: _propTypes.default.bool
+};
+
+var _default = (0, _withStyles.default)(styles, {
+  name: 'MuiList'
+})(List);
+
+exports.default = _default;
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js"}],"node_modules/@material-ui/core/List/index.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _List.default;
+  }
+});
+
+var _List = _interopRequireDefault(require("./List"));
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./List":"node_modules/@material-ui/core/List/List.js"}],"node_modules/@material-ui/core/utils/reactHelpers.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.cloneElementWithClassName = cloneElementWithClassName;
+exports.cloneChildrenWithClassName = cloneChildrenWithClassName;
+exports.isMuiElement = isMuiElement;
+exports.isMuiComponent = isMuiComponent;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _classnames = _interopRequireDefault(require("classnames"));
+
+/* eslint-disable import/prefer-default-export */
+function cloneElementWithClassName(child, className) {
+  return _react.default.cloneElement(child, {
+    className: (0, _classnames.default)(child.props.className, className)
+  });
+}
+
+function cloneChildrenWithClassName(children, className) {
+  return _react.default.Children.map(children, function (child) {
+    return _react.default.isValidElement(child) && cloneElementWithClassName(child, className);
+  });
+}
+
+function isMuiElement(element, muiNames) {
+  return _react.default.isValidElement(element) && muiNames.indexOf(element.type.muiName) !== -1;
+}
+
+function isMuiComponent(element, muiNames) {
+  return muiNames.indexOf(element.muiName) !== -1;
+}
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","react":"node_modules/react/index.js","classnames":"node_modules/classnames/index.js"}],"node_modules/@material-ui/core/ListItem/ListItem.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.styles = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
+
+var _objectSpread2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectSpread"));
+
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/defineProperty"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _classnames = _interopRequireDefault(require("classnames"));
+
+var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
+
+var _ButtonBase = _interopRequireDefault(require("../ButtonBase"));
+
+var _reactHelpers = require("../utils/reactHelpers");
+
+var styles = function styles(theme) {
+  return {
+    /* Styles applied to the (normally root) `component` element. May be wrapped by a `container`. */
+    root: {
+      display: 'flex',
+      justifyContent: 'flex-start',
+      alignItems: 'center',
+      position: 'relative',
+      textDecoration: 'none',
+      width: '100%',
+      boxSizing: 'border-box',
+      textAlign: 'left',
+      paddingTop: 12,
+      paddingBottom: 12
+    },
+
+    /* Styles applied to the `container` element if `children` includes `ListItemSecondaryAction`. */
+    container: {
+      position: 'relative'
+    },
+    // TODO: Sanity check this - why is focusVisibleClassName prop apparently applied to a div?
+
+    /* Styles applied to the `component`'s `focusVisibleClassName` property if `button={true}`. */
+    focusVisible: {
+      backgroundColor: theme.palette.action.hover
+    },
+
+    /* Legacy styles applied to the root element. Use `root` instead. */
+    default: {},
+
+    /* Styles applied to the `component` element if `dense={true}` or `children` includes `Avatar`. */
+    dense: {
+      paddingTop: 8,
+      paddingBottom: 8
+    },
+
+    /* Styles applied to the inner `component` element if `disabled={true}`. */
+    disabled: {
+      opacity: 0.5
+    },
+
+    /* Styles applied to the inner `component` element if `divider={true}`. */
+    divider: {
+      borderBottom: "1px solid ".concat(theme.palette.divider),
+      backgroundClip: 'padding-box'
+    },
+
+    /* Styles applied to the inner `component` element if `disableGutters={false}`. */
+    gutters: theme.mixins.gutters(),
+
+    /* Styles applied to the inner `component` element if `button={true}`. */
+    button: {
+      transition: theme.transitions.create('background-color', {
+        duration: theme.transitions.duration.shortest
+      }),
+      '&:hover': {
+        textDecoration: 'none',
+        backgroundColor: theme.palette.action.hover,
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        }
+      }
+    },
+
+    /* Styles applied to the `component` element if `children` includes `ListItemSecondaryAction`. */
+    secondaryAction: {
+      // Add some space to avoid collision as `ListItemSecondaryAction`
+      // is absolutely positionned.
+      paddingRight: 32
+    }
+  };
+};
+
+exports.styles = styles;
+
+var ListItem =
+/*#__PURE__*/
+function (_React$Component) {
+  (0, _inherits2.default)(ListItem, _React$Component);
+
+  function ListItem() {
+    (0, _classCallCheck2.default)(this, ListItem);
+    return (0, _possibleConstructorReturn2.default)(this, (ListItem.__proto__ || Object.getPrototypeOf(ListItem)).apply(this, arguments));
+  }
+
+  (0, _createClass2.default)(ListItem, [{
+    key: "getChildContext",
+    value: function getChildContext() {
+      return {
+        dense: this.props.dense || this.context.dense || false
+      };
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _classNames;
+
+      var _props = this.props,
+          button = _props.button,
+          childrenProp = _props.children,
+          classes = _props.classes,
+          classNameProp = _props.className,
+          componentProp = _props.component,
+          ContainerComponent = _props.ContainerComponent,
+          _props$ContainerProps = _props.ContainerProps;
+      _props$ContainerProps = _props$ContainerProps === void 0 ? {} : _props$ContainerProps;
+      var ContainerClassName = _props$ContainerProps.className,
+          ContainerProps = (0, _objectWithoutProperties2.default)(_props$ContainerProps, ["className"]),
+          dense = _props.dense,
+          disabled = _props.disabled,
+          disableGutters = _props.disableGutters,
+          divider = _props.divider,
+          focusVisibleClassName = _props.focusVisibleClassName,
+          other = (0, _objectWithoutProperties2.default)(_props, ["button", "children", "classes", "className", "component", "ContainerComponent", "ContainerProps", "dense", "disabled", "disableGutters", "divider", "focusVisibleClassName"]);
+      var isDense = dense || this.context.dense || false;
+
+      var children = _react.default.Children.toArray(childrenProp);
+
+      var hasAvatar = children.some(function (value) {
+        return (0, _reactHelpers.isMuiElement)(value, ['ListItemAvatar']);
+      });
+      var hasSecondaryAction = children.length && (0, _reactHelpers.isMuiElement)(children[children.length - 1], ['ListItemSecondaryAction']);
+      var className = (0, _classnames.default)(classes.root, classes.default, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.dense, isDense || hasAvatar), (0, _defineProperty2.default)(_classNames, classes.gutters, !disableGutters), (0, _defineProperty2.default)(_classNames, classes.divider, divider), (0, _defineProperty2.default)(_classNames, classes.disabled, disabled), (0, _defineProperty2.default)(_classNames, classes.button, button), (0, _defineProperty2.default)(_classNames, classes.secondaryAction, hasSecondaryAction), _classNames), classNameProp);
+      var componentProps = (0, _objectSpread2.default)({
+        className: className,
+        disabled: disabled
+      }, other);
+      var Component = componentProp || 'li';
+
+      if (button) {
+        componentProps.component = componentProp || 'div';
+        componentProps.focusVisibleClassName = (0, _classnames.default)(classes.focusVisible, focusVisibleClassName);
+        Component = _ButtonBase.default;
+      }
+
+      if (hasSecondaryAction) {
+        // Use div by default.
+        Component = !componentProps.component && !componentProp ? 'div' : Component; // Avoid nesting of li > li.
+
+        if (ContainerComponent === 'li') {
+          if (Component === 'li') {
+            Component = 'div';
+          } else if (componentProps.component === 'li') {
+            componentProps.component = 'div';
+          }
+        }
+
+        return _react.default.createElement(ContainerComponent, (0, _extends2.default)({
+          className: (0, _classnames.default)(classes.container, ContainerClassName)
+        }, ContainerProps), _react.default.createElement(Component, componentProps, children), children.pop());
+      }
+
+      return _react.default.createElement(Component, componentProps, children);
+    }
+  }]);
+  return ListItem;
+}(_react.default.Component);
+
+ListItem.propTypes = "development" !== "production" ? {
+  /**
+   * If `true`, the list item will be a button (using `ButtonBase`).
+   */
+  button: _propTypes.default.bool,
+
+  /**
+   * The content of the component.
+   */
+  children: _propTypes.default.node,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css-api) below for more details.
+   */
+  classes: _propTypes.default.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: _propTypes.default.string,
+
+  /**
+   * The component used for the root node.
+   * Either a string to use a DOM element or a component.
+   * By default, it's a `li` when `button` is `false` and a `div` when `button` is `true`.
+   */
+  component: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.func, _propTypes.default.object]),
+
+  /**
+   * The container component used when a `ListItemSecondaryAction` is rendered.
+   */
+  ContainerComponent: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.func, _propTypes.default.object]),
+
+  /**
+   * Properties applied to the container element when the component
+   * is used to display a `ListItemSecondaryAction`.
+   */
+  ContainerProps: _propTypes.default.object,
+
+  /**
+   * If `true`, compact vertical padding designed for keyboard and mouse input will be used.
+   */
+  dense: _propTypes.default.bool,
+
+  /**
+   * If `true`, the list item will be disabled.
+   */
+  disabled: _propTypes.default.bool,
+
+  /**
+   * If `true`, the left and right padding is removed.
+   */
+  disableGutters: _propTypes.default.bool,
+
+  /**
+   * If `true`, a 1px light border is added to the bottom of the list item.
+   */
+  divider: _propTypes.default.bool,
+
+  /**
+   * @ignore
+   */
+  focusVisibleClassName: _propTypes.default.string
+} : {};
+ListItem.defaultProps = {
+  button: false,
+  ContainerComponent: 'li',
+  dense: false,
+  disabled: false,
+  disableGutters: false,
+  divider: false
+};
+ListItem.contextTypes = {
+  dense: _propTypes.default.bool
+};
+ListItem.childContextTypes = {
+  dense: _propTypes.default.bool
+};
+
+var _default = (0, _withStyles.default)(styles, {
+  name: 'MuiListItem'
+})(ListItem);
+
+exports.default = _default;
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","../ButtonBase":"node_modules/@material-ui/core/ButtonBase/index.js","../utils/reactHelpers":"node_modules/@material-ui/core/utils/reactHelpers.js"}],"node_modules/@material-ui/core/ListItem/index.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _ListItem.default;
+  }
+});
+
+var _ListItem = _interopRequireDefault(require("./ListItem"));
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./ListItem":"node_modules/@material-ui/core/ListItem/ListItem.js"}],"node_modules/@material-ui/core/ListItemText/ListItemText.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.styles = void 0;
+
+var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
+
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/defineProperty"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _classnames = _interopRequireDefault(require("classnames"));
+
+var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
+
+var _Typography = _interopRequireDefault(require("../Typography"));
+
+var styles = function styles(theme) {
+  return {
+    /* Styles applied to the root element. */
+    root: {
+      flex: '1 1 auto',
+      minWidth: 0,
+      padding: '0 16px',
+      '&:first-child': {
+        paddingLeft: 0
+      }
+    },
+
+    /* Styles applied to the root element if `inset={true}`. */
+    inset: {
+      '&:first-child': {
+        paddingLeft: 56
+      }
+    },
+
+    /* Styles applied to the root element if `context.dense` is `true`. */
+    dense: {
+      fontSize: theme.typography.pxToRem(13)
+    },
+
+    /* Styles applied to the primary `Typography` component. */
+    primary: {
+      '&$textDense': {
+        fontSize: 'inherit'
+      }
+    },
+
+    /* Styles applied to the secondary `Typography` component. */
+    secondary: {
+      '&$textDense': {
+        fontSize: 'inherit'
+      }
+    },
+
+    /* Styles applied to the `Typography` components if `context.dense` is `true`. */
+    textDense: {}
+  };
+};
+
+exports.styles = styles;
+
+function ListItemText(props, context) {
+  var _classNames3;
+
+  var children = props.children,
+      classes = props.classes,
+      classNameProp = props.className,
+      disableTypography = props.disableTypography,
+      inset = props.inset,
+      primaryProp = props.primary,
+      primaryTypographyProps = props.primaryTypographyProps,
+      secondaryProp = props.secondary,
+      secondaryTypographyProps = props.secondaryTypographyProps,
+      other = (0, _objectWithoutProperties2.default)(props, ["children", "classes", "className", "disableTypography", "inset", "primary", "primaryTypographyProps", "secondary", "secondaryTypographyProps"]);
+  var dense = context.dense;
+  var primary = primaryProp != null ? primaryProp : children;
+
+  if (primary != null && primary.type !== _Typography.default && !disableTypography) {
+    primary = _react.default.createElement(_Typography.default, (0, _extends2.default)({
+      variant: "subheading",
+      className: (0, _classnames.default)(classes.primary, (0, _defineProperty2.default)({}, classes.textDense, dense)),
+      component: "span"
+    }, primaryTypographyProps), primary);
+  }
+
+  var secondary = secondaryProp;
+
+  if (secondary != null && secondary.type !== _Typography.default && !disableTypography) {
+    secondary = _react.default.createElement(_Typography.default, (0, _extends2.default)({
+      variant: "body1",
+      className: (0, _classnames.default)(classes.secondary, (0, _defineProperty2.default)({}, classes.textDense, dense)),
+      color: "textSecondary"
+    }, secondaryTypographyProps), secondary);
+  }
+
+  return _react.default.createElement("div", (0, _extends2.default)({
+    className: (0, _classnames.default)(classes.root, (_classNames3 = {}, (0, _defineProperty2.default)(_classNames3, classes.dense, dense), (0, _defineProperty2.default)(_classNames3, classes.inset, inset), _classNames3), classNameProp)
+  }, other), primary, secondary);
+}
+
+ListItemText.propTypes = "development" !== "production" ? {
+  /**
+   * Alias for the `primary` property.
+   */
+  children: _propTypes.default.node,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css-api) below for more details.
+   */
+  classes: _propTypes.default.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: _propTypes.default.string,
+
+  /**
+   * If `true`, the children won't be wrapped by a Typography component.
+   * This can be useful to render an alternative Typography variant by wrapping
+   * the `children` (or `primary`) text, and optional `secondary` text
+   * with the Typography component.
+   */
+  disableTypography: _propTypes.default.bool,
+
+  /**
+   * If `true`, the children will be indented.
+   * This should be used if there is no left avatar or left icon.
+   */
+  inset: _propTypes.default.bool,
+
+  /**
+   * The main content element.
+   */
+  primary: _propTypes.default.node,
+
+  /**
+   * These props will be forwarded to the primary typography component
+   * (as long as disableTypography is not `true`).
+   */
+  primaryTypographyProps: _propTypes.default.object,
+
+  /**
+   * The secondary content element.
+   */
+  secondary: _propTypes.default.node,
+
+  /**
+   * These props will be forwarded to the secondary typography component
+   * (as long as disableTypography is not `true`).
+   */
+  secondaryTypographyProps: _propTypes.default.object
+} : {};
+ListItemText.defaultProps = {
+  disableTypography: false,
+  inset: false
+};
+ListItemText.contextTypes = {
+  dense: _propTypes.default.bool
+};
+
+var _default = (0, _withStyles.default)(styles, {
+  name: 'MuiListItemText'
+})(ListItemText);
+
+exports.default = _default;
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","../Typography":"node_modules/@material-ui/core/Typography/index.js"}],"node_modules/@material-ui/core/ListItemText/index.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _ListItemText.default;
+  }
+});
+
+var _ListItemText = _interopRequireDefault(require("./ListItemText"));
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./ListItemText":"node_modules/@material-ui/core/ListItemText/ListItemText.js"}],"node_modules/@material-ui/core/colors/purple.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -32407,341 +35835,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Avatar = _interopRequireDefault(require("./Avatar"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Avatar":"node_modules/@material-ui/core/Avatar/Avatar.js"}],"node_modules/@material-ui/core/transitions/utils.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.getTransitionProps = getTransitionProps;
-exports.reflow = void 0;
-
-var reflow = function reflow(node) {
-  return node.scrollTop;
-};
-
-exports.reflow = reflow;
-
-function getTransitionProps(props, options) {
-  var timeout = props.timeout,
-      _props$style = props.style,
-      style = _props$style === void 0 ? {} : _props$style;
-  return {
-    duration: style.transitionDuration || typeof timeout === 'number' ? timeout : timeout[options.mode],
-    delay: style.transitionDelay
-  };
-}
-},{}],"node_modules/@material-ui/core/Fade/Fade.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
-
-var _objectSpread2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectSpread"));
-
-var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
-
-var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
-
-var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
-
-var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
-
-var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
-
-var _react = _interopRequireDefault(require("react"));
-
-var _propTypes = _interopRequireDefault(require("prop-types"));
-
-var _Transition = _interopRequireDefault(require("react-transition-group/Transition"));
-
-var _transitions = require("../styles/transitions");
-
-var _withTheme = _interopRequireDefault(require("../styles/withTheme"));
-
-var _utils = require("../transitions/utils");
-
-// @inheritedComponent Transition
-var styles = {
-  entering: {
-    opacity: 1
-  },
-  entered: {
-    opacity: 1
-  }
-};
-/**
- * The Fade transition is used by the [Modal](/utils/modal) component.
- * It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.
- */
-
-var Fade =
-/*#__PURE__*/
-function (_React$Component) {
-  (0, _inherits2.default)(Fade, _React$Component);
-
-  function Fade() {
-    var _ref;
-
-    var _temp, _this;
-
-    (0, _classCallCheck2.default)(this, Fade);
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Fade.__proto__ || Object.getPrototypeOf(Fade)).call.apply(_ref, [this].concat(args))), _this.handleEnter = function (node) {
-      var theme = _this.props.theme;
-      (0, _utils.reflow)(node); // So the animation always start from the start.
-
-      var transitionProps = (0, _utils.getTransitionProps)(_this.props, {
-        mode: 'enter'
-      });
-      node.style.webkitTransition = theme.transitions.create('opacity', transitionProps);
-      node.style.transition = theme.transitions.create('opacity', transitionProps);
-
-      if (_this.props.onEnter) {
-        _this.props.onEnter(node);
-      }
-    }, _this.handleExit = function (node) {
-      var theme = _this.props.theme;
-      var transitionProps = (0, _utils.getTransitionProps)(_this.props, {
-        mode: 'exit'
-      });
-      node.style.webkitTransition = theme.transitions.create('opacity', transitionProps);
-      node.style.transition = theme.transitions.create('opacity', transitionProps);
-
-      if (_this.props.onExit) {
-        _this.props.onExit(node);
-      }
-    }, _temp));
-  }
-
-  (0, _createClass2.default)(Fade, [{
-    key: "render",
-    value: function render() {
-      var _props = this.props,
-          children = _props.children,
-          onEnter = _props.onEnter,
-          onExit = _props.onExit,
-          styleProp = _props.style,
-          theme = _props.theme,
-          other = (0, _objectWithoutProperties2.default)(_props, ["children", "onEnter", "onExit", "style", "theme"]);
-      var style = (0, _objectSpread2.default)({}, styleProp, _react.default.isValidElement(children) ? children.props.style : {});
-      return _react.default.createElement(_Transition.default, (0, _extends2.default)({
-        appear: true,
-        onEnter: this.handleEnter,
-        onExit: this.handleExit
-      }, other), function (state, childProps) {
-        return _react.default.cloneElement(children, (0, _objectSpread2.default)({
-          style: (0, _objectSpread2.default)({
-            opacity: 0,
-            willChange: 'opacity'
-          }, styles[state], style)
-        }, childProps));
-      });
-    }
-  }]);
-  return Fade;
-}(_react.default.Component);
-
-Fade.propTypes = "development" !== "production" ? {
-  /**
-   * A single child content element.
-   */
-  children: _propTypes.default.oneOfType([_propTypes.default.element, _propTypes.default.func]),
-
-  /**
-   * If `true`, the component will transition in.
-   */
-  in: _propTypes.default.bool,
-
-  /**
-   * @ignore
-   */
-  onEnter: _propTypes.default.func,
-
-  /**
-   * @ignore
-   */
-  onExit: _propTypes.default.func,
-
-  /**
-   * @ignore
-   */
-  style: _propTypes.default.object,
-
-  /**
-   * @ignore
-   */
-  theme: _propTypes.default.object.isRequired,
-
-  /**
-   * The duration for the transition, in milliseconds.
-   * You may specify a single timeout for all transitions, or individually with an object.
-   */
-  timeout: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
-    enter: _propTypes.default.number,
-    exit: _propTypes.default.number
-  })])
-} : {};
-Fade.defaultProps = {
-  timeout: {
-    enter: _transitions.duration.enteringScreen,
-    exit: _transitions.duration.leavingScreen
-  }
-};
-
-var _default = (0, _withTheme.default)()(Fade);
-
-exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","react-transition-group/Transition":"node_modules/@material-ui/core/node_modules/react-transition-group/Transition.js","../styles/transitions":"node_modules/@material-ui/core/styles/transitions.js","../styles/withTheme":"node_modules/@material-ui/core/styles/withTheme.js","../transitions/utils":"node_modules/@material-ui/core/transitions/utils.js"}],"node_modules/@material-ui/core/Fade/index.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "default", {
-  enumerable: true,
-  get: function get() {
-    return _Fade.default;
-  }
-});
-
-var _Fade = _interopRequireDefault(require("./Fade"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Fade":"node_modules/@material-ui/core/Fade/Fade.js"}],"node_modules/@material-ui/core/Backdrop/Backdrop.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = exports.styles = void 0;
-
-var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
-
-var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/defineProperty"));
-
-var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
-
-var _react = _interopRequireDefault(require("react"));
-
-var _propTypes = _interopRequireDefault(require("prop-types"));
-
-var _classnames = _interopRequireDefault(require("classnames"));
-
-var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
-
-var _Fade = _interopRequireDefault(require("../Fade"));
-
-var styles = {
-  /* Styles applied to the root element. */
-  root: {
-    zIndex: -1,
-    position: 'fixed',
-    right: 0,
-    bottom: 0,
-    top: 0,
-    left: 0,
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    // Remove grey highlight
-    WebkitTapHighlightColor: 'transparent',
-    // Disable scroll capabilities.
-    touchAction: 'none'
-  },
-
-  /* Styles applied to the root element if `invisible={true}`. */
-  invisible: {
-    backgroundColor: 'transparent'
-  }
-};
-exports.styles = styles;
-
-function Backdrop(props) {
-  var classes = props.classes,
-      className = props.className,
-      invisible = props.invisible,
-      open = props.open,
-      transitionDuration = props.transitionDuration,
-      other = (0, _objectWithoutProperties2.default)(props, ["classes", "className", "invisible", "open", "transitionDuration"]);
-  return _react.default.createElement(_Fade.default, (0, _extends2.default)({
-    appear: true,
-    "in": open,
-    timeout: transitionDuration
-  }, other), _react.default.createElement("div", {
-    className: (0, _classnames.default)(classes.root, (0, _defineProperty2.default)({}, classes.invisible, invisible), className),
-    "aria-hidden": "true"
-  }));
-}
-
-Backdrop.propTypes = "development" !== "production" ? {
-  /**
-   * Override or extend the styles applied to the component.
-   * See [CSS API](#css-api) below for more details.
-   */
-  classes: _propTypes.default.object.isRequired,
-
-  /**
-   * @ignore
-   */
-  className: _propTypes.default.string,
-
-  /**
-   * If `true`, the backdrop is invisible.
-   * It can be used when rendering a popover or a custom select component.
-   */
-  invisible: _propTypes.default.bool,
-
-  /**
-   * If `true`, the backdrop is open.
-   */
-  open: _propTypes.default.bool.isRequired,
-
-  /**
-   * The duration for the transition, in milliseconds.
-   * You may specify a single timeout for all transitions, or individually with an object.
-   */
-  transitionDuration: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
-    enter: _propTypes.default.number,
-    exit: _propTypes.default.number
-  })])
-} : {};
-Backdrop.defaultProps = {
-  invisible: false
-};
-
-var _default = (0, _withStyles.default)(styles, {
-  name: 'MuiBackdrop'
-})(Backdrop);
-
-exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","../Fade":"node_modules/@material-ui/core/Fade/index.js"}],"node_modules/@material-ui/core/Backdrop/index.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "default", {
-  enumerable: true,
-  get: function get() {
-    return _Backdrop.default;
-  }
-});
-
-var _Backdrop = _interopRequireDefault(require("./Backdrop"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Backdrop":"node_modules/@material-ui/core/Backdrop/Backdrop.js"}],"node_modules/@material-ui/core/Badge/Badge.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Avatar":"node_modules/@material-ui/core/Avatar/Avatar.js"}],"node_modules/@material-ui/core/Badge/Badge.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
@@ -33376,44 +36470,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Card = _interopRequireDefault(require("./Card"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Card":"node_modules/@material-ui/core/Card/Card.js"}],"node_modules/@material-ui/core/utils/reactHelpers.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.cloneElementWithClassName = cloneElementWithClassName;
-exports.cloneChildrenWithClassName = cloneChildrenWithClassName;
-exports.isMuiElement = isMuiElement;
-exports.isMuiComponent = isMuiComponent;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _classnames = _interopRequireDefault(require("classnames"));
-
-/* eslint-disable import/prefer-default-export */
-function cloneElementWithClassName(child, className) {
-  return _react.default.cloneElement(child, {
-    className: (0, _classnames.default)(child.props.className, className)
-  });
-}
-
-function cloneChildrenWithClassName(children, className) {
-  return _react.default.Children.map(children, function (child) {
-    return _react.default.isValidElement(child) && cloneElementWithClassName(child, className);
-  });
-}
-
-function isMuiElement(element, muiNames) {
-  return _react.default.isValidElement(element) && muiNames.indexOf(element.type.muiName) !== -1;
-}
-
-function isMuiComponent(element, muiNames) {
-  return muiNames.indexOf(element.muiName) !== -1;
-}
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","react":"node_modules/react/index.js","classnames":"node_modules/classnames/index.js"}],"node_modules/@material-ui/core/CardActions/CardActions.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Card":"node_modules/@material-ui/core/Card/Card.js"}],"node_modules/@material-ui/core/CardActions/CardActions.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
@@ -35277,252 +38334,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _CircularProgress = _interopRequireDefault(require("./CircularProgress"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./CircularProgress":"node_modules/@material-ui/core/CircularProgress/CircularProgress.js"}],"node_modules/react-event-listener/node_modules/warning/warning.js":[function(require,module,exports) {
-/**
- * Copyright (c) 2014-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @providesModule warning
- */
-
-'use strict';
-
-/**
- * Similar to invariant but only logs a warning if the condition is not met.
- * This can be used to log issues in development environments in critical
- * paths. Removing the logging code for production environments will keep the
- * same logic and follow the same code paths.
- */
-
-var __DEV__ = 'development' !== 'production';
-
-var warning = function () {};
-
-if (__DEV__) {
-  var printWarning = function printWarning(format, args) {
-    var len = arguments.length;
-    args = new Array(len > 2 ? len - 2 : 0);
-    for (var key = 2; key < len; key++) {
-      args[key - 2] = arguments[key];
-    }
-    var argIndex = 0;
-    var message = 'Warning: ' + format.replace(/%s/g, function () {
-      return args[argIndex++];
-    });
-    if (typeof console !== 'undefined') {
-      console.error(message);
-    }
-    try {
-      // --- Welcome to debugging React ---
-      // This error was thrown as a convenience so that you can use this stack
-      // to find the callsite that caused this warning to fire.
-      throw new Error(message);
-    } catch (x) {}
-  };
-
-  warning = function (condition, format, args) {
-    var len = arguments.length;
-    args = new Array(len > 2 ? len - 2 : 0);
-    for (var key = 2; key < len; key++) {
-      args[key - 2] = arguments[key];
-    }
-    if (format === undefined) {
-      throw new Error('`warning(condition, format, ...args)` requires a warning ' + 'message argument');
-    }
-    if (!condition) {
-      printWarning.apply(null, [format].concat(args));
-    }
-  };
-}
-
-module.exports = warning;
-},{}],"node_modules/react-event-listener/dist/react-event-listener.cjs.js":[function(require,module,exports) {
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-function _interopDefault(ex) {
-  return ex && typeof ex === 'object' && 'default' in ex ? ex['default'] : ex;
-}
-
-var _classCallCheck = _interopDefault(require('@babel/runtime/helpers/builtin/classCallCheck'));
-var _createClass = _interopDefault(require('@babel/runtime/helpers/builtin/createClass'));
-var _possibleConstructorReturn = _interopDefault(require('@babel/runtime/helpers/builtin/possibleConstructorReturn'));
-var _inherits = _interopDefault(require('@babel/runtime/helpers/builtin/inherits'));
-var _typeof = _interopDefault(require('@babel/runtime/helpers/builtin/typeof'));
-var _objectWithoutProperties = _interopDefault(require('@babel/runtime/helpers/builtin/objectWithoutProperties'));
-var _objectSpread = _interopDefault(require('@babel/runtime/helpers/builtin/objectSpread'));
-var React = _interopDefault(require('react'));
-var PropTypes = _interopDefault(require('prop-types'));
-var warning = _interopDefault(require('warning'));
-
-function defineProperty(object, property, attr) {
-  return Object.defineProperty(object, property, attr);
-} // Passive options
-// Inspired by https://github.com/Modernizr/Modernizr/blob/master/feature-detects/dom/passiveeventlisteners.js
-
-
-var passiveOption = function () {
-  var cache = null;
-  return function () {
-    if (cache !== null) {
-      return cache;
-    }
-
-    var supportsPassiveOption = false;
-
-    try {
-      window.addEventListener('test', null, defineProperty({}, 'passive', {
-        get: function get() {
-          supportsPassiveOption = true;
-        }
-      }));
-    } catch (err) {//
-    }
-
-    cache = supportsPassiveOption;
-    return supportsPassiveOption;
-  }();
-}();
-
-var defaultEventOptions = {
-  capture: false,
-  passive: false
-};
-
-function mergeDefaultEventOptions(options) {
-  return _objectSpread({}, defaultEventOptions, options);
-}
-
-function getEventListenerArgs(eventName, callback, options) {
-  var args = [eventName, callback];
-  args.push(passiveOption ? options : options.capture);
-  return args;
-}
-
-function on(target, eventName, callback, options) {
-  // eslint-disable-next-line prefer-spread
-  target.addEventListener.apply(target, getEventListenerArgs(eventName, callback, options));
-}
-
-function off(target, eventName, callback, options) {
-  // eslint-disable-next-line prefer-spread
-  target.removeEventListener.apply(target, getEventListenerArgs(eventName, callback, options));
-}
-
-function forEachListener(props, iteratee) {
-  var children = props.children,
-      target = props.target,
-      eventProps = _objectWithoutProperties(props, ["children", "target"]);
-
-  Object.keys(eventProps).forEach(function (name) {
-    if (name.substring(0, 2) !== 'on') {
-      return;
-    }
-
-    var prop = eventProps[name];
-
-    var type = _typeof(prop);
-
-    var isObject = type === 'object';
-    var isFunction = type === 'function';
-
-    if (!isObject && !isFunction) {
-      return;
-    }
-
-    var capture = name.substr(-7).toLowerCase() === 'capture';
-    var eventName = name.substring(2).toLowerCase();
-    eventName = capture ? eventName.substring(0, eventName.length - 7) : eventName;
-
-    if (isObject) {
-      iteratee(eventName, prop.handler, prop.options);
-    } else {
-      iteratee(eventName, prop, mergeDefaultEventOptions({
-        capture: capture
-      }));
-    }
-  });
-}
-
-function withOptions(handler, options) {
-  'development' !== "production" ? warning(options, 'react-event-listener: should be specified options in withOptions.') : void 0;
-  return {
-    handler: handler,
-    options: mergeDefaultEventOptions(options)
-  };
-}
-
-var EventListener =
-/*#__PURE__*/
-function (_React$PureComponent) {
-  _inherits(EventListener, _React$PureComponent);
-
-  function EventListener() {
-    _classCallCheck(this, EventListener);
-
-    return _possibleConstructorReturn(this, (EventListener.__proto__ || Object.getPrototypeOf(EventListener)).apply(this, arguments));
-  }
-
-  _createClass(EventListener, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      this.applyListeners(on);
-    }
-  }, {
-    key: "componentDidUpdate",
-    value: function componentDidUpdate(prevProps) {
-      this.applyListeners(off, prevProps);
-      this.applyListeners(on);
-    }
-  }, {
-    key: "componentWillUnmount",
-    value: function componentWillUnmount() {
-      this.applyListeners(off);
-    }
-  }, {
-    key: "applyListeners",
-    value: function applyListeners(onOrOff) {
-      var props = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : this.props;
-      var target = props.target;
-
-      if (target) {
-        var element = target;
-
-        if (typeof target === 'string') {
-          element = window[target];
-        }
-
-        forEachListener(props, onOrOff.bind(null, element));
-      }
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      return this.props.children || null;
-    }
-  }]);
-
-  return EventListener;
-}(React.PureComponent);
-
-EventListener.propTypes = 'development' !== "production" ? {
-  /**
-   * You can provide a single child too.
-   */
-  children: PropTypes.node,
-
-  /**
-   * The DOM target to listen to.
-   */
-  target: PropTypes.oneOfType([PropTypes.object, PropTypes.string]).isRequired
-} : {};
-
-exports.withOptions = withOptions;
-exports.default = EventListener;
-},{"@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","@babel/runtime/helpers/builtin/typeof":"node_modules/@babel/runtime/helpers/builtin/typeof.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","warning":"node_modules/react-event-listener/node_modules/warning/warning.js"}],"node_modules/@material-ui/core/ClickAwayListener/ClickAwayListener.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./CircularProgress":"node_modules/@material-ui/core/CircularProgress/CircularProgress.js"}],"node_modules/@material-ui/core/ClickAwayListener/ClickAwayListener.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
@@ -35993,7 +38805,7 @@ var _default = (0, _withStyles.default)(styles, {
 })(Collapse);
 
 exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","classnames":"node_modules/classnames/index.js","prop-types":"node_modules/prop-types/index.js","react-transition-group/Transition":"node_modules/@material-ui/core/node_modules/react-transition-group/Transition.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","../styles/transitions":"node_modules/@material-ui/core/styles/transitions.js","../transitions/utils":"node_modules/@material-ui/core/transitions/utils.js"}],"node_modules/@material-ui/core/Collapse/index.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","classnames":"node_modules/classnames/index.js","prop-types":"node_modules/prop-types/index.js","react-transition-group/Transition":"node_modules/react-transition-group/Transition.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","../styles/transitions":"node_modules/@material-ui/core/styles/transitions.js","../transitions/utils":"node_modules/@material-ui/core/transitions/utils.js"}],"node_modules/@material-ui/core/Collapse/index.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
@@ -36123,1498 +38935,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _CssBaseline = _interopRequireDefault(require("./CssBaseline"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./CssBaseline":"node_modules/@material-ui/core/CssBaseline/CssBaseline.js"}],"node_modules/@material-ui/core/RootRef/RootRef.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
-
-var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
-
-var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
-
-var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
-
-var _react = _interopRequireDefault(require("react"));
-
-var _reactDom = _interopRequireDefault(require("react-dom"));
-
-var _propTypes = _interopRequireDefault(require("prop-types"));
-
-var _exactProp = _interopRequireDefault(require("../utils/exactProp"));
-
-function setRef(ref, value) {
-  if (typeof ref === 'function') {
-    ref(value);
-  } else if (ref) {
-    ref.current = value;
-  }
-}
-/**
- * Helper component to allow attaching a ref to a
- * wrapped element to access the underlying DOM element.
- *
- * It's highly inspired by https://github.com/facebook/react/issues/11401#issuecomment-340543801.
- * For example:
- * ```jsx
- * import React from 'react';
- * import RootRef from '@material-ui/core/RootRef';
- *
- * class MyComponent extends React.Component {
- *   constructor() {
- *     super();
- *     this.domRef = React.createRef();
- *   }
- *
- *   componentDidMount() {
- *     console.log(this.domRef.current); // DOM node
- *   }
- *
- *   render() {
- *     return (
- *       <RootRef rootRef={this.domRef}>
- *         <SomeChildComponent />
- *       </RootRef>
- *     );
- *   }
- * }
- * ```
- */
-
-var RootRef =
-/*#__PURE__*/
-function (_React$Component) {
-  (0, _inherits2.default)(RootRef, _React$Component);
-
-  function RootRef() {
-    (0, _classCallCheck2.default)(this, RootRef);
-    return (0, _possibleConstructorReturn2.default)(this, (RootRef.__proto__ || Object.getPrototypeOf(RootRef)).apply(this, arguments));
-  }
-
-  (0, _createClass2.default)(RootRef, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      setRef(this.props.rootRef, _reactDom.default.findDOMNode(this));
-    }
-  }, {
-    key: "componentDidUpdate",
-    value: function componentDidUpdate(prevProps) {
-      if (prevProps.rootRef !== this.props.rootRef) {
-        setRef(prevProps.rootRef, null);
-        setRef(this.props.rootRef, _reactDom.default.findDOMNode(this));
-      }
-    }
-  }, {
-    key: "componentWillUnmount",
-    value: function componentWillUnmount() {
-      setRef(this.props.rootRef, null);
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      return this.props.children;
-    }
-  }]);
-  return RootRef;
-}(_react.default.Component);
-
-RootRef.propTypes = "development" !== "production" ? {
-  /**
-   * The wrapped element.
-   */
-  children: _propTypes.default.element.isRequired,
-
-  /**
-   * Provide a way to access the DOM node of the wrapped element.
-   * You can provide a callback ref or a `React.createRef()` ref.
-   */
-  rootRef: _propTypes.default.oneOfType([_propTypes.default.func, _propTypes.default.object]).isRequired
-} : {};
-RootRef.propTypes = "development" !== "production" ? (0, _exactProp.default)(RootRef.propTypes) : {};
-var _default = RootRef;
-exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","prop-types":"node_modules/prop-types/index.js","../utils/exactProp":"node_modules/@material-ui/core/utils/exactProp.js"}],"node_modules/@material-ui/core/RootRef/index.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "default", {
-  enumerable: true,
-  get: function get() {
-    return _RootRef.default;
-  }
-});
-
-var _RootRef = _interopRequireDefault(require("./RootRef"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./RootRef":"node_modules/@material-ui/core/RootRef/RootRef.js"}],"node_modules/@material-ui/core/Portal/Portal.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
-
-var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
-
-var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
-
-var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
-
-var _react = _interopRequireDefault(require("react"));
-
-var _reactDom = _interopRequireDefault(require("react-dom"));
-
-var _propTypes = _interopRequireDefault(require("prop-types"));
-
-var _ownerDocument = _interopRequireDefault(require("../utils/ownerDocument"));
-
-var _exactProp = _interopRequireDefault(require("../utils/exactProp"));
-
-function getContainer(container, defaultContainer) {
-  container = typeof container === 'function' ? container() : container;
-  return _reactDom.default.findDOMNode(container) || defaultContainer;
-}
-
-function getOwnerDocument(element) {
-  return (0, _ownerDocument.default)(_reactDom.default.findDOMNode(element));
-}
-/**
- * Portals provide a first-class way to render children into a DOM node
- * that exists outside the DOM hierarchy of the parent component.
- */
-
-var Portal =
-/*#__PURE__*/
-function (_React$Component) {
-  (0, _inherits2.default)(Portal, _React$Component);
-
-  function Portal() {
-    var _ref;
-
-    var _temp, _this;
-
-    (0, _classCallCheck2.default)(this, Portal);
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Portal.__proto__ || Object.getPrototypeOf(Portal)).call.apply(_ref, [this].concat(args))), _this.getMountNode = function () {
-      return _this.mountNode;
-    }, _temp));
-  }
-
-  (0, _createClass2.default)(Portal, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      this.setMountNode(this.props.container); // Only rerender if needed
-
-      if (!this.props.disablePortal) {
-        this.forceUpdate(this.props.onRendered);
-      }
-    }
-  }, {
-    key: "componentDidUpdate",
-    value: function componentDidUpdate(prevProps) {
-      if (prevProps.container !== this.props.container || prevProps.disablePortal !== this.props.disablePortal) {
-        this.setMountNode(this.props.container); // Only rerender if needed
-
-        if (!this.props.disablePortal) {
-          this.forceUpdate(this.props.onRendered);
-        }
-      }
-    }
-  }, {
-    key: "componentWillUnmount",
-    value: function componentWillUnmount() {
-      this.mountNode = null;
-    }
-  }, {
-    key: "setMountNode",
-    value: function setMountNode(container) {
-      if (this.props.disablePortal) {
-        this.mountNode = _reactDom.default.findDOMNode(this).parentElement;
-        return;
-      }
-
-      this.mountNode = getContainer(container, getOwnerDocument(this).body);
-    }
-    /**
-     * @public
-     */
-
-  }, {
-    key: "render",
-    value: function render() {
-      var _props = this.props,
-          children = _props.children,
-          disablePortal = _props.disablePortal;
-
-      if (disablePortal) {
-        return children;
-      }
-
-      return this.mountNode ? _reactDom.default.createPortal(children, this.mountNode) : null;
-    }
-  }]);
-  return Portal;
-}(_react.default.Component);
-
-Portal.propTypes = "development" !== "production" ? {
-  /**
-   * The children to render into the `container`.
-   */
-  children: _propTypes.default.node.isRequired,
-
-  /**
-   * A node, component instance, or function that returns either.
-   * The `container` will have the portal children appended to it.
-   * By default, it uses the body of the top-level document object,
-   * so it's simply `document.body` most of the time.
-   */
-  container: _propTypes.default.oneOfType([_propTypes.default.object, _propTypes.default.func]),
-
-  /**
-   * Disable the portal behavior.
-   * The children stay within it's parent DOM hierarchy.
-   */
-  disablePortal: _propTypes.default.bool,
-
-  /**
-   * Callback fired once the children has been mounted into the `container`.
-   */
-  onRendered: _propTypes.default.func
-} : {};
-Portal.defaultProps = {
-  disablePortal: false
-};
-Portal.propTypes = "development" !== "production" ? (0, _exactProp.default)(Portal.propTypes) : {};
-var _default = Portal;
-exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","prop-types":"node_modules/prop-types/index.js","../utils/ownerDocument":"node_modules/@material-ui/core/utils/ownerDocument.js","../utils/exactProp":"node_modules/@material-ui/core/utils/exactProp.js"}],"node_modules/@material-ui/core/Portal/index.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "default", {
-  enumerable: true,
-  get: function get() {
-    return _Portal.default;
-  }
-});
-
-var _Portal = _interopRequireDefault(require("./Portal"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Portal":"node_modules/@material-ui/core/Portal/Portal.js"}],"node_modules/dom-helpers/util/camelize.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = camelize;
-var rHyphen = /-(.)/g;
-
-function camelize(string) {
-  return string.replace(rHyphen, function (_, chr) {
-    return chr.toUpperCase();
-  });
-}
-module.exports = exports["default"];
-},{}],"node_modules/dom-helpers/util/camelizeStyle.js":[function(require,module,exports) {
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = camelizeStyleName;
-
-var _camelize = require('./camelize');
-
-var _camelize2 = _interopRequireDefault(_camelize);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var msPattern = /^-ms-/; /**
-                          * Copyright 2014-2015, Facebook, Inc.
-                          * All rights reserved.
-                          * https://github.com/facebook/react/blob/2aeb8a2a6beb00617a4217f7f8284924fa2ad819/src/vendor/core/camelizeStyleName.js
-                          */
-function camelizeStyleName(string) {
-  return (0, _camelize2.default)(string.replace(msPattern, 'ms-'));
-}
-module.exports = exports['default'];
-},{"./camelize":"node_modules/dom-helpers/util/camelize.js"}],"node_modules/dom-helpers/util/hyphenate.js":[function(require,module,exports) {
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = hyphenate;
-
-var rUpper = /([A-Z])/g;
-
-function hyphenate(string) {
-  return string.replace(rUpper, '-$1').toLowerCase();
-}
-module.exports = exports['default'];
-},{}],"node_modules/dom-helpers/util/hyphenateStyle.js":[function(require,module,exports) {
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = hyphenateStyleName;
-
-var _hyphenate = require('./hyphenate');
-
-var _hyphenate2 = _interopRequireDefault(_hyphenate);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var msPattern = /^ms-/; /**
-                         * Copyright 2013-2014, Facebook, Inc.
-                         * All rights reserved.
-                         * https://github.com/facebook/react/blob/2aeb8a2a6beb00617a4217f7f8284924fa2ad819/src/vendor/core/hyphenateStyleName.js
-                         */
-
-function hyphenateStyleName(string) {
-  return (0, _hyphenate2.default)(string).replace(msPattern, '-ms-');
-}
-module.exports = exports['default'];
-},{"./hyphenate":"node_modules/dom-helpers/util/hyphenate.js"}],"node_modules/dom-helpers/style/getComputedStyle.js":[function(require,module,exports) {
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = _getComputedStyle;
-
-var _camelizeStyle = require('../util/camelizeStyle');
-
-var _camelizeStyle2 = _interopRequireDefault(_camelizeStyle);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var rposition = /^(top|right|bottom|left)$/;
-var rnumnonpx = /^([+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|))(?!px)[a-z%]+$/i;
-
-function _getComputedStyle(node) {
-  if (!node) throw new TypeError('No Element passed to `getComputedStyle()`');
-  var doc = node.ownerDocument;
-
-  return 'defaultView' in doc ? doc.defaultView.opener ? node.ownerDocument.defaultView.getComputedStyle(node, null) : window.getComputedStyle(node, null) : {
-    //ie 8 "magic" from: https://github.com/jquery/jquery/blob/1.11-stable/src/css/curCSS.js#L72
-    getPropertyValue: function getPropertyValue(prop) {
-      var style = node.style;
-
-      prop = (0, _camelizeStyle2.default)(prop);
-
-      if (prop == 'float') prop = 'styleFloat';
-
-      var current = node.currentStyle[prop] || null;
-
-      if (current == null && style && style[prop]) current = style[prop];
-
-      if (rnumnonpx.test(current) && !rposition.test(prop)) {
-        // Remember the original values
-        var left = style.left;
-        var runStyle = node.runtimeStyle;
-        var rsLeft = runStyle && runStyle.left;
-
-        // Put in the new values to get a computed value out
-        if (rsLeft) runStyle.left = node.currentStyle.left;
-
-        style.left = prop === 'fontSize' ? '1em' : current;
-        current = style.pixelLeft + 'px';
-
-        // Revert the changed values
-        style.left = left;
-        if (rsLeft) runStyle.left = rsLeft;
-      }
-
-      return current;
-    }
-  };
-}
-module.exports = exports['default'];
-},{"../util/camelizeStyle":"node_modules/dom-helpers/util/camelizeStyle.js"}],"node_modules/dom-helpers/style/removeStyle.js":[function(require,module,exports) {
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = removeStyle;
-function removeStyle(node, key) {
-  return 'removeProperty' in node.style ? node.style.removeProperty(key) : node.style.removeAttribute(key);
-}
-module.exports = exports['default'];
-},{}],"node_modules/dom-helpers/util/inDOM.js":[function(require,module,exports) {
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
-module.exports = exports['default'];
-},{}],"node_modules/dom-helpers/transition/properties.js":[function(require,module,exports) {
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.animationEnd = exports.animationDelay = exports.animationTiming = exports.animationDuration = exports.animationName = exports.transitionEnd = exports.transitionDuration = exports.transitionDelay = exports.transitionTiming = exports.transitionProperty = exports.transform = undefined;
-
-var _inDOM = require('../util/inDOM');
-
-var _inDOM2 = _interopRequireDefault(_inDOM);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var transform = 'transform';
-var prefix = void 0,
-    transitionEnd = void 0,
-    animationEnd = void 0;
-var transitionProperty = void 0,
-    transitionDuration = void 0,
-    transitionTiming = void 0,
-    transitionDelay = void 0;
-var animationName = void 0,
-    animationDuration = void 0,
-    animationTiming = void 0,
-    animationDelay = void 0;
-
-if (_inDOM2.default) {
-  var _getTransitionPropert = getTransitionProperties();
-
-  prefix = _getTransitionPropert.prefix;
-  exports.transitionEnd = transitionEnd = _getTransitionPropert.transitionEnd;
-  exports.animationEnd = animationEnd = _getTransitionPropert.animationEnd;
-
-
-  exports.transform = transform = prefix + '-' + transform;
-  exports.transitionProperty = transitionProperty = prefix + '-transition-property';
-  exports.transitionDuration = transitionDuration = prefix + '-transition-duration';
-  exports.transitionDelay = transitionDelay = prefix + '-transition-delay';
-  exports.transitionTiming = transitionTiming = prefix + '-transition-timing-function';
-
-  exports.animationName = animationName = prefix + '-animation-name';
-  exports.animationDuration = animationDuration = prefix + '-animation-duration';
-  exports.animationTiming = animationTiming = prefix + '-animation-delay';
-  exports.animationDelay = animationDelay = prefix + '-animation-timing-function';
-}
-
-exports.transform = transform;
-exports.transitionProperty = transitionProperty;
-exports.transitionTiming = transitionTiming;
-exports.transitionDelay = transitionDelay;
-exports.transitionDuration = transitionDuration;
-exports.transitionEnd = transitionEnd;
-exports.animationName = animationName;
-exports.animationDuration = animationDuration;
-exports.animationTiming = animationTiming;
-exports.animationDelay = animationDelay;
-exports.animationEnd = animationEnd;
-exports.default = {
-  transform: transform,
-  end: transitionEnd,
-  property: transitionProperty,
-  timing: transitionTiming,
-  delay: transitionDelay,
-  duration: transitionDuration
-};
-
-
-function getTransitionProperties() {
-  var style = document.createElement('div').style;
-
-  var vendorMap = {
-    O: function O(e) {
-      return 'o' + e.toLowerCase();
-    },
-    Moz: function Moz(e) {
-      return e.toLowerCase();
-    },
-    Webkit: function Webkit(e) {
-      return 'webkit' + e;
-    },
-    ms: function ms(e) {
-      return 'MS' + e;
-    }
-  };
-
-  var vendors = Object.keys(vendorMap);
-
-  var transitionEnd = void 0,
-      animationEnd = void 0;
-  var prefix = '';
-
-  for (var i = 0; i < vendors.length; i++) {
-    var vendor = vendors[i];
-
-    if (vendor + 'TransitionProperty' in style) {
-      prefix = '-' + vendor.toLowerCase();
-      transitionEnd = vendorMap[vendor]('TransitionEnd');
-      animationEnd = vendorMap[vendor]('AnimationEnd');
-      break;
-    }
-  }
-
-  if (!transitionEnd && 'transitionProperty' in style) transitionEnd = 'transitionend';
-
-  if (!animationEnd && 'animationName' in style) animationEnd = 'animationend';
-
-  style = null;
-
-  return { animationEnd: animationEnd, transitionEnd: transitionEnd, prefix: prefix };
-}
-},{"../util/inDOM":"node_modules/dom-helpers/util/inDOM.js"}],"node_modules/dom-helpers/transition/isTransform.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = isTransform;
-var supportedTransforms = /^((translate|rotate|scale)(X|Y|Z|3d)?|matrix(3d)?|perspective|skew(X|Y)?)$/i;
-
-function isTransform(property) {
-  return !!(property && supportedTransforms.test(property));
-}
-module.exports = exports["default"];
-},{}],"node_modules/dom-helpers/style/index.js":[function(require,module,exports) {
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = style;
-
-var _camelizeStyle = require('../util/camelizeStyle');
-
-var _camelizeStyle2 = _interopRequireDefault(_camelizeStyle);
-
-var _hyphenateStyle = require('../util/hyphenateStyle');
-
-var _hyphenateStyle2 = _interopRequireDefault(_hyphenateStyle);
-
-var _getComputedStyle2 = require('./getComputedStyle');
-
-var _getComputedStyle3 = _interopRequireDefault(_getComputedStyle2);
-
-var _removeStyle = require('./removeStyle');
-
-var _removeStyle2 = _interopRequireDefault(_removeStyle);
-
-var _properties = require('../transition/properties');
-
-var _isTransform = require('../transition/isTransform');
-
-var _isTransform2 = _interopRequireDefault(_isTransform);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function style(node, property, value) {
-  var css = '';
-  var transforms = '';
-  var props = property;
-
-  if (typeof property === 'string') {
-    if (value === undefined) {
-      return node.style[(0, _camelizeStyle2.default)(property)] || (0, _getComputedStyle3.default)(node).getPropertyValue((0, _hyphenateStyle2.default)(property));
-    } else {
-      (props = {})[property] = value;
-    }
-  }
-
-  Object.keys(props).forEach(function (key) {
-    var value = props[key];
-    if (!value && value !== 0) {
-      (0, _removeStyle2.default)(node, (0, _hyphenateStyle2.default)(key));
-    } else if ((0, _isTransform2.default)(key)) {
-      transforms += key + '(' + value + ') ';
-    } else {
-      css += (0, _hyphenateStyle2.default)(key) + ': ' + value + ';';
-    }
-  });
-
-  if (transforms) {
-    css += _properties.transform + ': ' + transforms + ';';
-  }
-
-  node.style.cssText += ';' + css;
-}
-module.exports = exports['default'];
-},{"../util/camelizeStyle":"node_modules/dom-helpers/util/camelizeStyle.js","../util/hyphenateStyle":"node_modules/dom-helpers/util/hyphenateStyle.js","./getComputedStyle":"node_modules/dom-helpers/style/getComputedStyle.js","./removeStyle":"node_modules/dom-helpers/style/removeStyle.js","../transition/properties":"node_modules/dom-helpers/transition/properties.js","../transition/isTransform":"node_modules/dom-helpers/transition/isTransform.js"}],"node_modules/dom-helpers/util/scrollbarSize.js":[function(require,module,exports) {
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (recalc) {
-  if (!size && size !== 0 || recalc) {
-    if (_inDOM2.default) {
-      var scrollDiv = document.createElement('div');
-
-      scrollDiv.style.position = 'absolute';
-      scrollDiv.style.top = '-9999px';
-      scrollDiv.style.width = '50px';
-      scrollDiv.style.height = '50px';
-      scrollDiv.style.overflow = 'scroll';
-
-      document.body.appendChild(scrollDiv);
-      size = scrollDiv.offsetWidth - scrollDiv.clientWidth;
-      document.body.removeChild(scrollDiv);
-    }
-  }
-
-  return size;
-};
-
-var _inDOM = require('./inDOM');
-
-var _inDOM2 = _interopRequireDefault(_inDOM);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var size = void 0;
-
-module.exports = exports['default'];
-},{"./inDOM":"node_modules/dom-helpers/util/inDOM.js"}],"node_modules/dom-helpers/query/isWindow.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = getWindow;
-function getWindow(node) {
-  return node === node.window ? node : node.nodeType === 9 ? node.defaultView || node.parentWindow : false;
-}
-module.exports = exports["default"];
-},{}],"node_modules/@material-ui/core/Modal/isOverflowing.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.isBody = isBody;
-exports.default = isOverflowing;
-
-var _isWindow = _interopRequireDefault(require("dom-helpers/query/isWindow"));
-
-var _ownerDocument = _interopRequireDefault(require("../utils/ownerDocument"));
-
-var _ownerWindow = _interopRequireDefault(require("../utils/ownerWindow"));
-
-function isBody(node) {
-  return node && node.tagName.toLowerCase() === 'body';
-} // Do we have a scroll bar?
-
-
-function isOverflowing(container) {
-  var doc = (0, _ownerDocument.default)(container);
-  var win = (0, _ownerWindow.default)(doc);
-  /* istanbul ignore next */
-
-  if (!(0, _isWindow.default)(doc) && !isBody(container)) {
-    return container.scrollHeight > container.clientHeight;
-  } // Takes in account potential non zero margin on the body.
-
-
-  var style = win.getComputedStyle(doc.body);
-  var marginLeft = parseInt(style.getPropertyValue('margin-left'), 10);
-  var marginRight = parseInt(style.getPropertyValue('margin-right'), 10);
-  return marginLeft + doc.body.clientWidth + marginRight < win.innerWidth;
-}
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","dom-helpers/query/isWindow":"node_modules/dom-helpers/query/isWindow.js","../utils/ownerDocument":"node_modules/@material-ui/core/utils/ownerDocument.js","../utils/ownerWindow":"node_modules/@material-ui/core/utils/ownerWindow.js"}],"node_modules/@material-ui/core/Modal/manageAriaHidden.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.ariaHidden = ariaHidden;
-exports.hideSiblings = hideSiblings;
-exports.showSiblings = showSiblings;
-var BLACKLIST = ['template', 'script', 'style'];
-
-function isHidable(node) {
-  return node.nodeType === 1 && BLACKLIST.indexOf(node.tagName.toLowerCase()) === -1;
-}
-
-function siblings(container, mount, callback) {
-  mount = [].concat(mount); // eslint-disable-line no-param-reassign
-
-  [].forEach.call(container.children, function (node) {
-    if (mount.indexOf(node) === -1 && isHidable(node)) {
-      callback(node);
-    }
-  });
-}
-
-function ariaHidden(show, node) {
-  if (!node) {
-    return;
-  }
-
-  if (show) {
-    node.setAttribute('aria-hidden', 'true');
-  } else {
-    node.removeAttribute('aria-hidden');
-  }
-}
-
-function hideSiblings(container, mountNode) {
-  siblings(container, mountNode, function (node) {
-    return ariaHidden(true, node);
-  });
-}
-
-function showSiblings(container, mountNode) {
-  siblings(container, mountNode, function (node) {
-    return ariaHidden(false, node);
-  });
-}
-},{}],"node_modules/@material-ui/core/Modal/ModalManager.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
-
-var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
-
-var _style = _interopRequireDefault(require("dom-helpers/style"));
-
-var _scrollbarSize = _interopRequireDefault(require("dom-helpers/util/scrollbarSize"));
-
-var _ownerDocument = _interopRequireDefault(require("../utils/ownerDocument"));
-
-var _isOverflowing = _interopRequireDefault(require("./isOverflowing"));
-
-var _manageAriaHidden = require("./manageAriaHidden");
-
-function findIndexOf(data, callback) {
-  var idx = -1;
-  data.some(function (item, index) {
-    if (callback(item)) {
-      idx = index;
-      return true;
-    }
-
-    return false;
-  });
-  return idx;
-}
-
-function getPaddingRight(node) {
-  return parseInt((0, _style.default)(node, 'paddingRight') || 0, 10);
-}
-
-function setContainerStyle(data, container) {
-  var style = {
-    overflow: 'hidden'
-  }; // We are only interested in the actual `style` here because we will override it.
-
-  data.style = {
-    overflow: container.style.overflow,
-    paddingRight: container.style.paddingRight
-  };
-
-  if (data.overflowing) {
-    var scrollbarSize = (0, _scrollbarSize.default)(); // Use computed style, here to get the real padding to add our scrollbar width.
-
-    style.paddingRight = "".concat(getPaddingRight(container) + scrollbarSize, "px"); // .mui-fixed is a global helper.
-
-    var fixedNodes = (0, _ownerDocument.default)(container).querySelectorAll('.mui-fixed');
-
-    for (var i = 0; i < fixedNodes.length; i += 1) {
-      var paddingRight = getPaddingRight(fixedNodes[i]);
-      data.prevPaddings.push(paddingRight);
-      fixedNodes[i].style.paddingRight = "".concat(paddingRight + scrollbarSize, "px");
-    }
-  }
-
-  Object.keys(style).forEach(function (key) {
-    container.style[key] = style[key];
-  });
-}
-
-function removeContainerStyle(data, container) {
-  Object.keys(data.style).forEach(function (key) {
-    container.style[key] = data.style[key];
-  });
-  var fixedNodes = (0, _ownerDocument.default)(container).querySelectorAll('.mui-fixed');
-
-  for (var i = 0; i < fixedNodes.length; i += 1) {
-    fixedNodes[i].style.paddingRight = "".concat(data.prevPaddings[i], "px");
-  }
-}
-/**
- * @ignore - do not document.
- *
- * Proper state managment for containers and the modals in those containers.
- * Simplified, but inspired by react-overlay's ModalManager class.
- * Used by the Modal to ensure proper styling of containers.
- */
-
-var ModalManager =
-/*#__PURE__*/
-function () {
-  function ModalManager() {
-    var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-    (0, _classCallCheck2.default)(this, ModalManager);
-    var _options$hideSiblingN = options.hideSiblingNodes,
-        hideSiblingNodes = _options$hideSiblingN === void 0 ? true : _options$hideSiblingN,
-        _options$handleContai = options.handleContainerOverflow,
-        handleContainerOverflow = _options$handleContai === void 0 ? true : _options$handleContai;
-    this.hideSiblingNodes = hideSiblingNodes;
-    this.handleContainerOverflow = handleContainerOverflow; // this.modals[modalIdx] = modal
-
-    this.modals = []; // this.containers[containerIdx] = container
-
-    this.containers = []; // this.data[containerIdx] = {
-    //   modals: [],
-    // }
-
-    this.data = [];
-  }
-
-  (0, _createClass2.default)(ModalManager, [{
-    key: "add",
-    value: function add(modal, container) {
-      var modalIdx = this.modals.indexOf(modal);
-
-      if (modalIdx !== -1) {
-        return modalIdx;
-      }
-
-      modalIdx = this.modals.length;
-      this.modals.push(modal);
-
-      if (this.hideSiblingNodes) {
-        (0, _manageAriaHidden.hideSiblings)(container, modal.mountNode);
-      }
-
-      var containerIdx = this.containers.indexOf(container);
-
-      if (containerIdx !== -1) {
-        this.data[containerIdx].modals.push(modal);
-        return modalIdx;
-      }
-
-      var data = {
-        modals: [modal],
-        overflowing: (0, _isOverflowing.default)(container),
-        prevPaddings: []
-      };
-
-      if (this.handleContainerOverflow) {
-        setContainerStyle(data, container);
-      }
-
-      this.containers.push(container);
-      this.data.push(data);
-      return modalIdx;
-    }
-  }, {
-    key: "remove",
-    value: function remove(modal) {
-      var modalIdx = this.modals.indexOf(modal);
-
-      if (modalIdx === -1) {
-        return modalIdx;
-      }
-
-      var containerIdx = findIndexOf(this.data, function (item) {
-        return item.modals.indexOf(modal) !== -1;
-      });
-      var data = this.data[containerIdx];
-      var container = this.containers[containerIdx];
-      data.modals.splice(data.modals.indexOf(modal), 1);
-      this.modals.splice(modalIdx, 1); // If that was the last modal in a container, clean up the container.
-
-      if (data.modals.length === 0) {
-        if (this.handleContainerOverflow) {
-          removeContainerStyle(data, container);
-        }
-
-        if (this.hideSiblingNodes) {
-          (0, _manageAriaHidden.showSiblings)(container, modal.mountNode);
-        }
-
-        this.containers.splice(containerIdx, 1);
-        this.data.splice(containerIdx, 1);
-      } else if (this.hideSiblingNodes) {
-        // Otherwise make sure the next top modal is visible to a screan reader.
-        (0, _manageAriaHidden.ariaHidden)(false, data.modals[data.modals.length - 1].mountNode);
-      }
-
-      return modalIdx;
-    }
-  }, {
-    key: "isTopModal",
-    value: function isTopModal(modal) {
-      return !!this.modals.length && this.modals[this.modals.length - 1] === modal;
-    }
-  }]);
-  return ModalManager;
-}();
-
-var _default = ModalManager;
-exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","dom-helpers/style":"node_modules/dom-helpers/style/index.js","dom-helpers/util/scrollbarSize":"node_modules/dom-helpers/util/scrollbarSize.js","../utils/ownerDocument":"node_modules/@material-ui/core/utils/ownerDocument.js","./isOverflowing":"node_modules/@material-ui/core/Modal/isOverflowing.js","./manageAriaHidden":"node_modules/@material-ui/core/Modal/manageAriaHidden.js"}],"node_modules/@material-ui/core/Modal/Modal.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = exports.styles = void 0;
-
-var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
-
-var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/defineProperty"));
-
-var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
-
-var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
-
-var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
-
-var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
-
-var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
-
-var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/assertThisInitialized"));
-
-var _react = _interopRequireDefault(require("react"));
-
-var _reactDom = _interopRequireDefault(require("react-dom"));
-
-var _propTypes = _interopRequireDefault(require("prop-types"));
-
-var _classnames = _interopRequireDefault(require("classnames"));
-
-var _warning = _interopRequireDefault(require("warning"));
-
-var _keycode = _interopRequireDefault(require("keycode"));
-
-var _ownerDocument = _interopRequireDefault(require("../utils/ownerDocument"));
-
-var _RootRef = _interopRequireDefault(require("../RootRef"));
-
-var _Portal = _interopRequireDefault(require("../Portal"));
-
-var _helpers = require("../utils/helpers");
-
-var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
-
-var _ModalManager = _interopRequireDefault(require("./ModalManager"));
-
-var _Backdrop = _interopRequireDefault(require("../Backdrop"));
-
-function getContainer(container, defaultContainer) {
-  container = typeof container === 'function' ? container() : container;
-  return _reactDom.default.findDOMNode(container) || defaultContainer;
-}
-
-function getHasTransition(props) {
-  return props.children ? props.children.props.hasOwnProperty('in') : false;
-}
-
-var styles = function styles(theme) {
-  return {
-    /* Styles applied to the root element. */
-    root: {
-      position: 'fixed',
-      zIndex: theme.zIndex.modal,
-      right: 0,
-      bottom: 0,
-      top: 0,
-      left: 0
-    },
-
-    /* Styles applied to the root element if the `Modal` has exited. */
-    hidden: {
-      visibility: 'hidden'
-    }
-  };
-};
-/* istanbul ignore if */
-
-exports.styles = styles;
-
-if ("development" !== 'production' && !_react.default.createContext) {
-  throw new Error('Material-UI: react@16.3.0 or greater is required.');
-}
-/**
- * This component shares many concepts with [react-overlays](https://react-bootstrap.github.io/react-overlays/#modals).
- */
-
-var Modal =
-/*#__PURE__*/
-function (_React$Component) {
-  (0, _inherits2.default)(Modal, _React$Component);
-
-  function Modal(props) {
-    var _this;
-
-    (0, _classCallCheck2.default)(this, Modal);
-    _this = (0, _possibleConstructorReturn2.default)(this, (Modal.__proto__ || Object.getPrototypeOf(Modal)).call(this));
-    _this.mountNode = null;
-    _this.modalRef = null;
-    _this.dialogRef = null;
-    _this.mounted = false;
-
-    _this.handleRendered = function () {
-      _this.autoFocus(); // Fix a bug on Chrome where the scroll isn't initially 0.
-
-
-      _this.modalRef.scrollTop = 0;
-
-      if (_this.props.onRendered) {
-        _this.props.onRendered();
-      }
-    };
-
-    _this.handleOpen = function () {
-      var doc = (0, _ownerDocument.default)(_this.mountNode);
-      var container = getContainer(_this.props.container, doc.body);
-
-      _this.props.manager.add((0, _assertThisInitialized2.default)(_this), container);
-
-      doc.addEventListener('keydown', _this.handleDocumentKeyDown);
-      doc.addEventListener('focus', _this.enforceFocus, true);
-    };
-
-    _this.handleClose = function () {
-      _this.props.manager.remove((0, _assertThisInitialized2.default)(_this));
-
-      var doc = (0, _ownerDocument.default)(_this.mountNode);
-      doc.removeEventListener('keydown', _this.handleDocumentKeyDown);
-      doc.removeEventListener('focus', _this.enforceFocus, true);
-
-      _this.restoreLastFocus();
-    };
-
-    _this.handleExited = function () {
-      _this.setState({
-        exited: true
-      });
-
-      _this.handleClose();
-    };
-
-    _this.handleBackdropClick = function (event) {
-      if (event.target !== event.currentTarget) {
-        return;
-      }
-
-      if (_this.props.onBackdropClick) {
-        _this.props.onBackdropClick(event);
-      }
-
-      if (!_this.props.disableBackdropClick && _this.props.onClose) {
-        _this.props.onClose(event, 'backdropClick');
-      }
-    };
-
-    _this.handleDocumentKeyDown = function (event) {
-      if (!_this.isTopModal() || (0, _keycode.default)(event) !== 'esc') {
-        return;
-      } // Ignore events that have been `event.preventDefault()` marked.
-
-
-      if (event.defaultPrevented) {
-        return;
-      }
-
-      if (_this.props.onEscapeKeyDown) {
-        _this.props.onEscapeKeyDown(event);
-      }
-
-      if (!_this.props.disableEscapeKeyDown && _this.props.onClose) {
-        _this.props.onClose(event, 'escapeKeyDown');
-      }
-    };
-
-    _this.checkForFocus = function () {
-      _this.lastFocus = (0, _ownerDocument.default)(_this.mountNode).activeElement;
-    };
-
-    _this.enforceFocus = function () {
-      if (_this.props.disableEnforceFocus || !_this.mounted || !_this.isTopModal()) {
-        return;
-      }
-
-      var currentActiveElement = (0, _ownerDocument.default)(_this.mountNode).activeElement;
-
-      if (_this.dialogRef && !_this.dialogRef.contains(currentActiveElement)) {
-        _this.dialogRef.focus();
-      }
-    };
-
-    _this.state = {
-      exited: !props.open
-    };
-    return _this;
-  }
-
-  (0, _createClass2.default)(Modal, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      this.mounted = true;
-
-      if (this.props.open) {
-        this.handleOpen();
-      }
-    }
-  }, {
-    key: "componentDidUpdate",
-    value: function componentDidUpdate(prevProps) {
-      if (!prevProps.open && this.props.open) {
-        this.checkForFocus();
-      }
-
-      if (prevProps.open && !this.props.open && !getHasTransition(this.props)) {
-        // Otherwise handleExited will call this.
-        this.handleClose();
-      } else if (!prevProps.open && this.props.open) {
-        this.handleOpen();
-      }
-    }
-  }, {
-    key: "componentWillUnmount",
-    value: function componentWillUnmount() {
-      this.mounted = false;
-
-      if (this.props.open || getHasTransition(this.props) && !this.state.exited) {
-        this.handleClose();
-      }
-    }
-  }, {
-    key: "autoFocus",
-    value: function autoFocus() {
-      if (this.props.disableAutoFocus) {
-        return;
-      }
-
-      var currentActiveElement = (0, _ownerDocument.default)(this.mountNode).activeElement;
-
-      if (this.dialogRef && !this.dialogRef.contains(currentActiveElement)) {
-        this.lastFocus = currentActiveElement;
-
-        if (!this.dialogRef.hasAttribute('tabIndex')) {
-          "development" !== "production" ? (0, _warning.default)(false, ['Material-UI: the modal content node does not accept focus.', 'For the benefit of assistive technologies, ' + 'the tabIndex of the node is being set to "-1".'].join('\n')) : void 0;
-          this.dialogRef.setAttribute('tabIndex', -1);
-        }
-
-        this.dialogRef.focus();
-      }
-    }
-  }, {
-    key: "restoreLastFocus",
-    value: function restoreLastFocus() {
-      if (this.props.disableRestoreFocus) {
-        return;
-      }
-
-      if (this.lastFocus) {
-        // Not all elements in IE11 have a focus method.
-        // Because IE11 market share is low, we accept the restore focus being broken
-        // and we silent the issue.
-        if (this.lastFocus.focus) {
-          this.lastFocus.focus();
-        }
-
-        this.lastFocus = null;
-      }
-    }
-  }, {
-    key: "isTopModal",
-    value: function isTopModal() {
-      return this.props.manager.isTopModal(this);
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      var _props = this.props,
-          BackdropComponent = _props.BackdropComponent,
-          BackdropProps = _props.BackdropProps,
-          children = _props.children,
-          classes = _props.classes,
-          className = _props.className,
-          container = _props.container,
-          disableAutoFocus = _props.disableAutoFocus,
-          disableBackdropClick = _props.disableBackdropClick,
-          disableEnforceFocus = _props.disableEnforceFocus,
-          disableEscapeKeyDown = _props.disableEscapeKeyDown,
-          disablePortal = _props.disablePortal,
-          disableRestoreFocus = _props.disableRestoreFocus,
-          hideBackdrop = _props.hideBackdrop,
-          keepMounted = _props.keepMounted,
-          manager = _props.manager,
-          onBackdropClick = _props.onBackdropClick,
-          onClose = _props.onClose,
-          onEscapeKeyDown = _props.onEscapeKeyDown,
-          onRendered = _props.onRendered,
-          open = _props.open,
-          other = (0, _objectWithoutProperties2.default)(_props, ["BackdropComponent", "BackdropProps", "children", "classes", "className", "container", "disableAutoFocus", "disableBackdropClick", "disableEnforceFocus", "disableEscapeKeyDown", "disablePortal", "disableRestoreFocus", "hideBackdrop", "keepMounted", "manager", "onBackdropClick", "onClose", "onEscapeKeyDown", "onRendered", "open"]);
-      var exited = this.state.exited;
-      var hasTransition = getHasTransition(this.props);
-      var childProps = {};
-
-      if (!keepMounted && !open && (!hasTransition || exited)) {
-        return null;
-      } // It's a Transition like component
-
-
-      if (hasTransition) {
-        childProps.onExited = (0, _helpers.createChainedFunction)(this.handleExited, children.props.onExited);
-      }
-
-      if (children.props.role === undefined) {
-        childProps.role = children.props.role || 'document';
-      }
-
-      if (children.props.tabIndex === undefined) {
-        childProps.tabIndex = children.props.tabIndex || '-1';
-      }
-
-      return _react.default.createElement(_Portal.default, {
-        ref: function ref(_ref2) {
-          _this2.mountNode = _ref2 ? _ref2.getMountNode() : _ref2;
-        },
-        container: container,
-        disablePortal: disablePortal,
-        onRendered: this.handleRendered
-      }, _react.default.createElement("div", (0, _extends2.default)({
-        ref: function ref(_ref) {
-          _this2.modalRef = _ref;
-        },
-        className: (0, _classnames.default)(classes.root, className, (0, _defineProperty2.default)({}, classes.hidden, exited))
-      }, other), hideBackdrop ? null : _react.default.createElement(BackdropComponent, (0, _extends2.default)({
-        open: open,
-        onClick: this.handleBackdropClick
-      }, BackdropProps)), _react.default.createElement(_RootRef.default, {
-        rootRef: function rootRef(ref) {
-          _this2.dialogRef = ref;
-        }
-      }, _react.default.cloneElement(children, childProps))));
-    }
-  }], [{
-    key: "getDerivedStateFromProps",
-    value: function getDerivedStateFromProps(nextProps) {
-      if (nextProps.open) {
-        return {
-          exited: false
-        };
-      }
-
-      if (!getHasTransition(nextProps)) {
-        // Otherwise let handleExited take care of marking exited.
-        return {
-          exited: true
-        };
-      }
-
-      return null;
-    }
-  }]);
-  return Modal;
-}(_react.default.Component);
-
-Modal.propTypes = "development" !== "production" ? {
-  /**
-   * A backdrop component. This property enables custom backdrop rendering.
-   */
-  BackdropComponent: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.func, _propTypes.default.object]),
-
-  /**
-   * Properties applied to the [`Backdrop`](/api/backdrop) element.
-   */
-  BackdropProps: _propTypes.default.object,
-
-  /**
-   * A single child content element.
-   */
-  children: _propTypes.default.element,
-
-  /**
-   * Override or extend the styles applied to the component.
-   * See [CSS API](#css-api) below for more details.
-   */
-  classes: _propTypes.default.object.isRequired,
-
-  /**
-   * @ignore
-   */
-  className: _propTypes.default.string,
-
-  /**
-   * A node, component instance, or function that returns either.
-   * The `container` will have the portal children appended to it.
-   */
-  container: _propTypes.default.oneOfType([_propTypes.default.object, _propTypes.default.func]),
-
-  /**
-   * If `true`, the modal will not automatically shift focus to itself when it opens, and
-   * replace it to the last focused element when it closes.
-   * This also works correctly with any modal children that have the `disableAutoFocus` prop.
-   *
-   * Generally this should never be set to `true` as it makes the modal less
-   * accessible to assistive technologies, like screen readers.
-   */
-  disableAutoFocus: _propTypes.default.bool,
-
-  /**
-   * If `true`, clicking the backdrop will not fire any callback.
-   */
-  disableBackdropClick: _propTypes.default.bool,
-
-  /**
-   * If `true`, the modal will not prevent focus from leaving the modal while open.
-   *
-   * Generally this should never be set to `true` as it makes the modal less
-   * accessible to assistive technologies, like screen readers.
-   */
-  disableEnforceFocus: _propTypes.default.bool,
-
-  /**
-   * If `true`, hitting escape will not fire any callback.
-   */
-  disableEscapeKeyDown: _propTypes.default.bool,
-
-  /**
-   * Disable the portal behavior.
-   * The children stay within it's parent DOM hierarchy.
-   */
-  disablePortal: _propTypes.default.bool,
-
-  /**
-   * If `true`, the modal will not restore focus to previously focused element once
-   * modal is hidden.
-   */
-  disableRestoreFocus: _propTypes.default.bool,
-
-  /**
-   * If `true`, the backdrop is not rendered.
-   */
-  hideBackdrop: _propTypes.default.bool,
-
-  /**
-   * Always keep the children in the DOM.
-   * This property can be useful in SEO situation or
-   * when you want to maximize the responsiveness of the Modal.
-   */
-  keepMounted: _propTypes.default.bool,
-
-  /**
-   * A modal manager used to track and manage the state of open
-   * Modals. This enables customizing how modals interact within a container.
-   */
-  manager: _propTypes.default.object,
-
-  /**
-   * Callback fired when the backdrop is clicked.
-   */
-  onBackdropClick: _propTypes.default.func,
-
-  /**
-   * Callback fired when the component requests to be closed.
-   * The `reason` parameter can optionally be used to control the response to `onClose`.
-   *
-   * @param {object} event The event source of the callback
-   * @param {string} reason Can be:`"escapeKeyDown"`, `"backdropClick"`
-   */
-  onClose: _propTypes.default.func,
-
-  /**
-   * Callback fired when the escape key is pressed,
-   * `disableEscapeKeyDown` is false and the modal is in focus.
-   */
-  onEscapeKeyDown: _propTypes.default.func,
-
-  /**
-   * Callback fired once the children has been mounted into the `container`.
-   * It signals that the `open={true}` property took effect.
-   */
-  onRendered: _propTypes.default.func,
-
-  /**
-   * If `true`, the modal is open.
-   */
-  open: _propTypes.default.bool.isRequired
-} : {};
-Modal.defaultProps = {
-  disableAutoFocus: false,
-  disableBackdropClick: false,
-  disableEnforceFocus: false,
-  disableEscapeKeyDown: false,
-  disablePortal: false,
-  disableRestoreFocus: false,
-  hideBackdrop: false,
-  keepMounted: false,
-  // Modals don't open on the server so this won't conflict with concurrent requests.
-  manager: new _ModalManager.default(),
-  BackdropComponent: _Backdrop.default
-};
-
-var _default = (0, _withStyles.default)(styles, {
-  flip: false,
-  name: 'MuiModal'
-})(Modal);
-
-exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","@babel/runtime/helpers/builtin/assertThisInitialized":"node_modules/@babel/runtime/helpers/builtin/assertThisInitialized.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","warning":"node_modules/@material-ui/core/node_modules/warning/warning.js","keycode":"node_modules/keycode/index.js","../utils/ownerDocument":"node_modules/@material-ui/core/utils/ownerDocument.js","../RootRef":"node_modules/@material-ui/core/RootRef/index.js","../Portal":"node_modules/@material-ui/core/Portal/index.js","../utils/helpers":"node_modules/@material-ui/core/utils/helpers.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","./ModalManager":"node_modules/@material-ui/core/Modal/ModalManager.js","../Backdrop":"node_modules/@material-ui/core/Backdrop/index.js"}],"node_modules/@material-ui/core/Modal/index.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "default", {
-  enumerable: true,
-  get: function get() {
-    return _Modal.default;
-  }
-});
-Object.defineProperty(exports, "ModalManager", {
-  enumerable: true,
-  get: function get() {
-    return _ModalManager.default;
-  }
-});
-
-var _Modal = _interopRequireDefault(require("./Modal"));
-
-var _ModalManager = _interopRequireDefault(require("./ModalManager"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Modal":"node_modules/@material-ui/core/Modal/Modal.js","./ModalManager":"node_modules/@material-ui/core/Modal/ModalManager.js"}],"node_modules/@material-ui/core/Dialog/Dialog.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./CssBaseline":"node_modules/@material-ui/core/CssBaseline/CssBaseline.js"}],"node_modules/@material-ui/core/Dialog/Dialog.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
@@ -38465,756 +39786,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _Divider = _interopRequireDefault(require("./Divider"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Divider":"node_modules/@material-ui/core/Divider/Divider.js"}],"node_modules/debounce/index.js":[function(require,module,exports) {
-/**
- * Returns a function, that, as long as it continues to be invoked, will not
- * be triggered. The function will be called after it stops being called for
- * N milliseconds. If `immediate` is passed, trigger the function on the
- * leading edge, instead of the trailing. The function also has a property 'clear' 
- * that is a function which will clear the timer to prevent previously scheduled executions. 
- *
- * @source underscore.js
- * @see http://unscriptable.com/2009/03/20/debouncing-javascript-methods/
- * @param {Function} function to wrap
- * @param {Number} timeout in ms (`100`)
- * @param {Boolean} whether to execute at the beginning (`false`)
- * @api public
- */
-
-module.exports = function debounce(func, wait, immediate){
-  var timeout, args, context, timestamp, result;
-  if (null == wait) wait = 100;
-
-  function later() {
-    var last = Date.now() - timestamp;
-
-    if (last < wait && last >= 0) {
-      timeout = setTimeout(later, wait - last);
-    } else {
-      timeout = null;
-      if (!immediate) {
-        result = func.apply(context, args);
-        context = args = null;
-      }
-    }
-  };
-
-  var debounced = function(){
-    context = this;
-    args = arguments;
-    timestamp = Date.now();
-    var callNow = immediate && !timeout;
-    if (!timeout) timeout = setTimeout(later, wait);
-    if (callNow) {
-      result = func.apply(context, args);
-      context = args = null;
-    }
-
-    return result;
-  };
-
-  debounced.clear = function() {
-    if (timeout) {
-      clearTimeout(timeout);
-      timeout = null;
-    }
-  };
-  
-  debounced.flush = function() {
-    if (timeout) {
-      result = func.apply(context, args);
-      context = args = null;
-      
-      clearTimeout(timeout);
-      timeout = null;
-    }
-  };
-
-  return debounced;
-};
-
-},{}],"node_modules/@material-ui/core/Slide/Slide.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.setTranslateValue = setTranslateValue;
-exports.default = void 0;
-
-var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
-
-var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
-
-var _objectSpread2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectSpread"));
-
-var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
-
-var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
-
-var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
-
-var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
-
-var _react = _interopRequireDefault(require("react"));
-
-var _propTypes = _interopRequireDefault(require("prop-types"));
-
-var _reactDom = _interopRequireDefault(require("react-dom"));
-
-var _reactEventListener = _interopRequireDefault(require("react-event-listener"));
-
-var _debounce = _interopRequireDefault(require("debounce"));
-
-var _Transition = _interopRequireDefault(require("react-transition-group/Transition"));
-
-var _ownerWindow = _interopRequireDefault(require("../utils/ownerWindow"));
-
-var _withTheme = _interopRequireDefault(require("../styles/withTheme"));
-
-var _transitions = require("../styles/transitions");
-
-var _utils = require("../transitions/utils");
-
-// @inheritedComponent Transition
-// < 1kb payload overhead when lodash/debounce is > 3kb.
-var GUTTER = 24; // Translate the node so he can't be seen on the screen.
-// Later, we gonna translate back the node to his original location
-// with `translate3d(0, 0, 0)`.`
-
-function getTranslateValue(props, node) {
-  var direction = props.direction;
-  var rect = node.getBoundingClientRect();
-  var transform;
-
-  if (node.fakeTransform) {
-    transform = node.fakeTransform;
-  } else {
-    var computedStyle = (0, _ownerWindow.default)(node).getComputedStyle(node);
-    transform = computedStyle.getPropertyValue('-webkit-transform') || computedStyle.getPropertyValue('transform');
-  }
-
-  var offsetX = 0;
-  var offsetY = 0;
-
-  if (transform && transform !== 'none' && typeof transform === 'string') {
-    var transformValues = transform.split('(')[1].split(')')[0].split(',');
-    offsetX = parseInt(transformValues[4], 10);
-    offsetY = parseInt(transformValues[5], 10);
-  }
-
-  if (direction === 'left') {
-    return "translateX(100vw) translateX(-".concat(rect.left - offsetX, "px)");
-  }
-
-  if (direction === 'right') {
-    return "translateX(-".concat(rect.left + rect.width + GUTTER - offsetX, "px)");
-  }
-
-  if (direction === 'up') {
-    return "translateY(100vh) translateY(-".concat(rect.top - offsetY, "px)");
-  } // direction === 'down'
-
-
-  return "translateY(-".concat(rect.top + rect.height + GUTTER - offsetY, "px)");
-}
-
-function setTranslateValue(props, node) {
-  var transform = getTranslateValue(props, node);
-
-  if (transform) {
-    node.style.webkitTransform = transform;
-    node.style.transform = transform;
-  }
-}
-/**
- * The Slide transition is used by the [Snackbar](/demos/snackbars) component.
- * It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.
- */
-
-var Slide =
-/*#__PURE__*/
-function (_React$Component) {
-  (0, _inherits2.default)(Slide, _React$Component);
-
-  function Slide() {
-    var _ref;
-
-    var _temp, _this;
-
-    (0, _classCallCheck2.default)(this, Slide);
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Slide.__proto__ || Object.getPrototypeOf(Slide)).call.apply(_ref, [this].concat(args))), _this.mounted = false, _this.transition = null, _this.handleResize = (0, _debounce.default)(function () {
-      // Skip configuration where the position is screen size invariant.
-      if (_this.props.in || _this.props.direction === 'down' || _this.props.direction === 'right') {
-        return;
-      }
-
-      if (_this.transitionRef) {
-        setTranslateValue(_this.props, _this.transitionRef);
-      }
-    }, 166), _this.handleEnter = function (node) {
-      setTranslateValue(_this.props, node);
-      (0, _utils.reflow)(node);
-
-      if (_this.props.onEnter) {
-        _this.props.onEnter(node);
-      }
-    }, _this.handleEntering = function (node) {
-      var theme = _this.props.theme;
-      var transitionProps = (0, _utils.getTransitionProps)(_this.props, {
-        mode: 'enter'
-      });
-      node.style.webkitTransition = theme.transitions.create('-webkit-transform', (0, _objectSpread2.default)({}, transitionProps, {
-        easing: theme.transitions.easing.easeOut
-      }));
-      node.style.transition = theme.transitions.create('transform', (0, _objectSpread2.default)({}, transitionProps, {
-        easing: theme.transitions.easing.easeOut
-      }));
-      node.style.webkitTransform = 'translate(0, 0)';
-      node.style.transform = 'translate(0, 0)';
-
-      if (_this.props.onEntering) {
-        _this.props.onEntering(node);
-      }
-    }, _this.handleExit = function (node) {
-      var theme = _this.props.theme;
-      var transitionProps = (0, _utils.getTransitionProps)(_this.props, {
-        mode: 'exit'
-      });
-      node.style.webkitTransition = theme.transitions.create('-webkit-transform', (0, _objectSpread2.default)({}, transitionProps, {
-        easing: theme.transitions.easing.sharp
-      }));
-      node.style.transition = theme.transitions.create('transform', (0, _objectSpread2.default)({}, transitionProps, {
-        easing: theme.transitions.easing.sharp
-      }));
-      setTranslateValue(_this.props, node);
-
-      if (_this.props.onExit) {
-        _this.props.onExit(node);
-      }
-    }, _this.handleExited = function (node) {
-      // No need for transitions when the component is hidden
-      node.style.webkitTransition = '';
-      node.style.transition = '';
-
-      if (_this.props.onExited) {
-        _this.props.onExited(node);
-      }
-    }, _temp));
-  }
-
-  (0, _createClass2.default)(Slide, [{
-    key: "componentDidMount",
-    // Corresponds to 10 frames at 60 Hz.
-    value: function componentDidMount() {
-      // state.mounted handle SSR, once the component is mounted, we need
-      // to properly hide it.
-      if (!this.props.in) {
-        // We need to set initial translate values of transition element
-        // otherwise component will be shown when in=false.
-        this.updatePosition();
-      }
-
-      this.mounted = true;
-    }
-  }, {
-    key: "componentDidUpdate",
-    value: function componentDidUpdate(prevProps) {
-      if (prevProps.direction !== this.props.direction && !this.props.in) {
-        // We need to update the position of the drawer when the direction change and
-        // when it's hidden.
-        this.updatePosition();
-      }
-    }
-  }, {
-    key: "componentWillUnmount",
-    value: function componentWillUnmount() {
-      this.handleResize.clear();
-    }
-  }, {
-    key: "updatePosition",
-    value: function updatePosition() {
-      if (this.transitionRef) {
-        this.transitionRef.style.visibility = 'inherit';
-        setTranslateValue(this.props, this.transitionRef);
-      }
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      var _props = this.props,
-          children = _props.children,
-          onEnter = _props.onEnter,
-          onEntering = _props.onEntering,
-          onExit = _props.onExit,
-          onExited = _props.onExited,
-          styleProp = _props.style,
-          theme = _props.theme,
-          other = (0, _objectWithoutProperties2.default)(_props, ["children", "onEnter", "onEntering", "onExit", "onExited", "style", "theme"]);
-      var style = {}; // We use this state to handle the server-side rendering.
-      // We don't know the width of the children ahead of time.
-      // We need to render it.
-
-      if (!this.props.in && !this.mounted) {
-        style.visibility = 'hidden';
-      }
-
-      style = (0, _objectSpread2.default)({}, style, styleProp, _react.default.isValidElement(children) ? children.props.style : {});
-      return _react.default.createElement(_reactEventListener.default, {
-        target: "window",
-        onResize: this.handleResize
-      }, _react.default.createElement(_Transition.default, (0, _extends2.default)({
-        onEnter: this.handleEnter,
-        onEntering: this.handleEntering,
-        onExit: this.handleExit,
-        onExited: this.handleExited,
-        appear: true,
-        style: style,
-        ref: function ref(_ref2) {
-          _this2.transitionRef = _reactDom.default.findDOMNode(_ref2);
-        }
-      }, other), children));
-    }
-  }]);
-  return Slide;
-}(_react.default.Component);
-
-Slide.propTypes = "development" !== "production" ? {
-  /**
-   * A single child content element.
-   */
-  children: _propTypes.default.oneOfType([_propTypes.default.element, _propTypes.default.func]),
-
-  /**
-   * Direction the child node will enter from.
-   */
-  direction: _propTypes.default.oneOf(['left', 'right', 'up', 'down']),
-
-  /**
-   * If `true`, show the component; triggers the enter or exit animation.
-   */
-  in: _propTypes.default.bool,
-
-  /**
-   * @ignore
-   */
-  onEnter: _propTypes.default.func,
-
-  /**
-   * @ignore
-   */
-  onEntering: _propTypes.default.func,
-
-  /**
-   * @ignore
-   */
-  onExit: _propTypes.default.func,
-
-  /**
-   * @ignore
-   */
-  onExited: _propTypes.default.func,
-
-  /**
-   * @ignore
-   */
-  style: _propTypes.default.object,
-
-  /**
-   * @ignore
-   */
-  theme: _propTypes.default.object.isRequired,
-
-  /**
-   * The duration for the transition, in milliseconds.
-   * You may specify a single timeout for all transitions, or individually with an object.
-   */
-  timeout: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
-    enter: _propTypes.default.number,
-    exit: _propTypes.default.number
-  })])
-} : {};
-Slide.defaultProps = {
-  direction: 'down',
-  timeout: {
-    enter: _transitions.duration.enteringScreen,
-    exit: _transitions.duration.leavingScreen
-  }
-};
-
-var _default = (0, _withTheme.default)()(Slide);
-
-exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","react-dom":"node_modules/react-dom/index.js","react-event-listener":"node_modules/react-event-listener/dist/react-event-listener.cjs.js","debounce":"node_modules/debounce/index.js","react-transition-group/Transition":"node_modules/@material-ui/core/node_modules/react-transition-group/Transition.js","../utils/ownerWindow":"node_modules/@material-ui/core/utils/ownerWindow.js","../styles/withTheme":"node_modules/@material-ui/core/styles/withTheme.js","../styles/transitions":"node_modules/@material-ui/core/styles/transitions.js","../transitions/utils":"node_modules/@material-ui/core/transitions/utils.js"}],"node_modules/@material-ui/core/Slide/index.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "default", {
-  enumerable: true,
-  get: function get() {
-    return _Slide.default;
-  }
-});
-
-var _Slide = _interopRequireDefault(require("./Slide"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Slide":"node_modules/@material-ui/core/Slide/Slide.js"}],"node_modules/@material-ui/core/Drawer/Drawer.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.isHorizontal = isHorizontal;
-exports.getAnchor = getAnchor;
-exports.default = exports.styles = void 0;
-
-var _objectSpread2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectSpread"));
-
-var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
-
-var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/defineProperty"));
-
-var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
-
-var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
-
-var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
-
-var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
-
-var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
-
-var _react = _interopRequireDefault(require("react"));
-
-var _propTypes = _interopRequireDefault(require("prop-types"));
-
-var _classnames = _interopRequireDefault(require("classnames"));
-
-var _Modal = _interopRequireDefault(require("../Modal"));
-
-var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
-
-var _Slide = _interopRequireDefault(require("../Slide"));
-
-var _Paper = _interopRequireDefault(require("../Paper"));
-
-var _helpers = require("../utils/helpers");
-
-var _transitions = require("../styles/transitions");
-
-var oppositeDirection = {
-  left: 'right',
-  right: 'left',
-  top: 'down',
-  bottom: 'up'
-};
-
-function isHorizontal(props) {
-  return ['left', 'right'].indexOf(props.anchor) !== -1;
-}
-
-function getAnchor(props) {
-  return props.theme.direction === 'rtl' && isHorizontal(props) ? oppositeDirection[props.anchor] : props.anchor;
-}
-
-var styles = function styles(theme) {
-  return {
-    /* Styles applied to the root element if `variant="permanent or persistent"`. */
-    docked: {
-      flex: '0 0 auto'
-    },
-
-    /* Styles applied to the `Paper` component. */
-    paper: {
-      overflowY: 'auto',
-      display: 'flex',
-      flexDirection: 'column',
-      height: '100vh',
-      flex: '1 0 auto',
-      zIndex: theme.zIndex.drawer,
-      WebkitOverflowScrolling: 'touch',
-      // Add iOS momentum scrolling.
-      // temporary style
-      position: 'fixed',
-      top: 0,
-      // We disable the focus ring for mouse, touch and keyboard users.
-      // At some point, it would be better to keep it for keyboard users.
-      // :focus-ring CSS pseudo-class will help.
-      outline: 'none'
-    },
-
-    /* Styles applied to the `Paper` component if `anchor="left"`. */
-    paperAnchorLeft: {
-      left: 0,
-      right: 'auto'
-    },
-
-    /* Styles applied to the `Paper` component if `anchor="right"`. */
-    paperAnchorRight: {
-      left: 'auto',
-      right: 0
-    },
-
-    /* Styles applied to the `Paper` component if `anchor="top"`. */
-    paperAnchorTop: {
-      top: 0,
-      left: 0,
-      bottom: 'auto',
-      right: 0,
-      height: 'auto',
-      maxHeight: '100vh'
-    },
-
-    /* Styles applied to the `Paper` component if `anchor="bottom"`. */
-    paperAnchorBottom: {
-      top: 'auto',
-      left: 0,
-      bottom: 0,
-      right: 0,
-      height: 'auto',
-      maxHeight: '100vh'
-    },
-
-    /* Styles applied to the `Paper` component if `anchor="left"` & `variant` is not "temporary". */
-    paperAnchorDockedLeft: {
-      borderRight: "1px solid ".concat(theme.palette.divider)
-    },
-
-    /* Styles applied to the `Paper` component if `anchor="top"` & `variant` is not "temporary". */
-    paperAnchorDockedTop: {
-      borderBottom: "1px solid ".concat(theme.palette.divider)
-    },
-
-    /* Styles applied to the `Paper` component if `anchor="right"` & `variant` is not "temporary". */
-    paperAnchorDockedRight: {
-      borderLeft: "1px solid ".concat(theme.palette.divider)
-    },
-
-    /* Styles applied to the `Paper` component if `anchor="bottom"` & `variant` is not "temporary". */
-    paperAnchorDockedBottom: {
-      borderTop: "1px solid ".concat(theme.palette.divider)
-    },
-
-    /* Styles applied to the `Modal` component. */
-    modal: {}
-  };
-};
-/**
- * The properties of the [Modal](/api/modal) component are available
- * when `variant="temporary"` is set.
- */
-
-exports.styles = styles;
-
-var Drawer =
-/*#__PURE__*/
-function (_React$Component) {
-  (0, _inherits2.default)(Drawer, _React$Component);
-
-  function Drawer() {
-    var _ref;
-
-    var _temp, _this;
-
-    (0, _classCallCheck2.default)(this, Drawer);
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Drawer.__proto__ || Object.getPrototypeOf(Drawer)).call.apply(_ref, [this].concat(args))), _this.mounted = false, _temp));
-  }
-
-  (0, _createClass2.default)(Drawer, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      this.mounted = true;
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _props = this.props,
-          anchorProp = _props.anchor,
-          children = _props.children,
-          classes = _props.classes,
-          className = _props.className,
-          elevation = _props.elevation,
-          _props$ModalProps = _props.ModalProps;
-      _props$ModalProps = _props$ModalProps === void 0 ? {} : _props$ModalProps;
-      var BackdropPropsProp = _props$ModalProps.BackdropProps,
-          ModalProps = (0, _objectWithoutProperties2.default)(_props$ModalProps, ["BackdropProps"]),
-          onClose = _props.onClose,
-          open = _props.open,
-          PaperProps = _props.PaperProps,
-          SlideProps = _props.SlideProps,
-          theme = _props.theme,
-          transitionDuration = _props.transitionDuration,
-          variant = _props.variant,
-          other = (0, _objectWithoutProperties2.default)(_props, ["anchor", "children", "classes", "className", "elevation", "ModalProps", "onClose", "open", "PaperProps", "SlideProps", "theme", "transitionDuration", "variant"]);
-      var anchor = getAnchor(this.props);
-
-      var drawer = _react.default.createElement(_Paper.default, (0, _extends2.default)({
-        elevation: variant === 'temporary' ? elevation : 0,
-        square: true,
-        className: (0, _classnames.default)(classes.paper, classes["paperAnchor".concat((0, _helpers.capitalize)(anchor))], (0, _defineProperty2.default)({}, classes["paperAnchorDocked".concat((0, _helpers.capitalize)(anchor))], variant !== 'temporary'))
-      }, PaperProps), children);
-
-      if (variant === 'permanent') {
-        return _react.default.createElement("div", (0, _extends2.default)({
-          className: (0, _classnames.default)(classes.docked, className)
-        }, other), drawer);
-      }
-
-      var slidingDrawer = _react.default.createElement(_Slide.default, (0, _extends2.default)({
-        "in": open,
-        direction: oppositeDirection[anchor],
-        timeout: transitionDuration,
-        appear: this.mounted
-      }, SlideProps), drawer);
-
-      if (variant === 'persistent') {
-        return _react.default.createElement("div", (0, _extends2.default)({
-          className: (0, _classnames.default)(classes.docked, className)
-        }, other), slidingDrawer);
-      } // variant === temporary
-
-
-      return _react.default.createElement(_Modal.default, (0, _extends2.default)({
-        BackdropProps: (0, _objectSpread2.default)({}, BackdropPropsProp, {
-          transitionDuration: transitionDuration
-        }),
-        className: (0, _classnames.default)(classes.modal, className),
-        open: open,
-        onClose: onClose
-      }, other, ModalProps), slidingDrawer);
-    }
-  }]);
-  return Drawer;
-}(_react.default.Component);
-
-Drawer.propTypes = "development" !== "production" ? {
-  /**
-   * Side from which the drawer will appear.
-   */
-  anchor: _propTypes.default.oneOf(['left', 'top', 'right', 'bottom']),
-
-  /**
-   * The contents of the drawer.
-   */
-  children: _propTypes.default.node,
-
-  /**
-   * Override or extend the styles applied to the component.
-   * See [CSS API](#css-api) below for more details.
-   */
-  classes: _propTypes.default.object.isRequired,
-
-  /**
-   * @ignore
-   */
-  className: _propTypes.default.string,
-
-  /**
-   * The elevation of the drawer.
-   */
-  elevation: _propTypes.default.number,
-
-  /**
-   * Properties applied to the [`Modal`](/api/modal) element.
-   */
-  ModalProps: _propTypes.default.object,
-
-  /**
-   * Callback fired when the component requests to be closed.
-   *
-   * @param {object} event The event source of the callback
-   */
-  onClose: _propTypes.default.func,
-
-  /**
-   * If `true`, the drawer is open.
-   */
-  open: _propTypes.default.bool,
-
-  /**
-   * Properties applied to the [`Paper`](/api/paper) element.
-   */
-  PaperProps: _propTypes.default.object,
-
-  /**
-   * Properties applied to the [`Slide`](/api/slide) element.
-   */
-  SlideProps: _propTypes.default.object,
-
-  /**
-   * @ignore
-   */
-  theme: _propTypes.default.object.isRequired,
-
-  /**
-   * The duration for the transition, in milliseconds.
-   * You may specify a single timeout for all transitions, or individually with an object.
-   */
-  transitionDuration: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
-    enter: _propTypes.default.number,
-    exit: _propTypes.default.number
-  })]),
-
-  /**
-   * The variant to use.
-   */
-  variant: _propTypes.default.oneOf(['permanent', 'persistent', 'temporary'])
-} : {};
-Drawer.defaultProps = {
-  anchor: 'left',
-  elevation: 16,
-  open: false,
-  transitionDuration: {
-    enter: _transitions.duration.enteringScreen,
-    exit: _transitions.duration.leavingScreen
-  },
-  variant: 'temporary' // Mobile first.
-
-};
-
-var _default = (0, _withStyles.default)(styles, {
-  name: 'MuiDrawer',
-  flip: false,
-  withTheme: true
-})(Drawer);
-
-exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","../Modal":"node_modules/@material-ui/core/Modal/index.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","../Slide":"node_modules/@material-ui/core/Slide/index.js","../Paper":"node_modules/@material-ui/core/Paper/index.js","../utils/helpers":"node_modules/@material-ui/core/utils/helpers.js","../styles/transitions":"node_modules/@material-ui/core/styles/transitions.js"}],"node_modules/@material-ui/core/Drawer/index.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "default", {
-  enumerable: true,
-  get: function get() {
-    return _Drawer.default;
-  }
-});
-
-var _Drawer = _interopRequireDefault(require("./Drawer"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Drawer":"node_modules/@material-ui/core/Drawer/Drawer.js"}],"node_modules/@material-ui/core/ExpansionPanel/ExpansionPanel.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./Divider":"node_modules/@material-ui/core/Divider/Divider.js"}],"node_modules/@material-ui/core/ExpansionPanel/ExpansionPanel.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
@@ -43252,7 +43824,7 @@ Grow.muiSupportAuto = true;
 var _default = (0, _withTheme.default)()(Grow);
 
 exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","react-transition-group/Transition":"node_modules/@material-ui/core/node_modules/react-transition-group/Transition.js","../styles/withTheme":"node_modules/@material-ui/core/styles/withTheme.js","../transitions/utils":"node_modules/@material-ui/core/transitions/utils.js"}],"node_modules/@material-ui/core/Grow/index.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","react-transition-group/Transition":"node_modules/react-transition-group/Transition.js","../styles/withTheme":"node_modules/@material-ui/core/styles/withTheme.js","../transitions/utils":"node_modules/@material-ui/core/transitions/utils.js"}],"node_modules/@material-ui/core/Grow/index.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
@@ -44793,475 +45365,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _LinearProgress = _interopRequireDefault(require("./LinearProgress"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./LinearProgress":"node_modules/@material-ui/core/LinearProgress/LinearProgress.js"}],"node_modules/@material-ui/core/List/List.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = exports.styles = void 0;
-
-var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
-
-var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/defineProperty"));
-
-var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
-
-var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
-
-var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
-
-var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
-
-var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
-
-var _react = _interopRequireDefault(require("react"));
-
-var _propTypes = _interopRequireDefault(require("prop-types"));
-
-var _classnames = _interopRequireDefault(require("classnames"));
-
-var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
-
-var styles = {
-  /* Styles applied to the root element. */
-  root: {
-    listStyle: 'none',
-    margin: 0,
-    padding: 0,
-    position: 'relative'
-  },
-
-  /* Styles applied to the root element if `disablePadding={false}`. */
-  padding: {
-    paddingTop: 8,
-    paddingBottom: 8
-  },
-
-  /* Styles applied to the root element if `dense={true}` & `disablePadding={false}`. */
-  dense: {
-    paddingTop: 4,
-    paddingBottom: 4
-  },
-
-  /* Styles applied to the root element if a `subheader` is provided. */
-  subheader: {
-    paddingTop: 0
-  }
-};
-exports.styles = styles;
-
-var List =
-/*#__PURE__*/
-function (_React$Component) {
-  (0, _inherits2.default)(List, _React$Component);
-
-  function List() {
-    (0, _classCallCheck2.default)(this, List);
-    return (0, _possibleConstructorReturn2.default)(this, (List.__proto__ || Object.getPrototypeOf(List)).apply(this, arguments));
-  }
-
-  (0, _createClass2.default)(List, [{
-    key: "getChildContext",
-    value: function getChildContext() {
-      return {
-        dense: this.props.dense
-      };
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _classNames;
-
-      var _props = this.props,
-          children = _props.children,
-          classes = _props.classes,
-          classNameProp = _props.className,
-          Component = _props.component,
-          dense = _props.dense,
-          disablePadding = _props.disablePadding,
-          subheader = _props.subheader,
-          other = (0, _objectWithoutProperties2.default)(_props, ["children", "classes", "className", "component", "dense", "disablePadding", "subheader"]);
-      var className = (0, _classnames.default)(classes.root, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.dense, dense && !disablePadding), (0, _defineProperty2.default)(_classNames, classes.padding, !disablePadding), (0, _defineProperty2.default)(_classNames, classes.subheader, subheader), _classNames), classNameProp);
-      return _react.default.createElement(Component, (0, _extends2.default)({
-        className: className
-      }, other), subheader, children);
-    }
-  }]);
-  return List;
-}(_react.default.Component);
-
-List.propTypes = "development" !== "production" ? {
-  /**
-   * The content of the component.
-   */
-  children: _propTypes.default.node,
-
-  /**
-   * Override or extend the styles applied to the component.
-   * See [CSS API](#css-api) below for more details.
-   */
-  classes: _propTypes.default.object.isRequired,
-
-  /**
-   * @ignore
-   */
-  className: _propTypes.default.string,
-
-  /**
-   * The component used for the root node.
-   * Either a string to use a DOM element or a component.
-   */
-  component: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.func, _propTypes.default.object]),
-
-  /**
-   * If `true`, compact vertical padding designed for keyboard and mouse input will be used for
-   * the list and list items. The property is available to descendant components as the
-   * `dense` context.
-   */
-  dense: _propTypes.default.bool,
-
-  /**
-   * If `true`, vertical padding will be removed from the list.
-   */
-  disablePadding: _propTypes.default.bool,
-
-  /**
-   * The content of the subheader, normally `ListSubheader`.
-   */
-  subheader: _propTypes.default.node
-} : {};
-List.defaultProps = {
-  component: 'ul',
-  dense: false,
-  disablePadding: false
-};
-List.childContextTypes = {
-  dense: _propTypes.default.bool
-};
-
-var _default = (0, _withStyles.default)(styles, {
-  name: 'MuiList'
-})(List);
-
-exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js"}],"node_modules/@material-ui/core/List/index.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "default", {
-  enumerable: true,
-  get: function get() {
-    return _List.default;
-  }
-});
-
-var _List = _interopRequireDefault(require("./List"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./List":"node_modules/@material-ui/core/List/List.js"}],"node_modules/@material-ui/core/ListItem/ListItem.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = exports.styles = void 0;
-
-var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
-
-var _objectSpread2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectSpread"));
-
-var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/defineProperty"));
-
-var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
-
-var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/classCallCheck"));
-
-var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/createClass"));
-
-var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/possibleConstructorReturn"));
-
-var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/inherits"));
-
-var _react = _interopRequireDefault(require("react"));
-
-var _propTypes = _interopRequireDefault(require("prop-types"));
-
-var _classnames = _interopRequireDefault(require("classnames"));
-
-var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
-
-var _ButtonBase = _interopRequireDefault(require("../ButtonBase"));
-
-var _reactHelpers = require("../utils/reactHelpers");
-
-var styles = function styles(theme) {
-  return {
-    /* Styles applied to the (normally root) `component` element. May be wrapped by a `container`. */
-    root: {
-      display: 'flex',
-      justifyContent: 'flex-start',
-      alignItems: 'center',
-      position: 'relative',
-      textDecoration: 'none',
-      width: '100%',
-      boxSizing: 'border-box',
-      textAlign: 'left',
-      paddingTop: 12,
-      paddingBottom: 12
-    },
-
-    /* Styles applied to the `container` element if `children` includes `ListItemSecondaryAction`. */
-    container: {
-      position: 'relative'
-    },
-    // TODO: Sanity check this - why is focusVisibleClassName prop apparently applied to a div?
-
-    /* Styles applied to the `component`'s `focusVisibleClassName` property if `button={true}`. */
-    focusVisible: {
-      backgroundColor: theme.palette.action.hover
-    },
-
-    /* Legacy styles applied to the root element. Use `root` instead. */
-    default: {},
-
-    /* Styles applied to the `component` element if `dense={true}` or `children` includes `Avatar`. */
-    dense: {
-      paddingTop: 8,
-      paddingBottom: 8
-    },
-
-    /* Styles applied to the inner `component` element if `disabled={true}`. */
-    disabled: {
-      opacity: 0.5
-    },
-
-    /* Styles applied to the inner `component` element if `divider={true}`. */
-    divider: {
-      borderBottom: "1px solid ".concat(theme.palette.divider),
-      backgroundClip: 'padding-box'
-    },
-
-    /* Styles applied to the inner `component` element if `disableGutters={false}`. */
-    gutters: theme.mixins.gutters(),
-
-    /* Styles applied to the inner `component` element if `button={true}`. */
-    button: {
-      transition: theme.transitions.create('background-color', {
-        duration: theme.transitions.duration.shortest
-      }),
-      '&:hover': {
-        textDecoration: 'none',
-        backgroundColor: theme.palette.action.hover,
-        // Reset on touch devices, it doesn't add specificity
-        '@media (hover: none)': {
-          backgroundColor: 'transparent'
-        }
-      }
-    },
-
-    /* Styles applied to the `component` element if `children` includes `ListItemSecondaryAction`. */
-    secondaryAction: {
-      // Add some space to avoid collision as `ListItemSecondaryAction`
-      // is absolutely positionned.
-      paddingRight: 32
-    }
-  };
-};
-
-exports.styles = styles;
-
-var ListItem =
-/*#__PURE__*/
-function (_React$Component) {
-  (0, _inherits2.default)(ListItem, _React$Component);
-
-  function ListItem() {
-    (0, _classCallCheck2.default)(this, ListItem);
-    return (0, _possibleConstructorReturn2.default)(this, (ListItem.__proto__ || Object.getPrototypeOf(ListItem)).apply(this, arguments));
-  }
-
-  (0, _createClass2.default)(ListItem, [{
-    key: "getChildContext",
-    value: function getChildContext() {
-      return {
-        dense: this.props.dense || this.context.dense || false
-      };
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _classNames;
-
-      var _props = this.props,
-          button = _props.button,
-          childrenProp = _props.children,
-          classes = _props.classes,
-          classNameProp = _props.className,
-          componentProp = _props.component,
-          ContainerComponent = _props.ContainerComponent,
-          _props$ContainerProps = _props.ContainerProps;
-      _props$ContainerProps = _props$ContainerProps === void 0 ? {} : _props$ContainerProps;
-      var ContainerClassName = _props$ContainerProps.className,
-          ContainerProps = (0, _objectWithoutProperties2.default)(_props$ContainerProps, ["className"]),
-          dense = _props.dense,
-          disabled = _props.disabled,
-          disableGutters = _props.disableGutters,
-          divider = _props.divider,
-          focusVisibleClassName = _props.focusVisibleClassName,
-          other = (0, _objectWithoutProperties2.default)(_props, ["button", "children", "classes", "className", "component", "ContainerComponent", "ContainerProps", "dense", "disabled", "disableGutters", "divider", "focusVisibleClassName"]);
-      var isDense = dense || this.context.dense || false;
-
-      var children = _react.default.Children.toArray(childrenProp);
-
-      var hasAvatar = children.some(function (value) {
-        return (0, _reactHelpers.isMuiElement)(value, ['ListItemAvatar']);
-      });
-      var hasSecondaryAction = children.length && (0, _reactHelpers.isMuiElement)(children[children.length - 1], ['ListItemSecondaryAction']);
-      var className = (0, _classnames.default)(classes.root, classes.default, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.dense, isDense || hasAvatar), (0, _defineProperty2.default)(_classNames, classes.gutters, !disableGutters), (0, _defineProperty2.default)(_classNames, classes.divider, divider), (0, _defineProperty2.default)(_classNames, classes.disabled, disabled), (0, _defineProperty2.default)(_classNames, classes.button, button), (0, _defineProperty2.default)(_classNames, classes.secondaryAction, hasSecondaryAction), _classNames), classNameProp);
-      var componentProps = (0, _objectSpread2.default)({
-        className: className,
-        disabled: disabled
-      }, other);
-      var Component = componentProp || 'li';
-
-      if (button) {
-        componentProps.component = componentProp || 'div';
-        componentProps.focusVisibleClassName = (0, _classnames.default)(classes.focusVisible, focusVisibleClassName);
-        Component = _ButtonBase.default;
-      }
-
-      if (hasSecondaryAction) {
-        // Use div by default.
-        Component = !componentProps.component && !componentProp ? 'div' : Component; // Avoid nesting of li > li.
-
-        if (ContainerComponent === 'li') {
-          if (Component === 'li') {
-            Component = 'div';
-          } else if (componentProps.component === 'li') {
-            componentProps.component = 'div';
-          }
-        }
-
-        return _react.default.createElement(ContainerComponent, (0, _extends2.default)({
-          className: (0, _classnames.default)(classes.container, ContainerClassName)
-        }, ContainerProps), _react.default.createElement(Component, componentProps, children), children.pop());
-      }
-
-      return _react.default.createElement(Component, componentProps, children);
-    }
-  }]);
-  return ListItem;
-}(_react.default.Component);
-
-ListItem.propTypes = "development" !== "production" ? {
-  /**
-   * If `true`, the list item will be a button (using `ButtonBase`).
-   */
-  button: _propTypes.default.bool,
-
-  /**
-   * The content of the component.
-   */
-  children: _propTypes.default.node,
-
-  /**
-   * Override or extend the styles applied to the component.
-   * See [CSS API](#css-api) below for more details.
-   */
-  classes: _propTypes.default.object.isRequired,
-
-  /**
-   * @ignore
-   */
-  className: _propTypes.default.string,
-
-  /**
-   * The component used for the root node.
-   * Either a string to use a DOM element or a component.
-   * By default, it's a `li` when `button` is `false` and a `div` when `button` is `true`.
-   */
-  component: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.func, _propTypes.default.object]),
-
-  /**
-   * The container component used when a `ListItemSecondaryAction` is rendered.
-   */
-  ContainerComponent: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.func, _propTypes.default.object]),
-
-  /**
-   * Properties applied to the container element when the component
-   * is used to display a `ListItemSecondaryAction`.
-   */
-  ContainerProps: _propTypes.default.object,
-
-  /**
-   * If `true`, compact vertical padding designed for keyboard and mouse input will be used.
-   */
-  dense: _propTypes.default.bool,
-
-  /**
-   * If `true`, the list item will be disabled.
-   */
-  disabled: _propTypes.default.bool,
-
-  /**
-   * If `true`, the left and right padding is removed.
-   */
-  disableGutters: _propTypes.default.bool,
-
-  /**
-   * If `true`, a 1px light border is added to the bottom of the list item.
-   */
-  divider: _propTypes.default.bool,
-
-  /**
-   * @ignore
-   */
-  focusVisibleClassName: _propTypes.default.string
-} : {};
-ListItem.defaultProps = {
-  button: false,
-  ContainerComponent: 'li',
-  dense: false,
-  disabled: false,
-  disableGutters: false,
-  divider: false
-};
-ListItem.contextTypes = {
-  dense: _propTypes.default.bool
-};
-ListItem.childContextTypes = {
-  dense: _propTypes.default.bool
-};
-
-var _default = (0, _withStyles.default)(styles, {
-  name: 'MuiListItem'
-})(ListItem);
-
-exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","../ButtonBase":"node_modules/@material-ui/core/ButtonBase/index.js","../utils/reactHelpers":"node_modules/@material-ui/core/utils/reactHelpers.js"}],"node_modules/@material-ui/core/ListItem/index.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "default", {
-  enumerable: true,
-  get: function get() {
-    return _ListItem.default;
-  }
-});
-
-var _ListItem = _interopRequireDefault(require("./ListItem"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./ListItem":"node_modules/@material-ui/core/ListItem/ListItem.js"}],"node_modules/@material-ui/core/ListItemAvatar/ListItemAvatar.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./LinearProgress":"node_modules/@material-ui/core/LinearProgress/LinearProgress.js"}],"node_modules/@material-ui/core/ListItemAvatar/ListItemAvatar.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
@@ -45542,199 +45646,7 @@ Object.defineProperty(exports, "default", {
 });
 
 var _ListItemSecondaryAction = _interopRequireDefault(require("./ListItemSecondaryAction"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./ListItemSecondaryAction":"node_modules/@material-ui/core/ListItemSecondaryAction/ListItemSecondaryAction.js"}],"node_modules/@material-ui/core/ListItemText/ListItemText.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = exports.styles = void 0;
-
-var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/extends"));
-
-var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/defineProperty"));
-
-var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/builtin/objectWithoutProperties"));
-
-var _react = _interopRequireDefault(require("react"));
-
-var _propTypes = _interopRequireDefault(require("prop-types"));
-
-var _classnames = _interopRequireDefault(require("classnames"));
-
-var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
-
-var _Typography = _interopRequireDefault(require("../Typography"));
-
-var styles = function styles(theme) {
-  return {
-    /* Styles applied to the root element. */
-    root: {
-      flex: '1 1 auto',
-      minWidth: 0,
-      padding: '0 16px',
-      '&:first-child': {
-        paddingLeft: 0
-      }
-    },
-
-    /* Styles applied to the root element if `inset={true}`. */
-    inset: {
-      '&:first-child': {
-        paddingLeft: 56
-      }
-    },
-
-    /* Styles applied to the root element if `context.dense` is `true`. */
-    dense: {
-      fontSize: theme.typography.pxToRem(13)
-    },
-
-    /* Styles applied to the primary `Typography` component. */
-    primary: {
-      '&$textDense': {
-        fontSize: 'inherit'
-      }
-    },
-
-    /* Styles applied to the secondary `Typography` component. */
-    secondary: {
-      '&$textDense': {
-        fontSize: 'inherit'
-      }
-    },
-
-    /* Styles applied to the `Typography` components if `context.dense` is `true`. */
-    textDense: {}
-  };
-};
-
-exports.styles = styles;
-
-function ListItemText(props, context) {
-  var _classNames3;
-
-  var children = props.children,
-      classes = props.classes,
-      classNameProp = props.className,
-      disableTypography = props.disableTypography,
-      inset = props.inset,
-      primaryProp = props.primary,
-      primaryTypographyProps = props.primaryTypographyProps,
-      secondaryProp = props.secondary,
-      secondaryTypographyProps = props.secondaryTypographyProps,
-      other = (0, _objectWithoutProperties2.default)(props, ["children", "classes", "className", "disableTypography", "inset", "primary", "primaryTypographyProps", "secondary", "secondaryTypographyProps"]);
-  var dense = context.dense;
-  var primary = primaryProp != null ? primaryProp : children;
-
-  if (primary != null && primary.type !== _Typography.default && !disableTypography) {
-    primary = _react.default.createElement(_Typography.default, (0, _extends2.default)({
-      variant: "subheading",
-      className: (0, _classnames.default)(classes.primary, (0, _defineProperty2.default)({}, classes.textDense, dense)),
-      component: "span"
-    }, primaryTypographyProps), primary);
-  }
-
-  var secondary = secondaryProp;
-
-  if (secondary != null && secondary.type !== _Typography.default && !disableTypography) {
-    secondary = _react.default.createElement(_Typography.default, (0, _extends2.default)({
-      variant: "body1",
-      className: (0, _classnames.default)(classes.secondary, (0, _defineProperty2.default)({}, classes.textDense, dense)),
-      color: "textSecondary"
-    }, secondaryTypographyProps), secondary);
-  }
-
-  return _react.default.createElement("div", (0, _extends2.default)({
-    className: (0, _classnames.default)(classes.root, (_classNames3 = {}, (0, _defineProperty2.default)(_classNames3, classes.dense, dense), (0, _defineProperty2.default)(_classNames3, classes.inset, inset), _classNames3), classNameProp)
-  }, other), primary, secondary);
-}
-
-ListItemText.propTypes = "development" !== "production" ? {
-  /**
-   * Alias for the `primary` property.
-   */
-  children: _propTypes.default.node,
-
-  /**
-   * Override or extend the styles applied to the component.
-   * See [CSS API](#css-api) below for more details.
-   */
-  classes: _propTypes.default.object.isRequired,
-
-  /**
-   * @ignore
-   */
-  className: _propTypes.default.string,
-
-  /**
-   * If `true`, the children won't be wrapped by a Typography component.
-   * This can be useful to render an alternative Typography variant by wrapping
-   * the `children` (or `primary`) text, and optional `secondary` text
-   * with the Typography component.
-   */
-  disableTypography: _propTypes.default.bool,
-
-  /**
-   * If `true`, the children will be indented.
-   * This should be used if there is no left avatar or left icon.
-   */
-  inset: _propTypes.default.bool,
-
-  /**
-   * The main content element.
-   */
-  primary: _propTypes.default.node,
-
-  /**
-   * These props will be forwarded to the primary typography component
-   * (as long as disableTypography is not `true`).
-   */
-  primaryTypographyProps: _propTypes.default.object,
-
-  /**
-   * The secondary content element.
-   */
-  secondary: _propTypes.default.node,
-
-  /**
-   * These props will be forwarded to the secondary typography component
-   * (as long as disableTypography is not `true`).
-   */
-  secondaryTypographyProps: _propTypes.default.object
-} : {};
-ListItemText.defaultProps = {
-  disableTypography: false,
-  inset: false
-};
-ListItemText.contextTypes = {
-  dense: _propTypes.default.bool
-};
-
-var _default = (0, _withStyles.default)(styles, {
-  name: 'MuiListItemText'
-})(ListItemText);
-
-exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/defineProperty":"node_modules/@babel/runtime/helpers/builtin/defineProperty.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","classnames":"node_modules/classnames/index.js","../styles/withStyles":"node_modules/@material-ui/core/styles/withStyles.js","../Typography":"node_modules/@material-ui/core/Typography/index.js"}],"node_modules/@material-ui/core/ListItemText/index.js":[function(require,module,exports) {
-"use strict";
-
-var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "default", {
-  enumerable: true,
-  get: function get() {
-    return _ListItemText.default;
-  }
-});
-
-var _ListItemText = _interopRequireDefault(require("./ListItemText"));
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./ListItemText":"node_modules/@material-ui/core/ListItemText/ListItemText.js"}],"node_modules/@material-ui/core/ListSubheader/ListSubheader.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","./ListItemSecondaryAction":"node_modules/@material-ui/core/ListItemSecondaryAction/ListItemSecondaryAction.js"}],"node_modules/@material-ui/core/ListSubheader/ListSubheader.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
@@ -58613,7 +58525,7 @@ Zoom.defaultProps = {
 var _default = (0, _withTheme.default)()(Zoom);
 
 exports.default = _default;
-},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","react-transition-group/Transition":"node_modules/@material-ui/core/node_modules/react-transition-group/Transition.js","../styles/transitions":"node_modules/@material-ui/core/styles/transitions.js","../styles/withTheme":"node_modules/@material-ui/core/styles/withTheme.js","../transitions/utils":"node_modules/@material-ui/core/transitions/utils.js"}],"node_modules/@material-ui/core/Zoom/index.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/builtin/interopRequireDefault":"node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js","@babel/runtime/helpers/builtin/extends":"node_modules/@babel/runtime/helpers/builtin/extends.js","@babel/runtime/helpers/builtin/objectSpread":"node_modules/@babel/runtime/helpers/builtin/objectSpread.js","@babel/runtime/helpers/builtin/objectWithoutProperties":"node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js","@babel/runtime/helpers/builtin/classCallCheck":"node_modules/@babel/runtime/helpers/builtin/classCallCheck.js","@babel/runtime/helpers/builtin/createClass":"node_modules/@babel/runtime/helpers/builtin/createClass.js","@babel/runtime/helpers/builtin/possibleConstructorReturn":"node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js","@babel/runtime/helpers/builtin/inherits":"node_modules/@babel/runtime/helpers/builtin/inherits.js","react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","react-transition-group/Transition":"node_modules/react-transition-group/Transition.js","../styles/transitions":"node_modules/@material-ui/core/styles/transitions.js","../styles/withTheme":"node_modules/@material-ui/core/styles/withTheme.js","../transitions/utils":"node_modules/@material-ui/core/transitions/utils.js"}],"node_modules/@material-ui/core/Zoom/index.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/builtin/interopRequireDefault");
@@ -59602,7 +59514,180 @@ exports.colors = colors; /** @license Material-UI v1.5.0
                           * This source code is licensed under the MIT license found in the
                           * LICENSE file in the root directory of this source tree.
                           */
-},{"./colors":"node_modules/@material-ui/core/colors/index.js","./styles":"node_modules/@material-ui/core/styles/index.js","./AppBar":"node_modules/@material-ui/core/AppBar/index.js","./Avatar":"node_modules/@material-ui/core/Avatar/index.js","./Backdrop":"node_modules/@material-ui/core/Backdrop/index.js","./Badge":"node_modules/@material-ui/core/Badge/index.js","./BottomNavigation":"node_modules/@material-ui/core/BottomNavigation/index.js","./BottomNavigationAction":"node_modules/@material-ui/core/BottomNavigationAction/index.js","./Button":"node_modules/@material-ui/core/Button/index.js","./ButtonBase":"node_modules/@material-ui/core/ButtonBase/index.js","./Card":"node_modules/@material-ui/core/Card/index.js","./CardActions":"node_modules/@material-ui/core/CardActions/index.js","./CardContent":"node_modules/@material-ui/core/CardContent/index.js","./CardHeader":"node_modules/@material-ui/core/CardHeader/index.js","./CardMedia":"node_modules/@material-ui/core/CardMedia/index.js","./Checkbox":"node_modules/@material-ui/core/Checkbox/index.js","./Chip":"node_modules/@material-ui/core/Chip/index.js","./CircularProgress":"node_modules/@material-ui/core/CircularProgress/index.js","./ClickAwayListener":"node_modules/@material-ui/core/ClickAwayListener/index.js","./Collapse":"node_modules/@material-ui/core/Collapse/index.js","./CssBaseline":"node_modules/@material-ui/core/CssBaseline/index.js","./Dialog":"node_modules/@material-ui/core/Dialog/index.js","./DialogActions":"node_modules/@material-ui/core/DialogActions/index.js","./DialogContent":"node_modules/@material-ui/core/DialogContent/index.js","./DialogContentText":"node_modules/@material-ui/core/DialogContentText/index.js","./DialogTitle":"node_modules/@material-ui/core/DialogTitle/index.js","./Divider":"node_modules/@material-ui/core/Divider/index.js","./Drawer":"node_modules/@material-ui/core/Drawer/index.js","./ExpansionPanel":"node_modules/@material-ui/core/ExpansionPanel/index.js","./ExpansionPanelActions":"node_modules/@material-ui/core/ExpansionPanelActions/index.js","./ExpansionPanelDetails":"node_modules/@material-ui/core/ExpansionPanelDetails/index.js","./ExpansionPanelSummary":"node_modules/@material-ui/core/ExpansionPanelSummary/index.js","./Fade":"node_modules/@material-ui/core/Fade/index.js","./FormControl":"node_modules/@material-ui/core/FormControl/index.js","./FormControlLabel":"node_modules/@material-ui/core/FormControlLabel/index.js","./FormGroup":"node_modules/@material-ui/core/FormGroup/index.js","./FormHelperText":"node_modules/@material-ui/core/FormHelperText/index.js","./FormLabel":"node_modules/@material-ui/core/FormLabel/index.js","./Grid":"node_modules/@material-ui/core/Grid/index.js","./GridList":"node_modules/@material-ui/core/GridList/index.js","./GridListTile":"node_modules/@material-ui/core/GridListTile/index.js","./GridListTileBar":"node_modules/@material-ui/core/GridListTileBar/index.js","./Grow":"node_modules/@material-ui/core/Grow/index.js","./Hidden":"node_modules/@material-ui/core/Hidden/index.js","./Icon":"node_modules/@material-ui/core/Icon/index.js","./IconButton":"node_modules/@material-ui/core/IconButton/index.js","./Input":"node_modules/@material-ui/core/Input/index.js","./InputAdornment":"node_modules/@material-ui/core/InputAdornment/index.js","./InputLabel":"node_modules/@material-ui/core/InputLabel/index.js","./LinearProgress":"node_modules/@material-ui/core/LinearProgress/index.js","./List":"node_modules/@material-ui/core/List/index.js","./ListItem":"node_modules/@material-ui/core/ListItem/index.js","./ListItemAvatar":"node_modules/@material-ui/core/ListItemAvatar/index.js","./ListItemIcon":"node_modules/@material-ui/core/ListItemIcon/index.js","./ListItemSecondaryAction":"node_modules/@material-ui/core/ListItemSecondaryAction/index.js","./ListItemText":"node_modules/@material-ui/core/ListItemText/index.js","./ListSubheader":"node_modules/@material-ui/core/ListSubheader/index.js","./Menu":"node_modules/@material-ui/core/Menu/index.js","./MenuItem":"node_modules/@material-ui/core/MenuItem/index.js","./MenuList":"node_modules/@material-ui/core/MenuList/index.js","./MobileStepper":"node_modules/@material-ui/core/MobileStepper/index.js","./Modal":"node_modules/@material-ui/core/Modal/index.js","./NativeSelect":"node_modules/@material-ui/core/NativeSelect/index.js","./NoSsr":"node_modules/@material-ui/core/NoSsr/index.js","./Paper":"node_modules/@material-ui/core/Paper/index.js","./Popover":"node_modules/@material-ui/core/Popover/index.js","./Popper":"node_modules/@material-ui/core/Popper/index.js","./Portal":"node_modules/@material-ui/core/Portal/index.js","./Radio":"node_modules/@material-ui/core/Radio/index.js","./RadioGroup":"node_modules/@material-ui/core/RadioGroup/index.js","./RootRef":"node_modules/@material-ui/core/RootRef/index.js","./Select":"node_modules/@material-ui/core/Select/index.js","./Slide":"node_modules/@material-ui/core/Slide/index.js","./Snackbar":"node_modules/@material-ui/core/Snackbar/index.js","./SnackbarContent":"node_modules/@material-ui/core/SnackbarContent/index.js","./Step":"node_modules/@material-ui/core/Step/index.js","./StepButton":"node_modules/@material-ui/core/StepButton/index.js","./StepConnector":"node_modules/@material-ui/core/StepConnector/index.js","./StepContent":"node_modules/@material-ui/core/StepContent/index.js","./StepIcon":"node_modules/@material-ui/core/StepIcon/index.js","./StepLabel":"node_modules/@material-ui/core/StepLabel/index.js","./Stepper":"node_modules/@material-ui/core/Stepper/index.js","./SvgIcon":"node_modules/@material-ui/core/SvgIcon/index.js","./SwipeableDrawer":"node_modules/@material-ui/core/SwipeableDrawer/index.js","./Switch":"node_modules/@material-ui/core/Switch/index.js","./Table":"node_modules/@material-ui/core/Table/index.js","./TableBody":"node_modules/@material-ui/core/TableBody/index.js","./TableCell":"node_modules/@material-ui/core/TableCell/index.js","./TableFooter":"node_modules/@material-ui/core/TableFooter/index.js","./TableHead":"node_modules/@material-ui/core/TableHead/index.js","./TablePagination":"node_modules/@material-ui/core/TablePagination/index.js","./TableRow":"node_modules/@material-ui/core/TableRow/index.js","./TableSortLabel":"node_modules/@material-ui/core/TableSortLabel/index.js","./Tabs":"node_modules/@material-ui/core/Tabs/index.js","./Tab":"node_modules/@material-ui/core/Tab/index.js","./TextField":"node_modules/@material-ui/core/TextField/index.js","./Toolbar":"node_modules/@material-ui/core/Toolbar/index.js","./Tooltip":"node_modules/@material-ui/core/Tooltip/index.js","./Typography":"node_modules/@material-ui/core/Typography/index.js","./withMobileDialog":"node_modules/@material-ui/core/withMobileDialog/index.js","./withWidth":"node_modules/@material-ui/core/withWidth/index.js","./Zoom":"node_modules/@material-ui/core/Zoom/index.js"}],"src/App.js":[function(require,module,exports) {
+},{"./colors":"node_modules/@material-ui/core/colors/index.js","./styles":"node_modules/@material-ui/core/styles/index.js","./AppBar":"node_modules/@material-ui/core/AppBar/index.js","./Avatar":"node_modules/@material-ui/core/Avatar/index.js","./Backdrop":"node_modules/@material-ui/core/Backdrop/index.js","./Badge":"node_modules/@material-ui/core/Badge/index.js","./BottomNavigation":"node_modules/@material-ui/core/BottomNavigation/index.js","./BottomNavigationAction":"node_modules/@material-ui/core/BottomNavigationAction/index.js","./Button":"node_modules/@material-ui/core/Button/index.js","./ButtonBase":"node_modules/@material-ui/core/ButtonBase/index.js","./Card":"node_modules/@material-ui/core/Card/index.js","./CardActions":"node_modules/@material-ui/core/CardActions/index.js","./CardContent":"node_modules/@material-ui/core/CardContent/index.js","./CardHeader":"node_modules/@material-ui/core/CardHeader/index.js","./CardMedia":"node_modules/@material-ui/core/CardMedia/index.js","./Checkbox":"node_modules/@material-ui/core/Checkbox/index.js","./Chip":"node_modules/@material-ui/core/Chip/index.js","./CircularProgress":"node_modules/@material-ui/core/CircularProgress/index.js","./ClickAwayListener":"node_modules/@material-ui/core/ClickAwayListener/index.js","./Collapse":"node_modules/@material-ui/core/Collapse/index.js","./CssBaseline":"node_modules/@material-ui/core/CssBaseline/index.js","./Dialog":"node_modules/@material-ui/core/Dialog/index.js","./DialogActions":"node_modules/@material-ui/core/DialogActions/index.js","./DialogContent":"node_modules/@material-ui/core/DialogContent/index.js","./DialogContentText":"node_modules/@material-ui/core/DialogContentText/index.js","./DialogTitle":"node_modules/@material-ui/core/DialogTitle/index.js","./Divider":"node_modules/@material-ui/core/Divider/index.js","./Drawer":"node_modules/@material-ui/core/Drawer/index.js","./ExpansionPanel":"node_modules/@material-ui/core/ExpansionPanel/index.js","./ExpansionPanelActions":"node_modules/@material-ui/core/ExpansionPanelActions/index.js","./ExpansionPanelDetails":"node_modules/@material-ui/core/ExpansionPanelDetails/index.js","./ExpansionPanelSummary":"node_modules/@material-ui/core/ExpansionPanelSummary/index.js","./Fade":"node_modules/@material-ui/core/Fade/index.js","./FormControl":"node_modules/@material-ui/core/FormControl/index.js","./FormControlLabel":"node_modules/@material-ui/core/FormControlLabel/index.js","./FormGroup":"node_modules/@material-ui/core/FormGroup/index.js","./FormHelperText":"node_modules/@material-ui/core/FormHelperText/index.js","./FormLabel":"node_modules/@material-ui/core/FormLabel/index.js","./Grid":"node_modules/@material-ui/core/Grid/index.js","./GridList":"node_modules/@material-ui/core/GridList/index.js","./GridListTile":"node_modules/@material-ui/core/GridListTile/index.js","./GridListTileBar":"node_modules/@material-ui/core/GridListTileBar/index.js","./Grow":"node_modules/@material-ui/core/Grow/index.js","./Hidden":"node_modules/@material-ui/core/Hidden/index.js","./Icon":"node_modules/@material-ui/core/Icon/index.js","./IconButton":"node_modules/@material-ui/core/IconButton/index.js","./Input":"node_modules/@material-ui/core/Input/index.js","./InputAdornment":"node_modules/@material-ui/core/InputAdornment/index.js","./InputLabel":"node_modules/@material-ui/core/InputLabel/index.js","./LinearProgress":"node_modules/@material-ui/core/LinearProgress/index.js","./List":"node_modules/@material-ui/core/List/index.js","./ListItem":"node_modules/@material-ui/core/ListItem/index.js","./ListItemAvatar":"node_modules/@material-ui/core/ListItemAvatar/index.js","./ListItemIcon":"node_modules/@material-ui/core/ListItemIcon/index.js","./ListItemSecondaryAction":"node_modules/@material-ui/core/ListItemSecondaryAction/index.js","./ListItemText":"node_modules/@material-ui/core/ListItemText/index.js","./ListSubheader":"node_modules/@material-ui/core/ListSubheader/index.js","./Menu":"node_modules/@material-ui/core/Menu/index.js","./MenuItem":"node_modules/@material-ui/core/MenuItem/index.js","./MenuList":"node_modules/@material-ui/core/MenuList/index.js","./MobileStepper":"node_modules/@material-ui/core/MobileStepper/index.js","./Modal":"node_modules/@material-ui/core/Modal/index.js","./NativeSelect":"node_modules/@material-ui/core/NativeSelect/index.js","./NoSsr":"node_modules/@material-ui/core/NoSsr/index.js","./Paper":"node_modules/@material-ui/core/Paper/index.js","./Popover":"node_modules/@material-ui/core/Popover/index.js","./Popper":"node_modules/@material-ui/core/Popper/index.js","./Portal":"node_modules/@material-ui/core/Portal/index.js","./Radio":"node_modules/@material-ui/core/Radio/index.js","./RadioGroup":"node_modules/@material-ui/core/RadioGroup/index.js","./RootRef":"node_modules/@material-ui/core/RootRef/index.js","./Select":"node_modules/@material-ui/core/Select/index.js","./Slide":"node_modules/@material-ui/core/Slide/index.js","./Snackbar":"node_modules/@material-ui/core/Snackbar/index.js","./SnackbarContent":"node_modules/@material-ui/core/SnackbarContent/index.js","./Step":"node_modules/@material-ui/core/Step/index.js","./StepButton":"node_modules/@material-ui/core/StepButton/index.js","./StepConnector":"node_modules/@material-ui/core/StepConnector/index.js","./StepContent":"node_modules/@material-ui/core/StepContent/index.js","./StepIcon":"node_modules/@material-ui/core/StepIcon/index.js","./StepLabel":"node_modules/@material-ui/core/StepLabel/index.js","./Stepper":"node_modules/@material-ui/core/Stepper/index.js","./SvgIcon":"node_modules/@material-ui/core/SvgIcon/index.js","./SwipeableDrawer":"node_modules/@material-ui/core/SwipeableDrawer/index.js","./Switch":"node_modules/@material-ui/core/Switch/index.js","./Table":"node_modules/@material-ui/core/Table/index.js","./TableBody":"node_modules/@material-ui/core/TableBody/index.js","./TableCell":"node_modules/@material-ui/core/TableCell/index.js","./TableFooter":"node_modules/@material-ui/core/TableFooter/index.js","./TableHead":"node_modules/@material-ui/core/TableHead/index.js","./TablePagination":"node_modules/@material-ui/core/TablePagination/index.js","./TableRow":"node_modules/@material-ui/core/TableRow/index.js","./TableSortLabel":"node_modules/@material-ui/core/TableSortLabel/index.js","./Tabs":"node_modules/@material-ui/core/Tabs/index.js","./Tab":"node_modules/@material-ui/core/Tab/index.js","./TextField":"node_modules/@material-ui/core/TextField/index.js","./Toolbar":"node_modules/@material-ui/core/Toolbar/index.js","./Tooltip":"node_modules/@material-ui/core/Tooltip/index.js","./Typography":"node_modules/@material-ui/core/Typography/index.js","./withMobileDialog":"node_modules/@material-ui/core/withMobileDialog/index.js","./withWidth":"node_modules/@material-ui/core/withWidth/index.js","./Zoom":"node_modules/@material-ui/core/Zoom/index.js"}],"src/components/TopBar/index.js":[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ErrorBoundry = require('../ErrorBoundry');
+
+var _ErrorBoundry2 = _interopRequireDefault(_ErrorBoundry);
+
+var _styles = require('@material-ui/core/styles');
+
+var _AppBar = require('@material-ui/core/AppBar');
+
+var _AppBar2 = _interopRequireDefault(_AppBar);
+
+var _Toolbar = require('@material-ui/core/Toolbar');
+
+var _Toolbar2 = _interopRequireDefault(_Toolbar);
+
+var _Typography = require('@material-ui/core/Typography');
+
+var _Typography2 = _interopRequireDefault(_Typography);
+
+var _Button = require('@material-ui/core/Button');
+
+var _Button2 = _interopRequireDefault(_Button);
+
+var _IconButton = require('@material-ui/core/IconButton');
+
+var _IconButton2 = _interopRequireDefault(_IconButton);
+
+var _Menu = require('@material-ui/icons/Menu');
+
+var _Menu2 = _interopRequireDefault(_Menu);
+
+var _Drawer = require('@material-ui/core/Drawer');
+
+var _Drawer2 = _interopRequireDefault(_Drawer);
+
+var _List = require('@material-ui/core/List');
+
+var _List2 = _interopRequireDefault(_List);
+
+var _ListItem = require('@material-ui/core/ListItem');
+
+var _ListItem2 = _interopRequireDefault(_ListItem);
+
+var _ListItemText = require('@material-ui/core/ListItemText');
+
+var _ListItemText2 = _interopRequireDefault(_ListItemText);
+
+var _core = require('@material-ui/core');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var styles = {
+  root: {
+    flexGrow: 1
+  },
+  flex: {
+    flexGrow: 1
+  },
+  menuButton: {
+    marginLeft: -12,
+    marginRight: 20
+  }
+};
+
+var ButtonAppBar = function (_React$Component) {
+  _inherits(ButtonAppBar, _React$Component);
+
+  function ButtonAppBar() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, ButtonAppBar);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ButtonAppBar.__proto__ || Object.getPrototypeOf(ButtonAppBar)).call.apply(_ref, [this].concat(args))), _this), _this.state = { open: false }, _this.renderArtists = function (artists) {
+      return artists.map(function (artist) {
+        return _react2.default.createElement(
+          _ListItem2.default,
+          { key: artist, button: true },
+          _react2.default.createElement(_ListItemText2.default, { primary: artist })
+        );
+      });
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  _createClass(ButtonAppBar, [{
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      var classes = this.props.classes;
+
+      return _react2.default.createElement(
+        'div',
+        { className: classes.root },
+        _react2.default.createElement(
+          _AppBar2.default,
+          { position: 'static' },
+          _react2.default.createElement(
+            _Toolbar2.default,
+            null,
+            _react2.default.createElement(
+              _IconButton2.default,
+              {
+                className: classes.menuButton,
+                color: 'inherit',
+                'aria-label': 'Menu',
+                onClick: function onClick() {
+                  return _this2.setState(function (_ref2) {
+                    var open = _ref2.open;
+                    return { open: !open };
+                  });
+                }
+              },
+              _react2.default.createElement(_Menu2.default, null)
+            ),
+            _react2.default.createElement(
+              _Typography2.default,
+              {
+                variant: 'title',
+                color: 'inherit',
+                className: classes.flex
+              },
+              'Eat The Rich'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _Drawer2.default,
+          {
+            anchor: 'left',
+            open: this.state.open,
+            onClose: function onClose() {
+              return _this2.setState({ open: false });
+            }
+          },
+          _react2.default.createElement(_core.Divider, null),
+          _react2.default.createElement(
+            _List2.default,
+            { component: 'nav' },
+            this.renderArtists(['Ghost'])
+          )
+        )
+      );
+    }
+  }]);
+
+  return ButtonAppBar;
+}(_react2.default.Component);
+
+exports.default = (0, _styles.withStyles)(styles)(ButtonAppBar);
+},{"react":"node_modules/react/index.js","../ErrorBoundry":"src/components/ErrorBoundry/index.js","@material-ui/core/styles":"node_modules/@material-ui/core/styles/index.js","@material-ui/core/AppBar":"node_modules/@material-ui/core/AppBar/index.js","@material-ui/core/Toolbar":"node_modules/@material-ui/core/Toolbar/index.js","@material-ui/core/Typography":"node_modules/@material-ui/core/Typography/index.js","@material-ui/core/Button":"node_modules/@material-ui/core/Button/index.js","@material-ui/core/IconButton":"node_modules/@material-ui/core/IconButton/index.js","@material-ui/icons/Menu":"node_modules/@material-ui/icons/Menu.js","@material-ui/core/Drawer":"node_modules/@material-ui/core/Drawer/index.js","@material-ui/core/List":"node_modules/@material-ui/core/List/index.js","@material-ui/core/ListItem":"node_modules/@material-ui/core/ListItem/index.js","@material-ui/core/ListItemText":"node_modules/@material-ui/core/ListItemText/index.js","@material-ui/core":"node_modules/@material-ui/core/index.es.js"}],"src/App.js":[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -59721,7 +59806,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '56776' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49270' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
