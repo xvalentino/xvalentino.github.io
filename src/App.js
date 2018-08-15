@@ -1,6 +1,6 @@
 import React from 'react';
 import TopBar from './components/TopBar';
-import { CssBaseline, MuiThemeProvider } from 'material-ui';
+import { CssBaseline, MuiThemeProvider } from '@material-ui/core';
 import { createMuiTheme } from '@material-ui/core/styles';
 import ErrorBoundary from './components/ErrorBoundry';
 
