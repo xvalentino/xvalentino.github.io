@@ -12,6 +12,7 @@
     "@material-ui/core": "^1.0.0",
     "@material-ui/icons": "^2.0.2",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "react": ">=15",
     "react-dom": "^16.3.0",
