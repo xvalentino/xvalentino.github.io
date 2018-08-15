@@ -66,7 +66,9 @@ class ButtonAppBar extends React.Component {
           onClose={() => this.setState({ open: false })}
         >
           <Divider />
-          <List component="nav">{this.renderArtists(['Ghost'])}</List>
+          <List component="nav">
+            {this.renderArtists(['Granola', 'Ghost', 'Candid', 'Anon'])}
+          </List>
         </Drawer>
       </div>
     );

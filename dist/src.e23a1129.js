@@ -59676,7 +59676,7 @@ var ButtonAppBar = function (_React$Component) {
           _react2.default.createElement(
             _List2.default,
             { component: 'nav' },
-            this.renderArtists(['Ghost'])
+            this.renderArtists(['Granola', 'Ghost', 'Candid', 'Anon'])
           )
         )
       );
