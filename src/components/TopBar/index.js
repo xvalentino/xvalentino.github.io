@@ -12,6 +12,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import { Divider } from '@material-ui/core';
+import { NavLink } from 'react-router-dom';
 
 const styles = {
   root: {
@@ -29,13 +30,22 @@ const styles = {
 class ButtonAppBar extends React.Component {
   state = { open: false };
 
-  renderArtists = artists => {
-    return artists.map(artist => (
-      <ListItem key={artist} button>
-        <ListItemText primary={artist} />
-      </ListItem>
-    ));
+  renderLink = (text, url) => {
+    return (
+      <NavLink
+        onClick={() => this.setState({ open: false })}
+        key={url}
+        to={`/${url}`}
+      >
+        <ListItem button divider={true}>
+          <ListItemText primary={text} />
+        </ListItem>
+      </NavLink>
+    );
   };
+
+  renderArtists = artists =>
+    artists.map(artist => this.renderLink(artist, artist));
 
   render() {
     const { classes } = this.props;
@@ -67,7 +77,8 @@ class ButtonAppBar extends React.Component {
         >
           <Divider />
           <List component="nav">
-            {this.renderArtists(['Granola', 'Ghost', 'Candid', 'Anon'])}
+            {this.renderLink('Home', '')}
+            {this.renderArtists(['granola', 'ghost', 'candid', 'anon'])}
           </List>
         </Drawer>
       </div>
